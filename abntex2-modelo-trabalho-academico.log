@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.9)  9 OCT 2017 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.9)  11 OCT 2017 18:45
 entering extended mode
 **./abntex2-modelo-trabalho-academico.tex
 (abntex2-modelo-trabalho-academico.tex
@@ -1234,61 +1234,61 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ) [23] [24
 
 ] (Introducao/Introducao.tex
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 10.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 9.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 10.
-) [25
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 9.
+ [25
 
-] [26
-
-] [27] [28
+] [26]) [27] [28
 
 ]
 [29] [30
 
 ] [31] [32
 
+] [33] [34
+
 ] (abntex2-modelo-trabalho-academico.bbl
 (abntex2-modelo-trabalho-academico.brf)
 \tf@brf=\write5
 \openout5 = `abntex2-modelo-trabalho-academico.brf'.
 
- [33] [34
+ [35] [36
 
 ]
 bibitemlist
-) [35] [36
+) [37] [38
 
-] [37
+] [39
 
-] [38] [39
+] [40] [41
 
-] [40
+] [42
 
-] [41] [42
+] [43] [44
 
-] [43
+] [45
 
-] [44] [45
+] [46] [47
 
-] [46
+] [48
 
 ]
 Underfull \hbox (badness 5504) in paragraph at lines 597--597
 []\T1/lmss/m/n/24.88 Cras non urna sed feu-giat
  []
 
-[47] [48
+[49] [50
 
 ]
 No file abntex2-modelo-trabalho-academico.ind.
 
 AED: lastpage setting LastPage
-[49]
+[51]
 \tf@lof=\write6
 \openout6 = `abntex2-modelo-trabalho-academico.lof'.
 
@@ -1306,7 +1306,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 616.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 616.
 Package rerunfilecheck Info: File `abntex2-modelo-trabalho-academico.brf' has n
 ot changed.
-(rerunfilecheck)             Checksum: 1857D2070BF35E987FE0DF7A042AB4F4;103.
+(rerunfilecheck)             Checksum: 30129D9B88B16EB6491D848E69E69193;342.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1314,31 +1314,32 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 616.
  ) 
 Here is how much of TeX's memory you used:
- 12638 strings out of 493314
- 181697 string characters out of 3138840
- 405389 words of memory out of 3000000
- 15810 multiletter control sequences out of 15000+200000
- 81176 words of font info for 57 fonts, out of 3000000 for 9000
+ 12701 strings out of 493314
+ 182640 string characters out of 3138840
+ 406274 words of memory out of 3000000
+ 15862 multiletter control sequences out of 15000+200000
+ 85439 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,36p,481b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
+ 39i,12n,36p,983b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
 .enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on abntex2-modelo-trabalho-academico.pdf (51 pages, 365306 bytes
+/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on abntex2-modelo-trabalho-academico.pdf (53 pages, 398178 bytes
 ).
 PDF statistics:
- 496 PDF objects out of 1000 (max. 8388607)
- 101 named destinations out of 1000 (max. 500000)
+ 537 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
  277 words of extra memory for PDF output out of 10000 (max. 10000000)
 

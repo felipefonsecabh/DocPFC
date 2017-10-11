@@ -11,9 +11,40 @@
   apresenta{\c c}{\~a}o.
 Rio de Janeiro, 2003. 2~p.}
 
+\bibitem[Babau, Krishnamurthy e Indra 2009]{babau2009}
+\abntrefinfo{Babau, Krishnamurthy e Indra}{BABAU; KRISHNAMURTHY; INDRA}{2009}
+{BABAU, K.~S. R.; KRISHNAMURTHY, K.; INDRA, J. Remote monitoring system for
+  distributed control of industrial plant process.
+v.~68, 10 2009.}
+
+\bibitem[Baskiyar e Meghannathan 2005]{baskiyar2005}
+\abntrefinfo{Baskiyar e Meghannathan}{BASKIYAR; MEGHANNATHAN}{2005}
+{BASKIYAR, S.; MEGHANNATHAN, N. A survey of contemporary real-time operating
+  systems.
+v.~29, p. 233--240, 2005.}
+
+\bibitem[GreenField 2017]{david2017}
+\abntrefinfo{GreenField}{GREENFIELD}{2017}
+{GREENFIELD, D. \emph{Will SCADA Remain Relevant as Industry Advances?} 2017.
+Dispon{\'\i}vel em:
+  $<$https:\-/\-/www\-.automationworld\-.com\-/will-scada-remain-relevant-industry-advances$>$.
+  Acesso em: 11.10.2017.}
+
 \bibitem[Kreith, Manglik e Bohn 2011]{kreith2011}
 \abntrefinfo{Kreith, Manglik e Bohn}{KREITH; MANGLIK; BOHN}{2011}
 {KREITH, F.; MANGLIK, R.~M.; BOHN, M.~S. \emph{Principles of Heat Transfer}. 7.
   ed. [S.l.]: Cengage Learning, 2011. 485-486~p.}
+
+\bibitem[Novazzi 2007]{novazzi2007}
+\abntrefinfo{Novazzi}{NOVAZZI}{2007}
+{NOVAZZI, L.~F.
+\emph{Dinâmica e Controle de Redes de Trocadores de Calor}.
+Tese (Doutorado), Campinas, 2007.}
+
+\bibitem[Pereira et al. 2011]{luiz2011}
+\abntrefinfo{Pereira et al.}{PEREIRA et al.}{2011}
+{PEREIRA, L. A.~M. et al. Software embarcado, o crescimento e as novas
+  tendências deste mercado.
+v.~6, p. 85--94, 2011.}
 
 \end{thebibliography}

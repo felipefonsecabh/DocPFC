@@ -2,7 +2,32 @@
 
 	Um trocador de calor pode ser definido como um dispositivo em que ocorre uma transferência de calor entre duas substâncias que estejam em temperaturas distintas. Geralmente, as substâncias envolvidas são fluidos. Os trocadores de calor podem ser classificados com relação a diversos critérios, como por exemplo o modo de troca de calor, tipo de construção, entre outros. \cite{kreith2011}
 	
+	Indústrias dos mais variados setores utilizam trocadores de calores para diversas funcionalidades, tais como:
 	
+	\begin{itemize}
+		\item 
+		Recuperar energia térmica gerada em algum processo, com o intuito de reduzir o consumo de energia da planta
+		\item 
+		Transportar produtos em temperaturas predeterminadas
+	\end{itemize}
+
+	Portanto, é de suma importância a utilização de um sistema de controle eficiente em plantas que contém trocadores de calor. Plantas como essa devem ser capazes de atender referências de temperatura bem como rejeitar de possíveis pertubações que podem ocorrer durante o funcionamento do processo. \cite{novazzi2007}. Além disso, soluções que permitem o monitoramento e operação remota das plantas são relevantes para o processo, uma vez que trocadores de calor podem estar instalados em ambientes de difícil acesso ou operando em altas temperaturas. A operação remota de plantas industriais traz outros benefícios como \cite{babau2009}:
+	\begin{itemize}
+		\item 
+		Interface mais amigável de operação, que contribui para uma atuação mais rápida e assertiva
+		\item 
+		Melhor acessibilidade aos dados coletados, o que permite a equipe de engenharia e de gestão analisar e e propor melhorias na operação
+	\end{itemize}
+
+	Diferentes arquiteturas de sistema de supervisão (monitoramento e operação) e controle podem ser aplicadas em plantas industriais. Encontra-se plantas utilizando a tradicional topologia formada por PLC e um computador (PC) executando alguma ferramenta SCADA \footnote{\url{https://www.wonderware.com/hmi-scada/what-is-scada/}}, bem como é possível verificar a utilização de sistemas embarcados.\footnote{\url{http://files.comunidades.net/mutcom/ARTIGO_SIST_EMB.pdf}} A escolha entre uma outra arquitetura depende de uma série de fatores, como: funcionalidades disponibilizadas por cada ferramenta, custo, domínio do desenvolvedor para utilizar determinados softwares, entre outros.
+	
+	Um sistema embarcado pode ser definido como um sistema projetado para realizar tarefas específicas e geralmente fazem parte de uma aplicação maior, operando em tempo real e sem intervenção do usuário \cite{baskiyar2005}.  Devido ao avanço da tecnologia e o aumento do poder de processamento dos hardwares, os sistemas embarcados podem realizar cada vez mais tarefas, ou seja, disponibilizar mais funcionalidades aos usuários \cite{luiz2011}. Este fenômeno também ocorre para os softwares SCADA, que estão cada vez mais poderosos e oferecem cada vez mais recursos \cite{david2017}. Porém, quanto maior é a variabilidade de opções de projeto disponível, maior é a dificuldade de se alcançar uma padronização no desenvolvimento e, principalmente, uma padronização da comunicação entre os componentes, pois muitos sistemas ainda se comunicam em protocolo proprietário.
+	
+	Este trabalho apresenta o desenvolvimento de um sistema para monitoramento e operação via Web de um trocador de calor localizado em um dos laboratórios do departamento da engenharia química da UFMG. Para isso, foram utilizados protocolos de comunicação e ferramentas de código aberto, para possibilitar futura integração de outros sistemas e/ou funcionalidades.
+	
+	O tema é relevante pois, a implementação proposta permite aos alunos que realizem as práticas no laboratório forma mais adequada, de forma que os esforços estejam concentrados na análise dos experimentos e identificação dos fenômenos, e não na coleta de dados e regulação da planta nos pontos de operação. Essa implementação também permite aos alunos de Engenharia de Controle e Automação estudar modelagem de sistemas e projeto de controladores. Por fim, a solução proposta também proporciona os alunos o contato com tecnologias emergentes e que podem ser utilizadas largamente nas indústrias.  
+	
+		
 	
 \section{Objetivos}
 	De acordo com as informações expostas acima, este Projeto Final de Curso (PFC) possui o seguinte objetivo geral:
@@ -28,3 +53,4 @@
 	O projeto foi desenvolvido no Laboratório de Operações e Processos Industriais, um dos laboratórios que pertencem ao Departamento de Engenharia Química (DEQ) da UFMG. Estes laboratórios são utilizados para fins didáticos e de pequisa.
 
 \section{Estrutura da Monografia}
+	O trabalho está dividido em 6 capítulos. O presente capítulo apresentou a motivação e os objetivos do trabalho. O capítulo 2 .... 
