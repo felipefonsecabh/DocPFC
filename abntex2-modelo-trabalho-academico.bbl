@@ -15,13 +15,13 @@ Rio de Janeiro, 2003. 2~p.}
 \abntrefinfo{Babau, Krishnamurthy e Indra}{BABAU; KRISHNAMURTHY; INDRA}{2009}
 {BABAU, K.~S. R.; KRISHNAMURTHY, K.; INDRA, J. Remote monitoring system for
   distributed control of industrial plant process.
-v.~68, 10 2009.}
+\emph{Journal of Scientific and Industrial Research}, v.~68, 10 2009.}
 
 \bibitem[Baskiyar e Meghannathan 2005]{baskiyar2005}
 \abntrefinfo{Baskiyar e Meghannathan}{BASKIYAR; MEGHANNATHAN}{2005}
 {BASKIYAR, S.; MEGHANNATHAN, N. A survey of contemporary real-time operating
   systems.
-v.~29, p. 233--240, 2005.}
+\emph{Informatica}, v.~29, p. 233--240, 2005.}
 
 \bibitem[GreenField 2017]{david2017}
 \abntrefinfo{GreenField}{GREENFIELD}{2017}
@@ -39,12 +39,18 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Novazzi}{NOVAZZI}{2007}
 {NOVAZZI, L.~F.
 \emph{Dinâmica e Controle de Redes de Trocadores de Calor}.
-Tese (Doutorado), Campinas, 2007.}
+Tese (Doutorado) --- Universidade Estadual de Campinas, Faculdade de Engenharia
+  Química, Campinas, 2007.}
 
 \bibitem[Pereira et al. 2011]{luiz2011}
 \abntrefinfo{Pereira et al.}{PEREIRA et al.}{2011}
-{PEREIRA, L. A.~M. et al. Software embarcado, o crescimento e as novas
-  tendências deste mercado.
-v.~6, p. 85--94, 2011.}
+{PEREIRA, L. A.~M.; CARVALHO, F.~R.; BORTOLUCCI, T.; MORAES, M.~H. Software
+  embarcado, o crescimento e as novas tendências deste mercado.
+\emph{Revista de Ciências Exatas e Tecnologia}, v.~6, p. 85--94, 2011.}
+
+\bibitem[Pereira et al. 2016]{luiz2016}
+\abntrefinfo{Pereira et al.}{PEREIRA et al.}{2016}
+{PEREIRA, L. E.~G.; ROCHA, L.~A.; SANTOS, R.~T.; RAMOS, V.~F.
+\emph{Projeto e implementação de sistema embarcado para monitoramento e controle do trocador de calor}. Monografia --- Universidade Federal de Minas Gerais, Belo Horizonte, 2016.}
 
 \end{thebibliography}

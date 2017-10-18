@@ -62,6 +62,10 @@
 \usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
 \usepackage{color}				% Controle das cores
 \usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{subfig}				% Possibilidade de colocar subfiguras
+
+%Para colocar um caminho padrão de figuras
+\graphicspath{{Imagens/}}
 % ---
 		
 % ---
@@ -74,7 +78,7 @@
 % Pacotes de citações
 % ---
 \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
-\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+\usepackage[alf,abnt-etal-list=0,abnt-etal-cite=3]{abntex2cite}	% Citações padrão ABNT
 
 % --- 
 % CONFIGURAÇÕES DE PACOTES
@@ -455,6 +459,7 @@ contribuirão para a evolução do \abnTeX.
 % ----------------------------------------------------------
 \chapter{Introdução}
 %\addcontentsline{toc}{chapter}{Introdução}
+\chapterprecis{Isso é um teste de comentário para a introdução no sumário}
 
 \input{Introducao/Introducao}
 
@@ -483,12 +488,8 @@ contribuirão para a evolução do \abnTeX.
 \input{Revisao/Revisao}
 
 % ---
-\section{Aliquam vestibulum fringilla lorem}
 % ---
 
-\lipsum[1]
-
-\lipsum[2-3]
 
 % ----------------------------------------------------------
 % Resultados
@@ -498,24 +499,19 @@ contribuirão para a evolução do \abnTeX.
 % ---
 % primeiro capitulo de Resultados
 % ---
-\chapter{Lectus lobortis condimentum}
+\chapter{Metodologia}
 
 % ---
-\section{Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-posuere cubilia Curae}
+
 % ---
 
-\lipsum[21-22]
 
 % ---
 % segundo capitulo de Resultados
 % ---
-\chapter{Nam sed tellus sit amet lectus urna ullamcorper tristique interdum
-elementum}
+\chapter{Resultados}
 
-\section{Pellentesque sit amet pede ac sem eleifend consectetuer}
 
-\lipsum[24]
 
 % ---
 % Finaliza a parte no bookmark do PDF, para que se inicie o bookmark na raiz
@@ -595,8 +591,7 @@ elementum}
 \lipsum[30]
 
 % ---
-\chapter{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis
-parturient montes nascetur ridiculus mus}
+\chapter{Cras non urna sed feugiat cum sociis natoque penatibus et magnis disparturient montes nascetur ridiculus mus}
 % ---
 
 \lipsum[31]

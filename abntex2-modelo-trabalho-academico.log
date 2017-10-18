@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.9)  11 OCT 2017 18:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.3)  18 OCT 2017 00:17
 entering extended mode
 **./abntex2-modelo-trabalho-academico.tex
 (abntex2-modelo-trabalho-academico.tex
 LaTeX2e <2017-04-15>
-Babel <3.14> and hyphenation patterns for 76 language(s) loaded.
+Babel <3.13> and hyphenation patterns for 76 language(s) loaded.
 (abntex2.cls
 Document Class: abntex2 2013/06/01 v1.7 abnTeX2
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -471,10 +471,10 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count149
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/10/04 3.14 The Babel package
+Package: babel 2017/09/18 3.13 The Babel package
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2017/10/04 3.14 Babel switching mechanism
+File: switch.def 2017/09/18 3.13 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
@@ -487,10 +487,10 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/10/04 3.14 Babel common definitions
+File: babel.def 2017/09/18 3.13 Babel common definitions
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2017/10/04 3.14 Babel switching mechanism
+File: switch.def 2017/09/18 3.13 Babel switching mechanism
 )
 \babel@savecnt=\count150
 \U@D=\dimen151
@@ -992,27 +992,66 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+
+Class memoir Warning: You are using the caption package with the memoir class. 
+To prepare we will now reset all captioning macros and configurations to kernel
+ defaults, and then let the caption package take over. Please remember to use
+ the caption package interfaces in order to
+ configure your captions.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen159
+\captionmargin@=\dimen160
+\captionwidth=\dimen161
+\caption@tempdima=\dimen162
+\caption@indent=\dimen163
+\caption@parindent=\dimen164
+\caption@hangindent=\dimen165
+)
+\c@ContinuedFloat=\count172
+Package caption Info: hyperref package is loaded.
+)
+\c@KVtest=\count173
+\sf@farskip=\skip261
+\sf@captopadj=\dimen166
+\sf@capskip=\skip262
+\sf@nearskip=\skip263
+\c@subfigure=\count174
+\c@subfigure@save=\count175
+\c@subtable=\count176
+\c@subtable@save=\count177
+\sf@top=\skip264
+\sf@bottom=\skip265
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count172
+\c@lips@count=\count178
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\backref.sty"
 Package: backref 2016/05/21 v1.39 Bibliographical back referencing
 ) (abntex2cite.sty (abntex2abrev.sty)
-\minimumbiblabelwidth=\skip261
-\ABCIauxlen=\skip262
-\c@ABCIaux=\count173
-\c@ABCImax=\count174
+\minimumbiblabelwidth=\skip266
+\ABCIauxlen=\skip267
+\c@ABCIaux=\count179
+\c@ABCImax=\count180
  ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
 Package: relsize 2003/07/04 ver 3.1
 )
-\biblabelsep=\skip263
+\biblabelsep=\skip268
 LaTeX Info: Redefining \newblock on input line 646.
 LaTeX Info: Redefining \cite on input line 673.
 \ABCItoken=\toks31
 )
-Package color Info: Redefining color blue on input line 127.
-Package hyperref Info: Option `colorlinks' set `true' on input line 144.
+Package color Info: Redefining color blue on input line 131.
+Package hyperref Info: Option `colorlinks' set `true' on input line 148.
 \abntex2-modelo-trabalho-academico@idxfile=\write4
 \openout4 = `abntex2-modelo-trabalho-academico.idx'.
 
@@ -1022,26 +1061,26 @@ Writing index file abntex2-modelo-trabalho-academico.idx
 ))
 \openout1 = `abntex2-modelo-trabalho-academico.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 167.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 171.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring ON on input line 167.
+Package hyperref Info: Link coloring ON on input line 171.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1049,32 +1088,32 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count175
+\c@section@level=\count181
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 167.
-LaTeX Info: Redefining \ref on input line 167.
-LaTeX Info: Redefining \pageref on input line 167.
-LaTeX Info: Redefining \nameref on input line 167.
-LaTeX Info: Redefining \degres on input line 167.
-LaTeX Info: Redefining \dots on input line 167.
-LaTeX Info: Redefining \up on input line 167.
+LaTeX Info: Redefining \nameref on input line 171.
+LaTeX Info: Redefining \ref on input line 171.
+LaTeX Info: Redefining \pageref on input line 171.
+LaTeX Info: Redefining \nameref on input line 171.
+LaTeX Info: Redefining \degres on input line 171.
+LaTeX Info: Redefining \dots on input line 171.
+LaTeX Info: Redefining \up on input line 171.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 167.
+(lastpage)             ! on input line 171.
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count176
-\scratchdimen=\dimen159
+\scratchcounter=\count182
+\scratchdimen=\dimen167
 \scratchbox=\box31
-\nofMPsegments=\count177
-\nofMParguments=\count178
+\nofMPsegments=\count183
+\nofMParguments=\count184
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count179
-\MPscratchDim=\dimen160
-\MPnumerator=\count180
-\makeMPintoPDFobject=\count181
+\MPscratchCnt=\count185
+\MPscratchDim=\dimen168
+\MPnumerator=\count186
+\makeMPintoPDFobject=\count187
 \everyMPtoPDFconversion=\toks33
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1089,96 +1128,99 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 180.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 184.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+{C:/Users/felip/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 189.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 193.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<ot1.cmap>>
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 189.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 193.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oml.cmap>>
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 189
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 193
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oms.cmap>>
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 189
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 193
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 189.
+(Font)              <12> on input line 193.
 <<omx.cmap>>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 189.
+(Font)              <8> on input line 193.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 189.
+(Font)              <6> on input line 193.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.189 
+l.193 
        [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
 
-Overfull \hbox (16.44858pt too wide) in paragraph at lines 219--222
+Overfull \hbox (16.44858pt too wide) in paragraph at lines 223--226
 []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--222
+Underfull \hbox (badness 10000) in paragraph at lines 223--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--230
+Underfull \hbox (badness 10000) in paragraph at lines 227--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 233.
+(Font)              <10> on input line 237.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 233.
+(Font)              <7> on input line 237.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 233.
+(Font)              <5> on input line 237.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.280 
+l.284 
        [2] [3
 
 ] [4
@@ -1186,7 +1228,7 @@ l.280
 ] [5] [6
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 334.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 338.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1230,7 +1272,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ]
 (abntex2-modelo-trabalho-academico.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 17.
+(Font)              <14.4> on input line 16.
 ) [23] [24
 
 ] (Introducao/Introducao.tex
@@ -1246,18 +1288,32 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 ] [26]) [27] [28
 
 ]
-[29] [30
+(Revisao/Revisao.tex
+<Imagens/img1.png, id=258, 532.99126pt x 301.125pt>
+File: Imagens/img1.png Graphic file (type png)
+<use Imagens/img1.png>
+Package pdftex.def Info: Imagens/img1.png  used on input line 11. on input line
+ 11.
+Package pdftex.def Info: Requested size: 532.98996pt x 301.12425pt on input lin
+e 11.
 
-] [31] [32
+Overfull \hbox (77.98996pt too wide) in paragraph at lines 11--12
+ [][] 
+ []
+
+) [29 <./Imagens/img1.png>] [30] [31
+
+] [32
 
 ] [33] [34
 
-] (abntex2-modelo-trabalho-academico.bbl
-(abntex2-modelo-trabalho-academico.brf)
+]
+(abntex2-modelo-trabalho-academico.bbl (abntex2-modelo-trabalho-academico.brf)
 \tf@brf=\write5
 \openout5 = `abntex2-modelo-trabalho-academico.brf'.
 
- [35] [36
+
+[35] [36
 
 ]
 bibitemlist
@@ -1278,7 +1334,7 @@ bibitemlist
 ] [48
 
 ]
-Underfull \hbox (badness 5504) in paragraph at lines 597--597
+Underfull \hbox (badness 5504) in paragraph at lines 594--594
 []\T1/lmss/m/n/24.88 Cras non urna sed feu-giat
  []
 
@@ -1298,29 +1354,29 @@ AED: lastpage setting LastPage
 \tf@toc=\write8
 \openout8 = `abntex2-modelo-trabalho-academico.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 616.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 616.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 613.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 613.
  (abntex2-modelo-trabalho-academico.aux (Resumo/Resumo.aux)
 (Resumo/Abstract.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 616.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 616.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 613.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 613.
 Package rerunfilecheck Info: File `abntex2-modelo-trabalho-academico.brf' has n
 ot changed.
-(rerunfilecheck)             Checksum: 30129D9B88B16EB6491D848E69E69193;342.
+(rerunfilecheck)             Checksum: ADBED7402CF4880B056994B7F303CAA9;394.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 616.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 613.
  ) 
 Here is how much of TeX's memory you used:
- 12701 strings out of 493314
- 182640 string characters out of 3138840
- 406274 words of memory out of 3000000
- 15862 multiletter control sequences out of 15000+200000
+ 13881 strings out of 493314
+ 203999 string characters out of 3138867
+ 430923 words of memory out of 3000000
+ 17023 multiletter control sequences out of 15000+200000
  85439 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,36p,983b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,12n,42p,983b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
@@ -1336,10 +1392,10 @@ les/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on abntex2-modelo-trabalho-academico.pdf (53 pages, 398178 bytes
+Output written on abntex2-modelo-trabalho-academico.pdf (53 pages, 779007 bytes
 ).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
- 110 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 540 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

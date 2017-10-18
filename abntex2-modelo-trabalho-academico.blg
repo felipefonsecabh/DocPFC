@@ -4,10 +4,11 @@ A level-1 auxiliary file: Resumo/Abstract.aux
 The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
 Database file #2: abntex2-modelo-references.bib
-Warning--faltando school em novazzi2007
+You can't pop an empty literal stack for entry luiz2016
+while executing---line 2202 of file abntex2-alf.bst
 +---------------------------------------------------------+
 | Estilo bibliográfico abnt-alf.bst versão v<VERSION>           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-(There was 1 warning)
+(There was 1 error message)
