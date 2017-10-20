@@ -1,56 +1,258 @@
-\providecommand{\abntreprintinfo}[1]{%
- \citeonline{#1}}
-\setlength{\labelsep}{0pt}\begin{thebibliography}{}
-\providecommand{\abntrefinfo}[3]{}
-\providecommand{\abntbstabout}[1]{}
-\abntbstabout{v<VERSION> }
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[Associa{\c c}\~ao Brasileira de Normas T\'ecnicas 2003]{NBR6028:2003}
-\abntrefinfo{ABNT}{ABNT}{2003}
-{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 6028}: Resumo -
-  apresenta{\c c}{\~a}o.
-Rio de Janeiro, 2003. 2~p.}
 
-\bibitem[Babau, Krishnamurthy e Indra 2009]{babau2009}
-\abntrefinfo{Babau, Krishnamurthy e Indra}{BABAU; KRISHNAMURTHY; INDRA}{2009}
-{BABAU, K.~S. R.; KRISHNAMURTHY, K.; INDRA, J. Remote monitoring system for
-  distributed control of industrial plant process.
-\emph{Journal of Scientific and Industrial Research}, v.~68, 10 2009.}
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{baskiyar2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=11c2761b9ed94198fc8adc7ecacbeef0}{%
+           family={Baskiyar},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=17fb7e677c6a4f558881ea1413febc5e}{%
+           family={Meghannathan},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{abfdd781eb9e016db07bdd71c7299eb4}
+      \strng{fullhash}{abfdd781eb9e016db07bdd71c7299eb4}
+      \strng{authornamehash}{abfdd781eb9e016db07bdd71c7299eb4}
+      \strng{authorfullhash}{abfdd781eb9e016db07bdd71c7299eb4}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Informatica}
+      \field{title}{A Survey of Contemporary Real-time Operating Systems}
+      \field{volume}{29}
+      \field{year}{2005}
+      \field{pages}{233\bibrangedash 240}
+      \range{pages}{8}
+    \endentry
+    \entry{david2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=db774de8c0a93685760f72ead36ab027}{%
+           family={GreenField},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{db774de8c0a93685760f72ead36ab027}
+      \strng{fullhash}{db774de8c0a93685760f72ead36ab027}
+      \strng{authornamehash}{db774de8c0a93685760f72ead36ab027}
+      \strng{authorfullhash}{db774de8c0a93685760f72ead36ab027}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Will SCADA Remain Relevant as Industry Advances?}
+      \field{year}{2017}
+      \verb{url}
+      \verb https://www.automationworld.com/will-scada-remain-relevant-industry-advances
+      \endverb
+      \warn{\item Entry 'david2017' (abntex2-modelo-references.bib): Invalid format '07.09.2017' of date field 'date' - ignoring}
+      \warn{\item Entry 'david2017' (abntex2-modelo-references.bib): Invalid format '11.10.2017' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{kreith2011}{book}{}
+      \name{author}{3}{}{%
+        {{hash=1ae42b75f47d549e3e7da3a2f4fcbaef}{%
+           family={Kreith},
+           familyi={K\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=01a91bd28ee4041b2271a5b6ba878991}{%
+           family={Manglik},
+           familyi={M\bibinitperiod},
+           given={Raj\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=86be39104b272b7dd8144b9c717c5b6a}{%
+           family={Bohn},
+           familyi={B\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{2cad7c34488891c6164a0dcfb77d0070}
+      \strng{fullhash}{2cad7c34488891c6164a0dcfb77d0070}
+      \strng{authornamehash}{2cad7c34488891c6164a0dcfb77d0070}
+      \strng{authorfullhash}{2cad7c34488891c6164a0dcfb77d0070}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7}
+      \field{pagetotal}{784}
+      \field{title}{Principles of Heat Transfer}
+      \field{year}{2011}
+      \field{pages}{485\bibrangedash 486}
+      \range{pages}{2}
+    \endentry
+    \entry{novazzi2007}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=024e7bd3bcf0c037db578b39c528f4e3}{%
+           family={Novazzi},
+           familyi={N\bibinitperiod},
+           given={Luis\bibnamedelima F.},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Estadual de Campinas, Faculdade de Engenharia Química}%
+      }
+      \list{location}{1}{%
+        {Campinas}%
+      }
+      \strng{namehash}{024e7bd3bcf0c037db578b39c528f4e3}
+      \strng{fullhash}{024e7bd3bcf0c037db578b39c528f4e3}
+      \strng{authornamehash}{024e7bd3bcf0c037db578b39c528f4e3}
+      \strng{authorfullhash}{024e7bd3bcf0c037db578b39c528f4e3}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{Dinâmica e Controle de Redes de Trocadores de Calor}
+      \field{type}{phdthesis}
+      \field{year}{2007}
+    \endentry
+    \entry{luiz2016}{monography}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{hash=04ce6264b0cc67031fb071f30514ce23}{%
+           family={Pereira},
+           familyi={P\bibinitperiod},
+           given={Luis\bibnamedelimb E.\bibnamedelimi G.},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=9f9c346ca33b8f193753eaf624e073b3}{%
+           family={Rocha},
+           familyi={R\bibinitperiod},
+           given={Lucas\bibnamedelima Azevedo},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=cf8e2e14ad1f91f3ccc2d66338d65fbb}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Roger\bibnamedelima Tiago},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=3847401bc841457019e98110e19f56ee}{%
+           family={Ramos},
+           familyi={R\bibinitperiod},
+           given={Vinícius\bibnamedelima Faria},
+           giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Federal de Minas Gerais}%
+      }
+      \list{location}{1}{%
+        {Belo Horizonte}%
+      }
+      \strng{namehash}{1247d31bd86c2a230289a9bf9cae5ac3}
+      \strng{fullhash}{195d7caef5e7a27bedbe8425339da8cd}
+      \strng{authornamehash}{1247d31bd86c2a230289a9bf9cae5ac3}
+      \strng{authorfullhash}{195d7caef5e7a27bedbe8425339da8cd}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{Projeto e implementação de sistema embarcado para monitoramento e controle do trocador de calor}
+      \field{year}{2016}
+    \endentry
+    \entry{luiz2011}{article}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{hash=35174fd1360b1e1c23cb28bad50b0b83}{%
+           family={Pereira},
+           familyi={P\bibinitperiod},
+           given={Luiz\bibnamedelimb Arthur\bibnamedelima Malta},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fd3ec6692af8a4f63af01a59ebe42d12}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Francine\bibnamedelima Roberta},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=699ec0f95405bb4e60310e0cd2c598a2}{%
+           family={Bortolucci},
+           familyi={B\bibinitperiod},
+           given={Thatiane},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9a48f954233fbcadc8a5680882873486}{%
+           family={Moraes},
+           familyi={M\bibinitperiod},
+           given={Marcelo\bibnamedelima Henrique},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{6faa600dc002a87ed5df7b7410bc148f}
+      \strng{fullhash}{3305abd88a6be80b2ee03f22ebbaa916}
+      \strng{authornamehash}{6faa600dc002a87ed5df7b7410bc148f}
+      \strng{authorfullhash}{3305abd88a6be80b2ee03f22ebbaa916}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Ciências Exatas e Tecnologia}
+      \field{title}{Software Embarcado, O Crescimento e as Novas Tendências Deste Mercado}
+      \field{volume}{6}
+      \field{year}{2011}
+      \field{pages}{85\bibrangedash 94}
+      \range{pages}{10}
+    \endentry
+    \entry{babau2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e08bd84ecc248c9e659b76e04f704de1}{%
+           family={Ramesh\bibnamedelima Babau},
+           familyi={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Kiruba\bibnamedelima Shankar},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=26e5827248f75fbda8082a08edb426cd}{%
+           family={Krishnamurthy},
+           familyi={K\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a366983ccd293c59a6efa73d3a8827eb}{%
+           family={Indra},
+           familyi={I\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7349ca81232da5ab6946661565616bd2}
+      \strng{fullhash}{7349ca81232da5ab6946661565616bd2}
+      \strng{authornamehash}{7349ca81232da5ab6946661565616bd2}
+      \strng{authorfullhash}{7349ca81232da5ab6946661565616bd2}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Scientific and Industrial Research}
+      \field{month}{10}
+      \field{title}{Remote monitoring system for distributed control of industrial plant process}
+      \field{volume}{68}
+      \field{year}{2009}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
 
-\bibitem[Baskiyar e Meghannathan 2005]{baskiyar2005}
-\abntrefinfo{Baskiyar e Meghannathan}{BASKIYAR; MEGHANNATHAN}{2005}
-{BASKIYAR, S.; MEGHANNATHAN, N. A survey of contemporary real-time operating
-  systems.
-\emph{Informatica}, v.~29, p. 233--240, 2005.}
-
-\bibitem[GreenField 2017]{david2017}
-\abntrefinfo{GreenField}{GREENFIELD}{2017}
-{GREENFIELD, D. \emph{Will SCADA Remain Relevant as Industry Advances?} 2017.
-Dispon{\'\i}vel em:
-  $<$https:\-/\-/www\-.automationworld\-.com\-/will-scada-remain-relevant-industry-advances$>$.
-  Acesso em: 11.10.2017.}
-
-\bibitem[Kreith, Manglik e Bohn 2011]{kreith2011}
-\abntrefinfo{Kreith, Manglik e Bohn}{KREITH; MANGLIK; BOHN}{2011}
-{KREITH, F.; MANGLIK, R.~M.; BOHN, M.~S. \emph{Principles of Heat Transfer}. 7.
-  ed. [S.l.]: Cengage Learning, 2011. 485-486~p.}
-
-\bibitem[Novazzi 2007]{novazzi2007}
-\abntrefinfo{Novazzi}{NOVAZZI}{2007}
-{NOVAZZI, L.~F.
-\emph{Dinâmica e Controle de Redes de Trocadores de Calor}.
-Tese (Doutorado) --- Universidade Estadual de Campinas, Faculdade de Engenharia
-  Química, Campinas, 2007.}
-
-\bibitem[Pereira et al. 2011]{luiz2011}
-\abntrefinfo{Pereira et al.}{PEREIRA et al.}{2011}
-{PEREIRA, L. A.~M.; CARVALHO, F.~R.; BORTOLUCCI, T.; MORAES, M.~H. Software
-  embarcado, o crescimento e as novas tendências deste mercado.
-\emph{Revista de Ciências Exatas e Tecnologia}, v.~6, p. 85--94, 2011.}
-
-\bibitem[Pereira et al. 2016]{luiz2016}
-\abntrefinfo{Pereira et al.}{PEREIRA et al.}{2016}
-{PEREIRA, L. E.~G.; ROCHA, L.~A.; SANTOS, R.~T.; RAMOS, V.~F.
-\emph{Projeto e implementação de sistema embarcado para monitoramento e controle do trocador de calor}. Monografia --- Universidade Federal de Minas Gerais, Belo Horizonte, 2016.}
-
-\end{thebibliography}

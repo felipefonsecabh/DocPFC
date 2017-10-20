@@ -74,11 +74,33 @@
 \usepackage{lipsum}				% para geração de dummy text
 % ---
 
+% Pacotes adicionais, centraliza legendas de multiplas linhas
+% ---
+\usepackage{caption}				% para geração de dummy text
+% ---
+
+% Numeração por capítulos
+%-----
+\counterwithin{figure}{chapter}
+\counterwithin{table}{chapter}
+%-----
+
+
+
 % ---
 % Pacotes de citações
 % ---
-\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
-\usepackage[alf,abnt-etal-list=0,abnt-etal-cite=3]{abntex2cite}	% Citações padrão ABNT
+%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+%\usepackage[alf,abnt-etal-list=0,abnt-etal-cite=3]{abntex2cite}	% Citações padrão ABNT
+
+\usepackage[style=abnt,backref=true,backend=biber,citecounter=true]{biblatex}
+\addbibresource{abntex2-modelo-references.bib}
+
+%Texto padrão antes do número das páginas
+\DefineBibliographyStrings{brazil}{%
+	backrefpage = {Citado na página},% originally "cited on page"
+	backrefpages = {Citado \arabic{citecounter} vezes nas páginas},% originally "cited on pages"
+}
 
 % --- 
 % CONFIGURAÇÕES DE PACOTES
@@ -87,19 +109,19 @@
 % ---
 % Configurações do pacote backref
 % Usado sem a opção hyperpageref de backref
-\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
-% Texto padrão antes do número das páginas
-\renewcommand{\backref}{}
-% Define os textos da citação
-\renewcommand*{\backrefalt}[4]{
-	\ifcase #1 %
-		Nenhuma citação no texto.%
-	\or
-		Citado na página #2.%
-	\else
-		Citado #1 vezes nas páginas #2.%
-	\fi}%
-% ---
+%\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+%% Texto padrão antes do número das páginas
+%\renewcommand{\backref}{}
+%% Define os textos da citação
+%\renewcommand*{\backrefalt}[4]{
+%	\ifcase #1 %
+%		Nenhuma citação no texto.%
+%	\or
+%		Citado na página #2.%
+%	\else
+%		Citado #1 vezes nas páginas #2.%
+%	\fi}%
+%% ---
 
 
 % ---
@@ -454,14 +476,14 @@ contribuirão para a evolução do \abnTeX.
 % ----------------------------------------------------------
 \textual
 
+%comando para setar a introdução como página 1
+% FORA DA NORMA!!!
+\setcounter{page}{1}
+
 % ----------------------------------------------------------
 % Introdução
 % ----------------------------------------------------------
-\chapter{Introdução}
-%\addcontentsline{toc}{chapter}{Introdução}
-\chapterprecis{Isso é um teste de comentário para a introdução no sumário}
-
-\input{Introducao/Introducao}
+\include{Introducao/Introducao}
 
 
 % ----------------------------------------------------------
@@ -483,9 +505,7 @@ contribuirão para a evolução do \abnTeX.
 % ---
 % Capitulo de revisão de literatura
 % ---
-\chapter{Revisão Bibliográfica}
-
-\input{Revisao/Revisao}
+\include{Revisao/Revisao}
 
 % ---
 % ---
@@ -536,7 +556,8 @@ contribuirão para a evolução do \abnTeX.
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
-\bibliography{abntex2-modelo-references}
+%\bibliography{abntex2-modelo-references}
+\printbibliography
 
 % ----------------------------------------------------------
 % Glossário

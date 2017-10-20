@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.3)  18 OCT 2017 00:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.9)  20 OCT 2017 16:46
 entering extended mode
 **./abntex2-modelo-trabalho-academico.tex
 (abntex2-modelo-trabalho-academico.tex
 LaTeX2e <2017-04-15>
-Babel <3.13> and hyphenation patterns for 76 language(s) loaded.
+Babel <3.14> and hyphenation patterns for 76 language(s) loaded.
 (abntex2.cls
 Document Class: abntex2 2013/06/01 v1.7 abnTeX2
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -471,10 +471,10 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count149
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/09/18 3.13 The Babel package
+Package: babel 2017/10/04 3.14 The Babel package
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2017/09/18 3.13 Babel switching mechanism
+File: switch.def 2017/10/04 3.14 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
@@ -487,10 +487,10 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/09/18 3.13 Babel common definitions
+File: babel.def 2017/10/04 3.14 Babel common definitions
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2017/09/18 3.13 Babel switching mechanism
+File: switch.def 2017/10/04 3.14 Babel switching mechanism
 )
 \babel@savecnt=\count150
 \U@D=\dimen151
@@ -1035,52 +1035,492 @@ Package caption Info: hyperref package is loaded.
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count178
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\backref.sty"
-Package: backref 2016/05/21 v1.39 Bibliographical back referencing
-) (abntex2cite.sty (abntex2abrev.sty)
-\minimumbiblabelwidth=\skip266
-\ABCIauxlen=\skip267
-\c@ABCIaux=\count179
-\c@ABCImax=\count180
- ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
-Package: relsize 2003/07/04 ver 3.1
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count179
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count180
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+\@xs@message=\write4
+\integerpart=\count181
+\decimalpart=\count182
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count183
+\c@listtotal=\count184
+\c@listcount=\count185
+\c@liststart=\count186
+\c@liststop=\count187
+\c@citecount=\count188
+\c@citetotal=\count189
+\c@multicitecount=\count190
+\c@multicitetotal=\count191
+\c@instcount=\count192
+\c@maxnames=\count193
+\c@minnames=\count194
+\c@maxitems=\count266
+\c@minitems=\count267
+\c@citecounter=\count268
+\c@savedcitecounter=\count269
+\c@uniquelist=\count270
+\c@uniquename=\count271
+\c@refsection=\count272
+\c@refsegment=\count273
+\c@maxextratitle=\count274
+\c@maxextratitleyear=\count275
+\c@maxextrayear=\count276
+\c@maxextraalpha=\count277
+\c@abbrvpenalty=\count278
+\c@highnamepenalty=\count279
+\c@lownamepenalty=\count280
+\c@maxparens=\count281
+\c@parenlevel=\count282
+\blx@tempcnta=\count283
+\blx@tempcntb=\count284
+\blx@tempcntc=\count285
+\blx@maxsection=\count286
+\blx@maxsegment@0=\count287
+\blx@notetype=\count288
+\blx@parenlevel@text=\count289
+\blx@parenlevel@foot=\count290
+\blx@sectionciteorder@0=\count291
+\labelnumberwidth=\skip266
+\labelalphawidth=\skip267
 \biblabelsep=\skip268
-LaTeX Info: Redefining \newblock on input line 646.
-LaTeX Info: Redefining \cite on input line 673.
-\ABCItoken=\toks31
+\bibnamesep=\skip269
+\bibinitsep=\skip270
+\bibparsep=\skip271
+\bibhang=\skip272
+\blx@bcfin=\read2
+\blx@bcfout=\write5
+\c@mincomprange=\count292
+\c@maxcomprange=\count293
+\c@mincompwidth=\count294
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'abnt.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count295
+\c@savedafterword=\count296
+\c@annotator=\count297
+\c@savedannotator=\count298
+\c@author=\count299
+\c@savedauthor=\count300
+\c@bookauthor=\count301
+\c@savedbookauthor=\count302
+\c@commentator=\count303
+\c@savedcommentator=\count304
+\c@editor=\count305
+\c@savededitor=\count306
+\c@editora=\count307
+\c@savededitora=\count308
+\c@editorb=\count309
+\c@savededitorb=\count310
+\c@editorc=\count311
+\c@savededitorc=\count312
+\c@foreword=\count313
+\c@savedforeword=\count314
+\c@holder=\count315
+\c@savedholder=\count316
+\c@introduction=\count317
+\c@savedintroduction=\count318
+\c@namea=\count319
+\c@savednamea=\count320
+\c@nameb=\count321
+\c@savednameb=\count322
+\c@namec=\count323
+\c@savednamec=\count324
+\c@translator=\count325
+\c@savedtranslator=\count326
+\c@shortauthor=\count327
+\c@savedshortauthor=\count328
+\c@shorteditor=\count329
+\c@savedshorteditor=\count330
+\c@labelname=\count331
+\c@savedlabelname=\count332
+\c@institution=\count333
+\c@savedinstitution=\count334
+\c@lista=\count335
+\c@savedlista=\count336
+\c@listb=\count337
+\c@savedlistb=\count338
+\c@listc=\count339
+\c@savedlistc=\count340
+\c@listd=\count341
+\c@savedlistd=\count342
+\c@liste=\count343
+\c@savedliste=\count344
+\c@listf=\count345
+\c@savedlistf=\count346
+\c@location=\count347
+\c@savedlocation=\count348
+\c@organization=\count349
+\c@savedorganization=\count350
+\c@origlocation=\count351
+\c@savedoriglocation=\count352
+\c@origpublisher=\count353
+\c@savedorigpublisher=\count354
+\c@publisher=\count355
+\c@savedpublisher=\count356
+\c@language=\count357
+\c@savedlanguage=\count358
+\c@pageref=\count359
+\c@savedpageref=\count360
+\shorthandwidth=\skip273
+\shortjournalwidth=\skip274
+\shortserieswidth=\skip275
+\shorttitlewidth=\skip276
+\shortauthorwidth=\skip277
+\shorteditorwidth=\skip278
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 )
-Package color Info: Redefining color blue on input line 131.
-Package hyperref Info: Option `colorlinks' set `true' on input line 148.
-\abntex2-modelo-trabalho-academico@idxfile=\write4
-\openout4 = `abntex2-modelo-trabalho-academico.idx'.
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count361
+\c@textcitetotal=\count362
+\c@textcitemaxnames=\count363
+\c@biburlnumpenalty=\count364
+\c@biburlucpenalty=\count365
+\c@biburllcpenalty=\count366
+\c@smartand=\count367
+)
+Package biblatex Info: Trying to load bibliography style 'abnt'...
+Package biblatex Info: ... file 'abnt.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-abnt\bbx\abnt.bbx"
+File: abnt.bbx 2017/07/28 v3.1 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count368
+\c@bbx:relatedtotal=\count369
+))
+Package biblatex Info: Trying to load citation style 'abnt'...
+Package biblatex Info: ... file 'abnt.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-abnt\cbx\abnt.cbx"
+File: abnt.cbx 2017/07/28 v3.1 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\authoryear.cbx"
+File: authoryear.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load citation style 'abnt-ibid'...
+Package biblatex Info: ... file 'abnt-ibid.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-abnt\cbx\abnt-ibid.cbx"
+File: abnt-ibid.cbx 2017/07/28 v3.1 ABNT BibLaTeX citation style
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
+Package: expl3 2017/09/18 L3 programming layer (loader) 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
+Package: expl3 2017/09/18 L3 programming layer (code)
+\c_max_int=\count370
+\l_tmpa_int=\count371
+\l_tmpb_int=\count372
+\g_tmpa_int=\count373
+\g_tmpb_int=\count374
+\g__intarray_font_int=\count375
+\g__prg_map_int=\count376
+\c_log_iow=\count377
+\l_iow_line_count_int=\count378
+\l__iow_line_target_int=\count379
+\l__iow_one_indent_int=\count380
+\l__iow_indent_int=\count381
+\c_zero_dim=\dimen167
+\c_max_dim=\dimen168
+\l_tmpa_dim=\dimen169
+\l_tmpb_dim=\dimen170
+\g_tmpa_dim=\dimen171
+\g_tmpb_dim=\dimen172
+\c_zero_skip=\skip279
+\c_max_skip=\skip280
+\l_tmpa_skip=\skip281
+\l_tmpb_skip=\skip282
+\g_tmpa_skip=\skip283
+\g_tmpb_skip=\skip284
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count382
+\c__fp_leading_shift_int=\count383
+\c__fp_middle_shift_int=\count384
+\c__fp_trailing_shift_int=\count385
+\c__fp_big_leading_shift_int=\count386
+\c__fp_big_middle_shift_int=\count387
+\c__fp_big_trailing_shift_int=\count388
+\c__fp_Bigg_leading_shift_int=\count389
+\c__fp_Bigg_middle_shift_int=\count390
+\c__fp_Bigg_trailing_shift_int=\count391
+\c__fp_rand_size_int=\count392
+\c__fp_rand_four_int=\count393
+\c__fp_rand_eight_int=\count394
+\l__sort_length_int=\count395
+\l__sort_min_int=\count396
+\l__sort_top_int=\count397
+\l__sort_max_int=\count398
+\l__sort_true_max_int=\count399
+\l__sort_block_int=\count400
+\l__sort_begin_int=\count401
+\l__sort_end_int=\count402
+\l__sort_A_int=\count403
+\l__sort_B_int=\count404
+\l__sort_C_int=\count405
+\l__tl_build_start_index_int=\count406
+\l__tl_build_index_int=\count407
+\l__tl_analysis_normal_int=\count408
+\l__tl_analysis_index_int=\count409
+\l__tl_analysis_nesting_int=\count410
+\l__tl_analysis_type_int=\count411
+\l__regex_internal_a_int=\count412
+\l__regex_internal_b_int=\count413
+\l__regex_internal_c_int=\count414
+\l__regex_balance_int=\count415
+\l__regex_group_level_int=\count416
+\l__regex_mode_int=\count417
+\c__regex_cs_in_class_mode_int=\count418
+\c__regex_cs_mode_int=\count419
+\l__regex_catcodes_int=\count420
+\l__regex_default_catcodes_int=\count421
+\c__regex_catcode_D_int=\count422
+\c__regex_catcode_S_int=\count423
+\c__regex_catcode_L_int=\count424
+\c__regex_catcode_O_int=\count425
+\c__regex_catcode_A_int=\count426
+\c__regex_all_catcodes_int=\count427
+\l__regex_show_lines_int=\count428
+\l__regex_min_state_int=\count429
+\l__regex_max_state_int=\count430
+\l__regex_left_state_int=\count431
+\l__regex_right_state_int=\count432
+\l__regex_capturing_group_int=\count433
+\l__regex_min_pos_int=\count434
+\l__regex_max_pos_int=\count435
+\l__regex_curr_pos_int=\count436
+\l__regex_start_pos_int=\count437
+\l__regex_success_pos_int=\count438
+\l__regex_curr_char_int=\count439
+\l__regex_curr_catcode_int=\count440
+\l__regex_last_char_int=\count441
+\l__regex_case_changed_char_int=\count442
+\l__regex_curr_state_int=\count443
+\l__regex_step_int=\count444
+\l__regex_min_active_int=\count445
+\l__regex_max_active_int=\count446
+\l__regex_replacement_csnames_int=\count447
+\l__regex_match_count_int=\count448
+\l__regex_min_submatch_int=\count449
+\l__regex_submatch_int=\count450
+\l__regex_zeroth_submatch_int=\count451
+\g__debug_trace_regex_int=\count452
+\c_empty_box=\box30
+\l_tmpa_box=\box31
+\l_tmpb_box=\box32
+\g_tmpa_box=\box33
+\g_tmpb_box=\box34
+\l__box_top_dim=\dimen173
+\l__box_bottom_dim=\dimen174
+\l__box_left_dim=\dimen175
+\l__box_right_dim=\dimen176
+\l__box_top_new_dim=\dimen177
+\l__box_bottom_new_dim=\dimen178
+\l__box_left_new_dim=\dimen179
+\l__box_right_new_dim=\dimen180
+\l__box_internal_box=\box35
+\l__coffin_internal_box=\box36
+\l__coffin_internal_dim=\dimen181
+\l__coffin_offset_x_dim=\dimen182
+\l__coffin_offset_y_dim=\dimen183
+\l__coffin_x_dim=\dimen184
+\l__coffin_y_dim=\dimen185
+\l__coffin_x_prime_dim=\dimen186
+\l__coffin_y_prime_dim=\dimen187
+\c_empty_coffin=\box37
+\l__coffin_aligned_coffin=\box38
+\l__coffin_aligned_internal_coffin=\box39
+\l_tmpa_coffin=\box40
+\l_tmpb_coffin=\box41
+\l__coffin_display_coffin=\box42
+\l__coffin_display_coord_coffin=\box43
+\l__coffin_display_pole_coffin=\box44
+\l__coffin_display_offset_dim=\dimen188
+\l__coffin_display_x_dim=\dimen189
+\l__coffin_display_y_dim=\dimen190
+\l__coffin_bounding_shift_dim=\dimen191
+\l__coffin_left_corner_dim=\dimen192
+\l__coffin_right_corner_dim=\dimen193
+\l__coffin_bottom_corner_dim=\dimen194
+\l__coffin_top_corner_dim=\dimen256
+\l__coffin_scaled_total_height_dim=\dimen257
+\l__coffin_scaled_width_dim=\dimen258
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count453
+\l__driver_tmp_box=\box45
+))
+Package: xparse 2017/09/18 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count454
+\g__xparse_grabber_int=\count455
+\l__xparse_m_args_int=\count456
+\l__xparse_mandatory_args_int=\count457
+\l__xparse_v_nesting_int=\count458
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citetitle'.
+Package biblatex Info: Redefining '\citeyear'.
+Package biblatex Info: Redefining '\@apud'.
+Package biblatex Info: Redefining '\apud'.
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \textapud with sig. 'o o m o o m' on line 353.
+.................................................
+Package biblatex Info: Redefining '\footcite'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+Package color Info: Redefining color blue on input line 153.
+Package hyperref Info: Option `colorlinks' set `true' on input line 170.
+\abntex2-modelo-trabalho-academico@idxfile=\write6
+\openout6 = `abntex2-modelo-trabalho-academico.idx'.
 
 
 Writing index file abntex2-modelo-trabalho-academico.idx 
-(abntex2-modelo-trabalho-academico.aux (Resumo/Resumo.aux) (Resumo/Abstract.aux
+Package biblatex Info: Trying to load language 'brazil' -> 'abnt-brazilian'...
+Package biblatex Info: ... file 'abnt-brazilian.lbx' found.
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\abnt-brazilian.lbx"
+File: abnt-brazilian.lbx 2017/07/28 v3.1 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian' -> 'abnt-brazilian'.
+..
+Package biblatex Info: ... file 'abnt-brazilian.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\abnt-brazilian.lbx"
+File: abnt-brazilian.lbx 2017/07/28 v3.1 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\brazilian.lbx"
+File: brazilian.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
+Package biblatex Info: Trying to load language 'brazil'...
+Package biblatex Info: ... file 'brazil.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\brazil.lbx"
+File: brazil.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)))
+Package biblatex Info: Trying to load language 'spanish' -> 'abnt-spanish'...
+Package biblatex Info: ... file 'abnt-spanish.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\abnt-spanish.lbx"
+File: abnt-spanish.lbx 2017/07/28 v3.1 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\spanish.lbx"
+File: spanish.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 ))
+Package biblatex Info: Trying to load language 'french'...
+Package biblatex Info: ... file 'french.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\french.lbx"
+File: french.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
+Package biblatex Info: Trying to load language 'english' -> 'abnt-english'...
+Package biblatex Info: ... file 'abnt-english.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\abnt-english.lbx"
+File: abnt-english.lbx 2017/07/28 v3.1 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
+File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count459
+\@quotereset=\count460
+(abntex2-modelo-trabalho-academico.aux (Resumo/Resumo.aux) (Resumo/Abstract.aux
+) (Introducao/Introducao.aux) (Revisao/Revisao.aux))
 \openout1 = `abntex2-modelo-trabalho-academico.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 171.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 193.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring ON on input line 171.
+\AtBeginShipoutBox=\box46
+Package hyperref Info: Link coloring ON on input line 193.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1088,33 +1528,33 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count181
+\c@section@level=\count461
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 171.
-LaTeX Info: Redefining \ref on input line 171.
-LaTeX Info: Redefining \pageref on input line 171.
-LaTeX Info: Redefining \nameref on input line 171.
-LaTeX Info: Redefining \degres on input line 171.
-LaTeX Info: Redefining \dots on input line 171.
-LaTeX Info: Redefining \up on input line 171.
+LaTeX Info: Redefining \nameref on input line 193.
+LaTeX Info: Redefining \ref on input line 193.
+LaTeX Info: Redefining \pageref on input line 193.
+LaTeX Info: Redefining \nameref on input line 193.
+LaTeX Info: Redefining \degres on input line 193.
+LaTeX Info: Redefining \dots on input line 193.
+LaTeX Info: Redefining \up on input line 193.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 171.
+(lastpage)             ! on input line 193.
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count182
-\scratchdimen=\dimen167
-\scratchbox=\box31
-\nofMPsegments=\count183
-\nofMParguments=\count184
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count185
-\MPscratchDim=\dimen168
-\MPnumerator=\count186
-\makeMPintoPDFobject=\count187
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count462
+\scratchdimen=\dimen259
+\scratchbox=\box47
+\nofMPsegments=\count463
+\nofMParguments=\count464
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count465
+\MPscratchDim=\dimen260
+\MPnumerator=\count466
+\makeMPintoPDFobject=\count467
+\everyMPtoPDFconversion=\toks32
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1131,96 +1571,119 @@ G,.JBIG2,.JB2,.eps]
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 184.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `abntex2-modelo-trabalho-academico.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'abntex2-modelo-trabalho-academico.bbl' found.
+
+(abntex2-modelo-trabalho-academico.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'david2017':
+(biblatex)                - Entry 'david2017' (abntex2-modelo-references.bib): 
+Invalid format '07.09.2017' of date field 'date' - ignoring.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'david2017':
+(biblatex)                - Entry 'david2017' (abntex2-modelo-references.bib): 
+Invalid format '11.10.2017' of date field 'urldate' - ignoring.
+
+)
+Package biblatex Info: Reference section=0 on input line 193.
+Package biblatex Info: Reference segment=0 on input line 193.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 206.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-{C:/Users/felip/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 193.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 215.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<ot1.cmap>>
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 193.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 215.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oml.cmap>>
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 193
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 215
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oms.cmap>>
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 193
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 215
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 193.
+(Font)              <12> on input line 215.
 <<omx.cmap>>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 193.
+(Font)              <8> on input line 215.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 193.
+(Font)              <6> on input line 215.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.193 
+l.215 
        [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
 
-Overfull \hbox (16.44858pt too wide) in paragraph at lines 223--226
+Overfull \hbox (16.44858pt too wide) in paragraph at lines 245--248
 []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--226
+Underfull \hbox (badness 10000) in paragraph at lines 245--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--234
+Underfull \hbox (badness 10000) in paragraph at lines 249--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 237.
+(Font)              <10> on input line 259.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 237.
+(Font)              <7> on input line 259.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 237.
+(Font)              <5> on input line 259.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.284 
+l.306 
        [2] [3
 
 ] [4
@@ -1228,7 +1691,7 @@ l.284
 ] [5] [6
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 338.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 360.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1272,111 +1735,239 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ]
 (abntex2-modelo-trabalho-academico.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 16.
+(Font)              <14.4> on input line 35.
 ) [23] [24
 
-] (Introducao/Introducao.tex
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 9.
+]
+\openout2 = `Introducao/Introducao.aux'.
+
+ (Introducao/Introducao.tex
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 12.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 9.
- [25
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 12.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.26 
+      [1
 
-] [26]) [27] [28
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 		C
+        omparar a solução embarcada com um software de prateleira tradicio...
+[2])pdfTeX warning (ext4): destination with the same identifier (name{page.3}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.486 \include{Introducao/Introducao}
+                                      [3]
+\openout2 = `Revisao/Revisao.aux'.
+
+ (Revisao/Revisao.texpdfTeX warning (ext4): destination with the same identifie
+r (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Revisão Bibliográfica} [4
+
+
 
 ]
-(Revisao/Revisao.tex
-<Imagens/img1.png, id=258, 532.99126pt x 301.125pt>
+<Imagens/img1.png, id=249, 532.99126pt x 301.125pt>
 File: Imagens/img1.png Graphic file (type png)
 <use Imagens/img1.png>
-Package pdftex.def Info: Imagens/img1.png  used on input line 11. on input line
- 11.
-Package pdftex.def Info: Requested size: 532.98996pt x 301.12425pt on input lin
-e 11.
+Package pdftex.def Info: Imagens/img1.png  used on input line 14. on input line
+ 14.
+Package pdftex.def Info: Requested size: 426.79134pt x 241.13005pt on input lin
+e 14.
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 			\item
+              [5 <./Imagens/img1.png>]
+<Imagens/img2.png, id=265, 461.47406pt x 303.38344pt>
+File: Imagens/img2.png Graphic file (type png)
+<use Imagens/img2.png>
+Package pdftex.def Info: Imagens/img2.png  used on input line 34. on input line
+ 34.
+Package pdftex.def Info: Requested size: 341.43306pt x 224.46318pt on input lin
+e 34.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.508 \include{Revisao/Revisao}
+                                [6 <./Imagens/img2.png>]pdfTeX warning (ext4): 
+destination with the same identifier (name{page.7}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.532 \chapter
+              {Resultados} [7
 
-Overfull \hbox (77.98996pt too wide) in paragraph at lines 11--12
- [][] 
- []
 
-) [29 <./Imagens/img1.png>] [30] [31
+]pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.532 \chapter
+              {Resultados} [8
 
-] [32
+]pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.545 \chapter
+              [Conclusão]{Conclusão} [9]pdfTeX warning (ext4): destination wi
+th the same identifier (name{page.10}) has been already used, duplicate ignored
 
-] [33] [34
+<to be read again> 
+                   \relax 
+l.545 \chapter
+              [Conclusão]{Conclusão} [10
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.11}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.561 
+       [11]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.561 
+       [12
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.13}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.581 
+       [13]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.581 
+       [14
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.15}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.581 
+       [15
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.16}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.581 
+       [16]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.17}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.589 \chapter
+              {Nullam elementum urna vel imperdiet sodales elit ipsum pharet...
+[17
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.18}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.589 \chapter
+              {Nullam elementum urna vel imperdiet sodales elit ipsum pharet...
+[18
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.19}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.608 
+       [19]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.20}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.608 
+       [20
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.21}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.608 
+       [21
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.22}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.608 
+       [22]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.23}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.615 \chapter
+              {Cras non urna sed feugiat cum sociis natoque penatibus et mag...
+[23
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.24}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.615 \chapter
+              {Cras non urna sed feugiat cum sociis natoque penatibus et mag...
+[24
 
 ]
-(abntex2-modelo-trabalho-academico.bbl (abntex2-modelo-trabalho-academico.brf)
-\tf@brf=\write5
-\openout5 = `abntex2-modelo-trabalho-academico.brf'.
-
-
-[35] [36
-
-]
-bibitemlist
-) [37] [38
-
-] [39
-
-] [40] [41
-
-] [42
-
-] [43] [44
-
-] [45
-
-] [46] [47
-
-] [48
-
-]
-Underfull \hbox (badness 5504) in paragraph at lines 594--594
+Underfull \hbox (badness 5504) in paragraph at lines 615--615
 []\T1/lmss/m/n/24.88 Cras non urna sed feu-giat
  []
 
-[49] [50
+[25] [26
 
 ]
 No file abntex2-modelo-trabalho-academico.ind.
 
 AED: lastpage setting LastPage
-[51]
-\tf@lof=\write6
-\openout6 = `abntex2-modelo-trabalho-academico.lof'.
+[27]
+\tf@lof=\write7
+\openout7 = `abntex2-modelo-trabalho-academico.lof'.
 
-\tf@lot=\write7
-\openout7 = `abntex2-modelo-trabalho-academico.lot'.
+\tf@lot=\write8
+\openout8 = `abntex2-modelo-trabalho-academico.lot'.
 
-\tf@toc=\write8
-\openout8 = `abntex2-modelo-trabalho-academico.toc'.
+\tf@toc=\write9
+\openout9 = `abntex2-modelo-trabalho-academico.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 613.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 613.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 634.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 634.
  (abntex2-modelo-trabalho-academico.aux (Resumo/Resumo.aux)
-(Resumo/Abstract.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 613.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 613.
-Package rerunfilecheck Info: File `abntex2-modelo-trabalho-academico.brf' has n
-ot changed.
-(rerunfilecheck)             Checksum: ADBED7402CF4880B056994B7F303CAA9;394.
+(Resumo/Abstract.aux) (Introducao/Introducao.aux) (Revisao/Revisao.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 634.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 634.
+Package logreq Info: Writing requests to 'abntex2-modelo-trabalho-academico.run
+.xml'.
+\openout1 = `abntex2-modelo-trabalho-academico.run.xml'.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 613.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 634.
  ) 
 Here is how much of TeX's memory you used:
- 13881 strings out of 493314
- 203999 string characters out of 3138867
- 430923 words of memory out of 3000000
- 17023 multiletter control sequences out of 15000+200000
- 85439 words of font info for 58 fonts, out of 3000000 for 9000
+ 28111 strings out of 493314
+ 490275 string characters out of 3138840
+ 1142174 words of memory out of 3000000
+ 31181 multiletter control sequences out of 15000+200000
+ 612389 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,12n,42p,983b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,12n,81p,10469b,2082s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
@@ -1391,11 +1982,12 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on abntex2-modelo-trabalho-academico.pdf (53 pages, 779007 bytes
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
+Output written on abntex2-modelo-trabalho-academico.pdf (53 pages, 976133 bytes
 ).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 112 named destinations out of 1000 (max. 500000)
- 266 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 523 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
+ 279 words of extra memory for PDF output out of 10000 (max. 10000000)
 

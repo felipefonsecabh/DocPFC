@@ -1,14 +1,18 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: abntex2-modelo-trabalho-academico.aux
-A level-1 auxiliary file: Resumo/Resumo.aux
-A level-1 auxiliary file: Resumo/Abstract.aux
-The style file: abntex2-alf.bst
-Database file #1: abntex2-options.bib
-Database file #2: abntex2-modelo-references.bib
-You can't pop an empty literal stack for entry luiz2016
-while executing---line 2202 of file abntex2-alf.bst
-+---------------------------------------------------------+
-| Estilo bibliográfico abnt-alf.bst versão v<VERSION>           |
-| Em caso de dúvidas ou problemas com este estilo procure |
-| http://abntex2.googlecode.com                           |
-+---------------------------------------------------------+
-(There was 1 error message)
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is 'abntex2-modelo-trabalho-academico.blg'
+[54] biber-MSWIN64:303> INFO - === 
+[97] Biber.pm:359> INFO - Reading 'abntex2-modelo-trabalho-academico.bcf'
+[247] Biber.pm:835> INFO - Found 7 citekeys in bib section 0
+[267] Biber.pm:3670> INFO - Processing section 0
+[333] Biber.pm:3840> INFO - Looking for bibtex format file 'abntex2-modelo-references.bib' for section 0
+[343] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[362] bibtex.pm:1292> INFO - Found BibTeX data source 'abntex2-modelo-references.bib'
+[381] Utils.pm:164> WARN - Entry 'david2017' (abntex2-modelo-references.bib): Invalid format '07.09.2017' of date field 'date' - ignoring
+[411] Utils.pm:164> WARN - Entry 'david2017' (abntex2-modelo-references.bib): Invalid format '11.10.2017' of date field 'urldate' - ignoring
+[449] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[449] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[449] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'pt-BR'
+[449] Biber.pm:3505> INFO - No sort tailoring available for locale 'pt-BR'
+[459] bbl.pm:608> INFO - Writing 'abntex2-modelo-trabalho-academico.bbl' with encoding 'UTF-8'
+[461] bbl.pm:712> INFO - Output to abntex2-modelo-trabalho-academico.bbl
+[465] Biber.pm:109> INFO - WARNINGS: 2
