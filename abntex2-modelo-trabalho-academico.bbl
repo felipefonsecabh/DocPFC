@@ -62,16 +62,21 @@
       \strng{authorfullhash}{db774de8c0a93685760f72ead36ab027}
       \field{sortinit}{G}
       \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{month}{9}
       \field{title}{Will SCADA Remain Relevant as Industry Advances?}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
       \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{url}
       \verb https://www.automationworld.com/will-scada-remain-relevant-industry-advances
       \endverb
-      \warn{\item Entry 'david2017' (abntex2-modelo-references.bib): Invalid format '07.09.2017' of date field 'date' - ignoring}
-      \warn{\item Entry 'david2017' (abntex2-modelo-references.bib): Invalid format '11.10.2017' of date field 'urldate' - ignoring}
     \endentry
     \entry{kreith2011}{book}{}
       \name{author}{3}{}{%
