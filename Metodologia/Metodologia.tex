@@ -1,0 +1,171 @@
+\chapter{Metodologia}
+	\chapterprecis{Este capítulo apresenta a arquitetura do sistema implementado. São descritos os módulos do sistema, suas interconexões e como eles funcionam.}
+	
+	\section{Estado Atual}
+	
+		A Arquitetura do sistema atual instalado na planta de trocador de calor está representada na \autoref{img3}. Pelo painel é possível efetuar a leitura das variáveis de processo, cuja leitura é feita pelo Arduino, bem como comandar a bomba e o aquecedor. É importante observar que o controle da potência do aquecedor não passa pelo Arduino, e que o sistema não recebe nenhum feedback sobre a velocidade da bomba, bem como sobre a potência do aquecedor. Apesar de estar previsto no projeto de \textcite{luiz2016}, nenhum controle em malha fechada está operacional.
+		
+		\begin{figure}[!htb]	
+			%\centering
+			\captionsetup{justification=centering}
+			\begin{center}
+				\includegraphics[width=10cm]{img3}  %pode alterar o tamanho
+				\caption[Arquitetura do sistema instalado]{\label{img3}Arquitetura do sistema instalado}
+			\end{center}		
+		\end{figure}
+	
+		O intuito do projeto é implementar um sistema de monitoramento e controle remoto, sem que haja alteração infraestrutura já montada. Em resumo, o objetivo é implementar um sistema que necessite apenas se comunicar com o Arduino para executar as suas tarefas.
+	
+	
+	\section{Requisitos Funcionais do Sistema}
+		Para determinar a arquitetura do sistema a ser implementado, foram levantados os requisitos funcionais do sistema, ou seja, quais informações devem ser transmitidas ao operador, bem como quais as ações que este pode realizar no sistema. Os requisitos estão resumidos na \autoref{tbl1}.
+		
+		% Please add the following required packages to your document preamble:
+		% \usepackage{booktabs}
+		\begin{table}[!htb]
+			\centering
+			\caption{Requisitos Funcionais do Sistema}
+			\label{tbl1}
+			\def\arraystretch{1.3}
+			\begin{tabular}{c p{11cm}}
+				\hline
+				\multicolumn{1}{c}{\textbf{Índice Requisito}} & \multicolumn{1}{c}{\textbf{Descrição Requisito}} \\ \hline 
+				1 & Exibir a informação atual das variáveis de processo (vazões e temperaturas) \\ %\hline
+				2 & Exibir o estado da bomba e do aquecedor (Ligado ou Desligado) \\ %\hline  
+				3 & Exibir o valor da rotação atual da bomba \\ %\hline
+				4 & Em modo remoto, deve permitir que o operador acione a bomba e o aquecedor \\ %\hline
+				5 & Em modo remoto, deve permitir que o operador altere a velocidade da bomba \\ %\hline
+				6 & Permitir a visualização dos dados analógicos em gráficos \\ %\hline
+				7 & Impedir a atuação do operador quando o Arduino estiver em modo local ou de emergência \\ %\hline
+				8 & Armazenar os dados do sistema em banco de dados \\ %\hline
+				9 & Permitir que o usuário habilite ou desabilite o armazenamento de dados das variáveis \\ %\hline
+				10 & Permitir que o usuário colete as informações contidas no banco em um arquivo no formato csv \\ %\hline
+				11 & Permitir que o usuário apague as informações contidas no banco de dados \\ \hline
+			\end{tabular}
+		\end{table}
+	
+		Após levantamento dos requisitos, é possível concluir que as arquiteturas citadas na \autoref{sec:rev_monitor} podem ser utilizadas. É possível utilizar um PC que executa um software SCADA tradicional como utilizado por \textcite{alexandre2015}. Basicamente, o Arduino foi programado de forma que ele consiga utilizar um protocolo industrial comumente utilizado por ferramentas SCADA, no caso o protocolo Modbus\footnote{\url{http://www.ni.com/white-paper/52134/pt/}} foi utilizado. Também é possível utilizar uma arquitetura totalmente embarcada como utilizada no sistema \textit{BrewPi} \cite{brewpi}.
+	
+	\section{Critérios para Escolha do Sistema}
+		Para possibilitar a comparação entre a arquitetura SCADA tradicional e embarcada e consequentemente ajudar na tomada de decisão, algumas características pontuais do sistema foram avaliadas. Existem características subjetivas e objetivas, sendo que as características subjetivas foram avaliadas de acordo com a experiência na utilização das ferramentas pelo desenvolvedor. Como existem diversos softwares SCADA no mercado, um software específico foi escolhido para comparação. O E3, que é fornecido pela Elipse Software\footnote{\url{https://www.elipse.com.br/produto/elipse-e3/}}, foi escolhido devido ao grau de conhecimento do desenvolvedor sobre a ferramenta. Os critérios e avaliações estão apresentados na \autoref{tbl2}.
+		
+		\begin{table}[!htb]
+			\centering
+			\caption{Comparação entre tecnologias}
+			\label{tbl2}
+			\def\arraystretch{1.5}
+			\begin{tabularx}{\textwidth}{p{7cm} | c c}
+				\hline
+				\diagbox{\textbf{Critério}}{\textbf{Arquitetura}} & \multicolumn{1}{c}{\textbf{SCADA (E3)}} & \multicolumn{1}{p{5cm}}{\textbf{Tecnologia Embarcada}} \\ \hline
+				
+				\textcolor{blue}{Custo} & \multicolumn{1}{c}{Alto} & \multicolumn{1}{c}{Baixo} \\
+				
+				\textcolor{blue}{Complexidade do desenvolvimento das interfaces gráficas} & \multicolumn{1}{c}{Baixa} & \multicolumn{1}{c}{Alta} \\
+				
+				\textcolor{blue}{Complexidade da implementação da comunicação com Arduino} & \multicolumn{1}{c}{Baixa} & \multicolumn{1}{c}{Média} \\
+				
+				\textcolor{blue}{Facilidade para interoperar com outros sistemas} & \multicolumn{1}{c}{Média} & \multicolumn{1}{c}{Alta} \\ 
+				
+				\textcolor{blue}{Multiplataforma} & \multicolumn{1}{c}{Não} & \multicolumn{1}{c}{Sim} \\
+				
+				\textcolor{blue}{Interface se adapta à resolução do dispositivo} & \multicolumn{1}{c}{Não} & \multicolumn{1}{c}{Sim} \\
+				
+				\textcolor{blue}{Suporte a vários clientes conectados simultaneamente} & \multicolumn{1}{c}{Sim} & \multicolumn{1}{c}{Sim} \\
+				
+				\textcolor{blue}{Consumo de energia} & \multicolumn{1}{c}{Médio} & \multicolumn{1}{c}{Baixo} \\
+						
+				\hline
+			\end{tabularx}
+		\end{table}
+	
+		A grande disparidade entre esses sistemas basicamente é o custo em a relação a demanda de mão-de-obra especializada para desenvolvimento de sistemas embarcados. Conhecimentos de ferramentas SCADAs já estão difundidos, facilitando o desenvolvimento de aplicações utilizando essas ferramentas. Contudo, esses softwares são caros, com exceção de algumas ferramentas \textit{opensource} como por exemplo o SCADABR\footnote{\url{http://www.scadabr.com.br/}}.
+		
+		Desde o início da modernização do laboratório, o custo era uma das restrições mais fortes, o que favoreceu a opção pela tecnologia embarcada. Além disso, a oportunidade de utilizar tecnologias emergentes no monitoramento de processos contribuiu ainda mais para a utilização de sistemas embarcados.
+		
+	\section{Arquitetura do Sistema}
+		A arquitetura pensada para o sistema foi inspirada no projeto BrewPi. Esse sistema foi concebido para controlar a temperatura de um recipiente com líquido, bem como para permitir o monitoramento via qualquer dispositivo que possua um navegador Web. A Arquitetura deste sistema é mostrada na \autoref{img4}. Basicamente, o Arduino, é encarregado de executar a malha de controle e enviar as informações para um RaspberryPi, que implementa um WebServer. Os usuários que desejam visualizar e/ou modificar as informações, devem abrir um navegador e se conectar ao WebServer para obter os dados.
+		
+		\begin{figure}[!htb]	
+			%\centering
+			\captionsetup{justification=centering}
+			\begin{center}
+				\includegraphics[width=14cm]{img4}  %pode alterar o tamanho
+				\caption[Arquitetura do sistema BrewPi]{\label{img4}Arquitetura do sistema BrewPi. Fonte: \url{https://www.brewpi.com/} }
+			\end{center}		
+		\end{figure}
+	
+		Para o trocador de calor, a proposta é semelhante. A adição de um RaspberryPi no sistema atual é simples de ser realizada e está em conformidade com a condição de não modificar as instalações atuais. Dessa forma, a arquitetura proposta simplificada para o sistema com o Raspberry é exibida na \autoref{img5}. A Arquitetura detalhada do sistema, como por exemplo, os softwares e serem desenvolvidos em cada dispositivo bem como a forma de interação entre eles será abordado mais adiante.
+		
+		\begin{figure}[!htb]	
+			%\centering
+			\captionsetup{justification=centering}
+			\begin{center}
+				\includegraphics[width=14cm]{img5}  %pode alterar o tamanho
+				\caption[Nova Arquitetura Proposta para o Sistema]{\label{img5} Nova Arquitetura Proposta para o Sistema }
+			\end{center}		
+		\end{figure}
+		
+		É importante salientar que existem outros dispositivos simulares ao Raspberry PI como o BeagleBone Black\footnote{\url{https://beagleboard.org/black}} e a recente e também poderosa placa DragonBoard 410c\footnote{\url{https://developer.qualcomm.com/hardware/dragonboard-410c}}. Qualquer uma das placas poderia ser utilizada no projeto. A escolha do Raspberry PI foi influenciada pela extensa base de conhecimento e documentação já produzida pelos usuários, aliado ao menor custo da placa.  As demais placas por serem mais novas, não dispõem de muitos documentos e exemplos, o que aumenta o tempo de desenvolvimento de um novo projeto.
+		
+		Ainda em relação as placas utilizadas, verifica-se que existem vários modelos distintos de Raspberry PI. Portanto é necessário definir qual a versão é a mais adequada ao projeto.
+		
+		\subsection{Escolha da Versão do Raspberry PI}
+			O Raspberry PI possui algumas versões, que se diferem em tamanho, capacidade de memória, processamento e componentes. Um resumo das características das principais versões do Raspberry é exibida na \autoref{tbl3}
+			
+			\begin{table}[!htb]
+				\centering
+				\captionsetup{justification=centering}
+				\caption[Comparação entre versões do Raspberry PI]{Comparação entre versões do Raspberry. \\Adaptado de \url{https://en.wikipedia.org/wiki/Raspberry_Pi}}
+				\label{tbl3}
+				\def\arraystretch{1.5}
+				\begin{tabularx}{\textwidth}{m{2.5 cm}| m{3cm} m{3cm} p{3cm}}
+					  & \multicolumn{1}{c}{\textbf{Raspberry 1}} & %\textbf{Raspberry 1+} & 
+					 \multicolumn{1}{c}{\textbf{Raspberry 2}} & \multicolumn{1}{c}{\textbf{Raspberry 3}} \\ \hline
+					 
+					 Lançamento & \multicolumn{1}{c}{02/2013} & %\multicolumn{1}{c}{07/2014} &
+					 \multicolumn{1}{c}{02/2015} & \multicolumn{1}{c}{02/2016} \\
+					 
+					 Preço & \multicolumn{1}{c}{\$25} & %\multicolumn{1}{c}{\$25} &
+					 \multicolumn{1}{c}{\$35} &
+					 \multicolumn{1}{c}{\$35} \\
+					 
+					 Arquitetura & \multicolumn{1}{c}{ARMv6Z} & %\multicolumn{1}{c}{ARMv6Z} &
+					 \multicolumn{1}{c}{ARMv7-A} &
+					 \multicolumn{1}{c}{ARMv8-A} \\
+					 
+					 CPU & \multicolumn{1}{c}{700Mhz one core} & %\multicolumn{1}{c}{700Mhz one core} &
+					 \multicolumn{1}{c}{900Mhz quad-core 64bit} &
+					 \multicolumn{1}{c}{1.2Ghz quad-core 64bit} \\
+					 
+					 Memória & \multicolumn{1}{c}{256MB} & 
+					 %\multicolumn{1}{c}{512MB} &
+					 \multicolumn{1}{c}{1GB} &
+					 \multicolumn{1}{c}{1GB} \\
+					 
+					 Nº de Portas USB & \multicolumn{1}{c}{1} &
+					 %\multicolumn{1}{c}{4} &
+					 \multicolumn{1}{c}{4} &
+					 \multicolumn{1}{c}{4} \\
+					 
+					 Corrente & \multicolumn{1}{c}{300mA} &
+					 %\multicolumn{1}{p{2cm}}{200mA - 350mA} &
+					 \multicolumn{1}{c}{220mA - 820mA} &
+					 \multicolumn{1}{c}{300mA - 1.34A} \\
+					 
+					 Wifi Integrado & \multicolumn{1}{c}{Não} & %\multicolumn{1}{c}{Não} &
+					 \multicolumn{1}{c}{Não} &
+					 \multicolumn{1}{c}{Sim. 802.11n} \\
+					 
+					 Bluetooth Integrado  & \multicolumn{1}{c}{Não} & %\multicolumn{1}{c}{Não} &
+					 \multicolumn{1}{c}{Não} &
+					 \multicolumn{1}{c}{Sim. v4.1} \\
+					 
+					\hline
+				\end{tabularx}
+			\end{table}
+		
+			A última versão do Raspberry apresenta uma grande vantagem por possuir Wifi nativamente. Isso evita a utilização de adaptadores para utilizar a comunicação Wireless no dispositivo. Além disso, possui maior poder de processamento, conta com um chip mais moderno, e suporta uma capacidade maior de corrente em estado de sobrecarga. Portanto, o Raspberry 3 foi escolhido.
+			
+		\subsection{Comunicação entre Raspberry e Arduino}
+		
+			

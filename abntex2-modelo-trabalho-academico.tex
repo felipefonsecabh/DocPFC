@@ -85,7 +85,16 @@
 \counterwithin{table}{chapter}
 %-----
 
-
+%-----
+% Estilo de tabela
+%-----
+\usepackage{booktabs}
+\usepackage{array, makecell}
+\usepackage{setspace}
+\usepackage{cellspace}
+\usepackage{diagbox}
+\setlength\cellspacetoplimit{5pt}
+\setlength\cellspacebottomlimit{5pt}
 
 % ---
 % Pacotes de citações
@@ -508,7 +517,9 @@ contribuirão para a evolução do \abnTeX.
 \include{Revisao/Revisao}
 
 % ---
+% Capitulo de Metodologia
 % ---
+\include{Metodologia/Metodologia}
 
 
 % ----------------------------------------------------------
@@ -519,16 +530,7 @@ contribuirão para a evolução do \abnTeX.
 % ---
 % primeiro capitulo de Resultados
 % ---
-\chapter{Metodologia}
 
-% ---
-
-% ---
-
-
-% ---
-% segundo capitulo de Resultados
-% ---
 \chapter{Resultados}
 
 
