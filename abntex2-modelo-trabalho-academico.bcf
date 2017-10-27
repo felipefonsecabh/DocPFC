@@ -2247,6 +2247,8 @@
     <bcf:citekey order="10">luiz2016</bcf:citekey>
     <bcf:citekey order="11">alexandre2015</bcf:citekey>
     <bcf:citekey order="12">brewpi</bcf:citekey>
+    <bcf:citekey order="13">bogdan2017</bcf:citekey>
+    <bcf:citekey order="14">ryan2015</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

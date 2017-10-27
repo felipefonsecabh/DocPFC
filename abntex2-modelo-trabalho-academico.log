@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.9)  26 OCT 2017 22:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.26)  27 OCT 2017 03:12
 entering extended mode
 **./abntex2-modelo-trabalho-academico.tex
 (abntex2-modelo-trabalho-academico.tex
@@ -500,7 +500,7 @@ File: switch.def 2017/10/04 3.14 Babel switching mechanism
 \l@newzealand = a dialect from \language\l@british 
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\french.ldf"
-Language: french 2017/09/07 v3.3c French support from the babel system
+Language: french 2017/10/19 v3.3d French support from the babel system
 \FB@nonchar=\count151
 \FBcolonsp=\toks23
 \FBthinsp=\toks24
@@ -1834,9 +1834,9 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ]
 (abntex2-modelo-trabalho-academico.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 53.
+(Font)              <14.4> on input line 59.
 
-Underfull \vbox (badness 4328) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23])
 [24]
@@ -1882,7 +1882,7 @@ l.1 \chapter
 
 
 ]
-<Imagens/img1.png, id=283, 532.99126pt x 301.125pt>
+<Imagens/img1.png, id=289, 532.99126pt x 301.125pt>
 File: Imagens/img1.png Graphic file (type png)
 <use Imagens/img1.png>
 Package pdftex.def Info: Imagens/img1.png  used on input line 14. on input line
@@ -1895,7 +1895,7 @@ been already used, duplicate ignored
                    \relax 
 l.23 			\item
               [5 <./Imagens/img1.png>]
-<Imagens/img2.png, id=299, 461.47406pt x 303.38344pt>
+<Imagens/img2.png, id=305, 461.47406pt x 303.38344pt>
 File: Imagens/img2.png Graphic file (type png)
 <use Imagens/img2.png>
 Package pdftex.def Info: Imagens/img2.png  used on input line 34. on input line
@@ -1912,7 +1912,7 @@ l.518 \include{Revisao/Revisao}
 
 
 (Metodologia/Metodologia.tex
-<Imagens/img3.pdf, id=308, pagebox=cropbox, 358.33875pt x 260.47313pt>
+<Imagens/img3.pdf, id=314, pagebox=cropbox, 358.33875pt x 260.47313pt>
 File: Imagens/img3.pdf Graphic file (type pdf)
 <use Imagens/img3.pdf>
 Package pdftex.def Info: Imagens/img3.pdf  used on input line 12. on input line
@@ -1949,14 +1949,14 @@ been already used, duplicate ignored
                    \relax 
 l.87 
       [9]
-<Imagens/img4.png, id=343, 904.1278pt x 344.03531pt>
+<Imagens/img4.png, id=349, 904.1278pt x 344.03531pt>
 File: Imagens/img4.png Graphic file (type png)
 <use Imagens/img4.png>
 Package pdftex.def Info: Imagens/img4.png  used on input line 92. on input line
  92.
 Package pdftex.def Info: Requested size: 398.33858pt x 151.57024pt on input lin
 e 92.
-<Imagens/img5.pdf, id=348, pagebox=cropbox, 629.35126pt x 260.47313pt>
+<Imagens/img5.pdf, id=354, pagebox=cropbox, 629.35126pt x 260.47313pt>
 File: Imagens/img5.pdf Graphic file (type pdf)
 <use Imagens/img5.pdf>
 Package pdftex.def Info: Imagens/img5.pdf  used on input line 103. on input lin
@@ -1984,7 +1984,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has
                    \relax 
 l.171 
        [11]
-<Imagens/img6.pdf, id=376, pagebox=cropbox, 365.11406pt x 168.63pt>
+<Imagens/img6.pdf, id=382, pagebox=cropbox, 365.11406pt x 168.63pt>
 File: Imagens/img6.pdf Graphic file (type pdf)
 <use Imagens/img6.pdf>
 Package pdftex.def Info: Imagens/img6.pdf  used on input line 206. on input lin
@@ -1997,115 +1997,115 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has
                    \relax 
 l.217 
        [12]
-<Imagens/img7.pdf, id=382, pagebox=cropbox, 459.21562pt x 682.80093pt>
+<Imagens/img7.pdf, id=388, pagebox=cropbox, 459.21562pt x 682.80093pt>
 File: Imagens/img7.pdf Graphic file (type pdf)
 <use Imagens/img7.pdf>
 Package pdftex.def Info: Imagens/img7.pdf  used on input line 228. on input lin
 e 228.
 Package pdftex.def Info: Requested size: 341.43306pt x 507.69232pt on input lin
 e 228.
-)
+
 Underfull \vbox (badness 1005) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.13}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
+l.235 
+       [13 <./Imagens/img6.pdf>]
+Underfull \vbox (badness 3396) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.237 
+       [14 <./Imagens/img7.pdf>]pdfTeX warning (ext4): destination with the sam
+e identifier (name{page.15}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.249 
+       [15]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.269 				\end{enumerate}
+                          [16])pdfTeX warning (ext4): destination with the same
+ identifier (name{page.17}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
 l.523 \include{Metodologia/Metodologia}
-                                        [13 <./Imagens/img6.pdf>]pdfTeX warning
- (ext4): destination with the same identifier (name{page.14}) has been already 
-used, duplicate ignored
+                                        [17]pdfTeX warning (ext4): destination 
+with the same identifier (name{page.18}) has been already used, duplicate ignor
+ed
 <to be read again> 
                    \relax 
-l.523 \include{Metodologia/Metodologia}
-                                        [14 <./Imagens/img7.pdf>]pdfTeX warning
- (ext4): destination with the same identifier (name{page.15}) has been already 
-used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.548 \chapter
-              [Conclusão]{Conclusão} [15
+l.535 \chapter
+              {Resultados} [18
 
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.16}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.548 \chapter
-              [Conclusão]{Conclusão} [16
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.17}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.564 
-       [17]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.18}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.564 
-       [18
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.19}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.584 
-       [19]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.20}) has been already used, duplicate ignored
+l.548 \chapter
+              [Conclusão]{Conclusão} [19]pdfTeX warning (ext4): destination w
+ith the same identifier (name{page.20}) has been already used, duplicate ignore
+d
 <to be read again> 
                    \relax 
-l.584 
-       [20
+l.548 \chapter
+              [Conclusão]{Conclusão} [20
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.21}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.584 
-       [21
+l.564 
+       [21]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.22}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.564 
+       [22
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.22}) ha
+]pdfTeX warning (ext4): destination with the same identifier (name{page.23}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
+l.564 
+       [23]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.24}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
 l.584 
-       [22]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.23}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.592 \chapter
-              {Nullam elementum urna vel imperdiet sodales elit ipsum pharet...
-[23
+       [24] [25
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.24}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.592 \chapter
-              {Nullam elementum urna vel imperdiet sodales elit ipsum pharet...
-[24
 
-] [25] [26
+] [26] [27
 
-] [27
+] [28
 
-] [28] [29
+] [29] [30
 
-] [30
+] [31
+
+] [32] [33
+
+] [34
 
 ]
 Underfull \hbox (badness 5504) in paragraph at lines 618--618
 []\T1/lmss/m/n/24.88 Cras non urna sed feu-giat
  []
 
-[31] [32
+[35] [36
 
 ]
 No file abntex2-modelo-trabalho-academico.ind.
 
 AED: lastpage setting LastPage
-[33]
+[37]
 \tf@lof=\write7
 \openout7 = `abntex2-modelo-trabalho-academico.lof'.
 
@@ -2129,10 +2129,10 @@ Package logreq Info: Writing requests to 'abntex2-modelo-trabalho-academico.run
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 637.
  ) 
 Here is how much of TeX's memory you used:
- 29587 strings out of 493314
- 509535 string characters out of 3138840
- 1189194 words of memory out of 3000000
- 32542 multiletter control sequences out of 15000+200000
+ 29624 strings out of 493314
+ 510193 string characters out of 3138866
+ 1189302 words of memory out of 3000000
+ 32566 multiletter control sequences out of 15000+200000
  612389 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,19n,84p,10469b,2173s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2152,10 +2152,10 @@ nts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on abntex2-modelo-trabalho-academico.pdf (59 pages, 1127141 byte
+Output written on abntex2-modelo-trabalho-academico.pdf (63 pages, 1129573 byte
 s).
 PDF statistics:
- 693 PDF objects out of 1000 (max. 8388607)
- 120 named destinations out of 1000 (max. 500000)
- 368 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 735 PDF objects out of 1000 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
+ 392 words of extra memory for PDF output out of 10000 (max. 10000000)
 

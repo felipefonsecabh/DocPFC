@@ -74,6 +74,34 @@
       \verb https://www.brewpi.com/
       \endverb
     \endentry
+    \entry{ryan2015}{online}{}
+      \name{author}{1}{}{%
+        {{hash=47a6e44f9405a44d8811454b71b50c77}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{47a6e44f9405a44d8811454b71b50c77}
+      \strng{fullhash}{47a6e44f9405a44d8811454b71b50c77}
+      \strng{authornamehash}{47a6e44f9405a44d8811454b71b50c77}
+      \strng{authorfullhash}{47a6e44f9405a44d8811454b71b50c77}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Django vs Flask vs Pyramid: Choosing a Python Web Framework}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.airpair.com/python/posts/django-flask-pyramid
+      \endverb
+    \endentry
     \entry{alexandre2015}{monography}{}
       \name{author}{3}{}{%
         {{hash=4cc1548452d1ab87e4454858d2f64b8e}{%
@@ -288,6 +316,36 @@
       \field{year}{2011}
       \field{pages}{85\bibrangedash 94}
       \range{pages}{10}
+    \endentry
+    \entry{bogdan2017}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bbe9b54d7869428eae49611f75fd5fee}{%
+           family={Primakovski},
+           familyi={P\bibinitperiod},
+           given={Bogdan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{bbe9b54d7869428eae49611f75fd5fee}
+      \strng{fullhash}{bbe9b54d7869428eae49611f75fd5fee}
+      \strng{authornamehash}{bbe9b54d7869428eae49611f75fd5fee}
+      \strng{authorfullhash}{bbe9b54d7869428eae49611f75fd5fee}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{5}
+      \field{title}{17 Best Python Web Frameworks to Learn in 2017}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://steelkiwi.com/blog/best-python-web-frameworks-to-learn/
+      \endverb
     \endentry
     \entry{babau2009}{article}{}
       \name{author}{3}{}{%
