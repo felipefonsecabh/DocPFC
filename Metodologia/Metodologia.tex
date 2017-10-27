@@ -94,7 +94,7 @@
 			\end{center}		
 		\end{figure}
 	
-		Para o trocador de calor, a proposta é semelhante. A adição de um RaspberryPi no sistema atual é simples de ser realizada e está em conformidade com a condição de não modificar as instalações atuais. Dessa forma, a arquitetura proposta simplificada para o sistema com o Raspberry é exibida na \autoref{img5}. A Arquitetura detalhada do sistema, como por exemplo, os softwares e serem desenvolvidos em cada dispositivo bem como a forma de interação entre eles será abordado mais adiante.
+		Para o trocador de calor, a proposta é semelhante. A adição de um RaspberryPi no sistema atual é simples de ser realizada e está em conformidade com a condição de não modificar as instalações atuais. Dessa forma, a arquitetura proposta simplificada para o sistema com o Raspberry é exibida na \autoref{img5}. A Arquitetura detalhada do sistema, como por exemplo, os softwares a serem desenvolvidos em cada dispositivo, bem como a forma de interação entre eles serão tópicos abordados posteriormente.
 		
 		\begin{figure}[!htb]	
 			%\centering
@@ -110,7 +110,7 @@
 		Ainda em relação as placas utilizadas, verifica-se que existem vários modelos distintos de Raspberry PI. Portanto é necessário definir qual a versão é a mais adequada ao projeto.
 		
 		\subsection{Escolha da Versão do Raspberry PI}
-			O Raspberry PI possui algumas versões, que se diferem em tamanho, capacidade de memória, processamento e componentes. Um resumo das características das principais versões do Raspberry é exibida na \autoref{tbl3}
+			O Raspberry PI possui algumas versões, que se diferem em tamanho, capacidade de memória, processamento e componentes. Um resumo das características das principais versões do Raspberry é exibido na \autoref{tbl3}
 			
 			\begin{table}[!htb]
 				\centering
@@ -164,8 +164,71 @@
 				\end{tabularx}
 			\end{table}
 		
-			A última versão do Raspberry apresenta uma grande vantagem por possuir Wifi nativamente. Isso evita a utilização de adaptadores para utilizar a comunicação Wireless no dispositivo. Além disso, possui maior poder de processamento, conta com um chip mais moderno, e suporta uma capacidade maior de corrente em estado de sobrecarga. Portanto, o Raspberry 3 foi escolhido.
+			A última versão do Raspberry apresenta uma grande vantagem por possuir Wifi nativamente. Isso evita a utilização de adaptadores para utilizar a comunicação Wireless no dispositivo. Além disso, possui maior poder de processamento, conta com um chip mais moderno, e suporta uma capacidade maior de corrente em estado de sobrecarga. Portanto, o Raspberry 3 foi escolhido. Na próxima seção detalhados os sistemas a serem executados dentro do Raspberry e como estes se relacionam entre si e com o Arduino.
 			
-		\subsection{Comunicação entre Raspberry e Arduino}
+		\subsection{Arquitetura Detalhada do Sistema}
+			A \autoref{img3} exibe a visão geral do sistema, ou seja, não exibe como é a comunicação entre os componentes. Como dito anteriormente, não faz parte do escopo do projeto promover alterações nas instalações atuais, portanto, é necessário focar apenas em como o Raspberry será programado e como será realizada a sua comunicação com o Arduino.
+			
+			Os componentes foram projetados de forma que cada um funcione da forma mais independente possível. Dessa forma, o impacto no sistema caso haja alguma alteração de componente, em termos de esforço de desenvolvimento, é minimizado.
+			
+			A arquitetura detalhada do sistema é exibida na \autoref{img6}. Foram definidos 3 componentes: o programa que é executado no Arduino; o Gateway e o WebServer, \textcolor{red}{que são} programas que são executados no Raspberry. O termo componente deve ser entendido nesse contexto como um programa, por isso o banco de dados não deve ser interpretado como um componente. Optou-se por criar dois programas no Raspberry PI, de forma que as funcionalidades do sistema fossem corretamente agrupadas. As atribuições de cada programa estão resumidas na \autoref{tbl4}
+			
+			\begin{table}[!htb]
+				\centering
+				\captionsetup{justification=centering}
+				\caption[Atribuições de cada Componente]{Atribuições de cada Componente}
+				\label{tbl4}
+				\def\arraystretch{1.5}
+				\begin{tabular}{m{2cm}| p{12cm}}
+					& \multicolumn{1}{c}{\textbf{Atribuições}} \\ \hline
+					
+					\multirow{4}{*}{Arduino} 
+					& 1 - Interface com sensores e Atudadores \\
+					& 2 - Interface com Painel \\
+					& 3 - Enviar estado do sistema quando solicitado pelo Gateway\\
+					& 4 - Interpretar comandos enviados pelo Gateway \\ \hline
+					
+					\multirow{3}{*}{Gateway} & 5 - Solicitar de forma cíclica o estado das variáveis \\
+					& 6 - Armazenar os dados recebidos em um banco de dados \\
+					& 7 - Receber comandos vêm do WebServer (comandos dos usuários) e repassar ao Arduino \\ \hline
+					
+					\multirow{2}{*}{WebServer} & 8 - Ler dados do banco e apresentar ao usuário \\
+					& 9 - Receber comandos do usuário e repassar ao Gateway \\
+						
+					\hline
+				\end{tabular}
+			\end{table}
+			
+			\begin{figure}[!htb]	
+				%\centering
+				\captionsetup{justification=centering}
+				\begin{center}
+					\includegraphics[width=12cm]{img6}  %pode alterar o tamanho
+					\caption[Arquitetura Detalhada]{\label{img6} Arquitetura Detalhada }
+				\end{center}		
+			\end{figure}
 		
+			É importante observar que as atribuições 4 e 5 envolvem uma comunicação entre Arduino e Gateway, e as atribuições 7 e 9 envolvem uma comunicação entre o WebServer e Gateway. Portanto, é necessário definir protocolos de comunicação para ambos os casos. Já foi dito que os componentes foram projetados de forma a possibilitar a substituição de um componente sem alterar os demais. Porém, alterações no protocolo de comunicação necessariamente levam a modificações nos componentes envolvidos. Em resumo, os protocolos de comunicação devem ser mantidos.
 			
+			
+			\subsubsection{Funcionamento do Arduino}
+			
+				Foi feita uma análise do programa atual que o Arduino executa. O programa é extenso (contém 1482 linhas), sendo que cerca de 90\% do código é dedicado a cuidar do sistema de navegação do display LCD através dos botões existentes no painel.  A implementação de um sistema de monitoramento elimina a necessidade dessa estrutura de navegação, de modo que o painel passe a ter apenas funcionalidades diretas de acionamento, e o display exiba apenas informações básicas. Portanto, a melhor opção foi reformular o código do Arduino e aproveitar apenas as funções que fazem a leitura dos sensores e convertem os valores para unidade de engenharia.
+				
+				A estrutura do código, que está exibida na \autoref{img7}, foi montada de forma a permitir rápida adaptação do mesmo para diferentes protocolos de comunicação, e está de acordo com as atribuições mencionadas na \autoref{tbl4}. As trocas de mensagens com o Gateway são feitas por interrupção, ou seja, estão fora da função loop do Arduino. 
+				
+				O programa criado seguiu o paradigma de programação procedural, ou seja, o programa foi bastante modularizado. Esse tipo de prática acelera a identificação de uma funcionalidade (atribuição) no código fonte, o que facilita a manutenção deste. Outro benefício é a possibilidade de expansão de funcionalidades, como por exemplo a implementação de malhas de controle no código. \textcolor{red}{ Para isso, um Estado Automático cujas atribuições fossem executar as malhas de controle poderia ser adicionado ao sistema. Para que este estado entre em funcionamento, bastaria adicionar mais uma condição de teste no código, ou seja, uma alteração bastante simples.}
+				
+				No diagrama é utilizado o termo ``estado do sistema'', que deve ser interpretado como o conjunto de variáveis necessários para descrever o sistema. Essas variáveis são: as 4 temperaturas; 2 vazões; estado de acionamento de bomba e aquecedor (Ligado ou Desligado); velocidade da bomba; modo de operação (Local ou Remoto) e se o botão de emergência está acionado ou não.
+			
+				\begin{figure}[!htb]	
+					%\centering
+					\captionsetup{justification=centering}
+					\begin{center}
+						\includegraphics[width=12cm]{img7}  %pode alterar o tamanho
+						\caption[Estrutura do Código do Arduino]{\label{img7} Estrutura do Código do Arduino }
+					\end{center}		
+				\end{figure}
+			
+			\subsubsection{Comunicação Entre Arduino e Gateway}
+				
