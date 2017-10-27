@@ -25,15 +25,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {3}Metodologia}{7}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\precistoctext {Este cap\IeC {\'\i }tulo apresenta a arquitetura do sistema implementado. S\IeC {\~a}o descritos os m\IeC {\'o}dulos do sistema, suas interconex\IeC {\~o}es e como eles funcionam.}
+\precistoctext {Este cap\IeC {\'\i }tulo apresenta a arquitetura do sistema implementado. Primeiramente, s\IeC {\~a}o descritos os requisitos funcionais do sistema, que orientam a montagem da estrutura. S\IeC {\~a}o definidos os componentes do sistema e suas interconex\IeC {\~o}es, sendo que esta defini\IeC {\c c}\IeC {\~a}o \IeC {\'e} acompanhada de um breve descritivo do funcionamento.}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Estado Atual}{7}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Requisitos Funcionais do Sistema}{7}{section.3.2}
+\contentsline {section}{\numberline {3.2}Requisitos Funcionais do Sistema}{8}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Crit\IeC {\'e}rios para Escolha do Sistema}{8}{section.3.3}
+\contentsline {section}{\numberline {3.3}Crit\IeC {\'e}rios para Escolha do Sistema}{9}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Arquitetura do Sistema}{9}{section.3.4}
+\contentsline {section}{\numberline {3.4}Arquitetura do Sistema}{10}{section.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.1}Escolha da Vers\IeC {\~a}o do Raspberry PI}{11}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
@@ -41,7 +41,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.2.1}Funcionamento do Arduino}{13}{subsubsection.3.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2.2}Comunica\IeC {\c c}\IeC {\~a}o Entre Arduino e Gateway}{14}{subsubsection.3.4.2.2}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Comunica\IeC {\c c}\IeC {\~a}o Entre Arduino e Gateway}{15}{subsubsection.3.4.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.2.3}Funcionamento do Gateway}{15}{subsubsection.3.4.2.3}
 \defcounter {refsection}{0}\relax 
