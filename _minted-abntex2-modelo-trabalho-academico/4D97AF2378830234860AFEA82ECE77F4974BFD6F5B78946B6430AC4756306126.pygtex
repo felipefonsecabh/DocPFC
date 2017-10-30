@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+				\PYG{c+c1}{//estrutura de dados para envio i2c}
+				\PYG{k}{typedef} \PYG{k}{struct} \PYG{n}{processData}\PYG{p}{\PYGZob{}}
+					\PYG{k+kt}{float} \PYG{n}{temp1}\PYG{p}{;}
+					\PYG{k+kt}{float} \PYG{n}{temp2}\PYG{p}{;}
+					\PYG{k+kt}{float} \PYG{n}{temp3}\PYG{p}{;}
+					\PYG{k+kt}{float} \PYG{n}{temp4}\PYG{p}{;}
+					\PYG{k+kt}{float} \PYG{n}{hotflow}\PYG{p}{;}
+					\PYG{k+kt}{float} \PYG{n}{coldflow}\PYG{p}{;}
+					\PYG{k+kt}{float} \PYG{n}{pump\PYGZus{}speed}\PYG{p}{;}
+					\PYG{n}{byte} \PYG{n}{bstatus}\PYG{p}{;}
+					\PYG{n}{byte} \PYG{n}{chksum}\PYG{p}{;}
+				\PYG{p}{\PYGZcb{};}
+
+				\PYG{k}{typedef} \PYG{k}{union} \PYG{n}{I2C\PYGZus{}Send}\PYG{p}{\PYGZob{}} \PYG{c+c1}{//compartilha a mesma área de memória}
+					\PYG{n}{processData} \PYG{n}{data}\PYG{p}{;}
+					\PYG{n}{byte} \PYG{n}{I2C\PYGZus{}packet}\PYG{p}{[}\PYG{k}{sizeof}\PYG{p}{(}\PYG{n}{processData}\PYG{p}{)];}
+				\PYG{p}{\PYGZcb{};}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+				\PYG{c+c1}{\PYGZsh{}ativar o diretório virtual}
+				pi@raspberry \PYGZdl{} \PYG{n+nb}{source} pfc\PYGZus{}env/bin/activate
+
+				\PYG{c+c1}{\PYGZsh{}caso o nome do diretório apareça entre parenteses como abaixo, o diretório foi ativado com sucesso}
+				\PYG{o}{(}env\PYG{o}{)} pi@raspberry \PYGZdl{}
+\end{Verbatim}

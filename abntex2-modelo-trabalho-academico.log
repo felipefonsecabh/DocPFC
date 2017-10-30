@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.3)  29 OCT 2017 10:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.9)  30 OCT 2017 19:35
 entering extended mode
 **./abntex2-modelo-trabalho-academico.tex
 (abntex2-modelo-trabalho-academico.tex
 LaTeX2e <2017-04-15>
-Babel <3.13> and hyphenation patterns for 76 language(s) loaded.
+Babel <3.14> and hyphenation patterns for 76 language(s) loaded.
 (abntex2.cls
 Document Class: abntex2 2013/06/01 v1.7 abnTeX2
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -471,10 +471,10 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count149
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/09/18 3.13 The Babel package
+Package: babel 2017/10/04 3.14 The Babel package
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2017/09/18 3.13 Babel switching mechanism
+File: switch.def 2017/10/04 3.14 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
@@ -487,10 +487,10 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/09/18 3.13 Babel common definitions
+File: babel.def 2017/10/04 3.14 Babel common definitions
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2017/09/18 3.13 Babel switching mechanism
+File: switch.def 2017/10/04 3.14 Babel switching mechanism
 )
 \babel@savecnt=\count150
 \U@D=\dimen151
@@ -2123,7 +2123,7 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 229.
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-{C:/Users/felip/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 238.
@@ -2265,7 +2265,7 @@ l.490 \pdfbookmark[0]{\lstlistlistingname}{lot}
 ]
 (abntex2-modelo-trabalho-academico.toc [25]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 71.
+(Font)              <14.4> on input line 81.
 ) [26]
 \openout2 = `Introducao/Introducao.aux'.
 
@@ -2306,7 +2306,7 @@ l.1 \chapter
 
 
 ]
-<Imagens/img1.png, id=311, 532.99126pt x 301.125pt>
+<Imagens/img1.png, id=337, 532.99126pt x 301.125pt>
 File: Imagens/img1.png Graphic file (type png)
 <use Imagens/img1.png>
 Package pdftex.def Info: Imagens/img1.png  used on input line 14. on input line
@@ -2319,7 +2319,7 @@ been already used, duplicate ignored
                    \relax 
 l.23 			\item
               [5 <./Imagens/img1.png>]
-<Imagens/img2.png, id=326, 461.47406pt x 303.38344pt>
+<Imagens/img2.png, id=352, 461.47406pt x 303.38344pt>
 File: Imagens/img2.png Graphic file (type png)
 <use Imagens/img2.png>
 Package pdftex.def Info: Imagens/img2.png  used on input line 34. on input line
@@ -2336,7 +2336,7 @@ l.539 \include{Revisao/Revisao}
 
 
 (Metodologia/Metodologia.tex
-<Imagens/img3.pdf, id=335, pagebox=cropbox, 358.33875pt x 260.47313pt>
+<Imagens/img3.pdf, id=361, pagebox=cropbox, 358.33875pt x 260.47313pt>
 File: Imagens/img3.pdf Graphic file (type pdf)
 <use Imagens/img3.pdf>
 Package pdftex.def Info: Imagens/img3.pdf  used on input line 12. on input line
@@ -2379,14 +2379,14 @@ been already used, duplicate ignored
                    \relax 
 l.87 
       [9]
-<Imagens/img4.png, id=371, 904.1278pt x 344.03531pt>
+<Imagens/img4.png, id=397, 904.1278pt x 344.03531pt>
 File: Imagens/img4.png Graphic file (type png)
 <use Imagens/img4.png>
 Package pdftex.def Info: Imagens/img4.png  used on input line 92. on input line
  92.
 Package pdftex.def Info: Requested size: 398.33858pt x 151.57024pt on input lin
 e 92.
-<Imagens/img5.pdf, id=376, pagebox=cropbox, 629.35126pt x 260.47313pt>
+<Imagens/img5.pdf, id=402, pagebox=cropbox, 629.35126pt x 260.47313pt>
 File: Imagens/img5.pdf Graphic file (type pdf)
 <use Imagens/img5.pdf>
 Package pdftex.def Info: Imagens/img5.pdf  used on input line 103. on input lin
@@ -2414,7 +2414,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has
                    \relax 
 l.168 
        [11]
-<Imagens/img6.pdf, id=403, pagebox=cropbox, 365.11406pt x 168.63pt>
+<Imagens/img6.pdf, id=429, pagebox=cropbox, 365.11406pt x 168.63pt>
 File: Imagens/img6.pdf Graphic file (type pdf)
 <use Imagens/img6.pdf>
 Package pdftex.def Info: Imagens/img6.pdf  used on input line 206. on input lin
@@ -2432,7 +2432,7 @@ ge.13}) has been already used, duplicate ignored
                    \relax 
 l.223 
        [13 <./Imagens/img6.pdf>]
-<Imagens/img7.pdf, id=419, pagebox=cropbox, 459.21562pt x 682.80093pt>
+<Imagens/img7.pdf, id=445, pagebox=cropbox, 459.21562pt x 682.80093pt>
 File: Imagens/img7.pdf Graphic file (type pdf)
 <use Imagens/img7.pdf>
 Package pdftex.def Info: Imagens/img7.pdf  used on input line 228. on input lin
@@ -2481,7 +2481,7 @@ l.1 \chapter
 
 (_minted-abntex2-modelo-trabalho-academico/default-pyg-prefix.pygstyle)
 (_minted-abntex2-modelo-trabalho-academico/default.pygstyle)
-(_minted-abntex2-modelo-trabalho-academico/8B788422E133A45C1598AD7E4D8109E7974B
+(_minted-abntex2-modelo-trabalho-academico/9BAC7A273458FB681368CFCFD956645A974B
 FD6F5B78946B6430AC4756306126.pygtex
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 2.
@@ -2492,77 +2492,120 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.19}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 		\end{listing}
-                     [19])pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.20}) has been already used, duplicate ignored
+l.64 
+      [19]pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.20}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.68 
+      [20]
+<Imagens/img8.pdf, id=507, pagebox=cropbox, 202.50656pt x 86.57344pt>
+File: Imagens/img8.pdf Graphic file (type pdf)
+<use Imagens/img8.pdf>
+Package pdftex.def Info: Imagens/img8.pdf  used on input line 73. on input line
+ 73.
+Package pdftex.def Info: Requested size: 284.52756pt x 121.64053pt on input lin
+e 73.
+\openout4 = `abntex2-modelo-trabalho-academico.pyg'.
+
+
+(_minted-abntex2-modelo-trabalho-academico/4D97AF2378830234860AFEA82ECE77F4974B
+FD6F5B78946B6430AC4756306126.pygtex)pdfTeX warning (ext4): destination with the
+ same identifier (name{page.21}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.129 
+       [21 <./Imagens/img8.pdf>]
+<Imagens/img9.png, id=529, 758.835pt x 494.84875pt>
+File: Imagens/img9.png Graphic file (type png)
+<use Imagens/img9.png>
+Package pdftex.def Info: Imagens/img9.png  used on input line 137. on input lin
+e 137.
+Package pdftex.def Info: Requested size: 284.52756pt x 185.54517pt on input lin
+e 137.
+
+Underfull \vbox (badness 4001) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.22}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.144 
+       [22]
+\openout4 = `abntex2-modelo-trabalho-academico.pyg'.
+
+
+(_minted-abntex2-modelo-trabalho-academico/B0E437951EF332C4D9A7641AEEB2B83C9197
+C55C3BD44F3E4E8039D1C03BEDBE.pygtex)
+\openout4 = `abntex2-modelo-trabalho-academico.pyg'.
+
+
+(_minted-abntex2-modelo-trabalho-academico/95EA6CAA0A837B4BE0ED8E3C3ADB26FE9197
+C55C3BD44F3E4E8039D1C03BEDBE.pygtex)
+\openout4 = `abntex2-modelo-trabalho-academico.pyg'.
+
+
+(_minted-abntex2-modelo-trabalho-academico/6D65A2B81CB45638010439F082A93FA39197
+C55C3BD44F3E4E8039D1C03BEDBE.pygtex))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.23}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.549 \include{Implementacao/Implementacao}
-                                            [20]pdfTeX warning (ext4): destinat
-ion with the same identifier (name{page.21}) has been already used, duplicate i
+                                            [23 <./Imagens/img9.png>]pdfTeX war
+ning (ext4): destination with the same identifier (name{page.24}) has been alre
+ady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.549 \include{Implementacao/Implementacao}
+                                            [24]pdfTeX warning (ext4): destinat
+ion with the same identifier (name{page.25}) has been already used, duplicate i
 gnored
 <to be read again> 
                    \relax 
 l.574 \chapter
-              [Conclusão]{Conclusão} [21
+              [Conclusão]{Conclusão} [25
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.22}) ha
+]pdfTeX warning (ext4): destination with the same identifier (name{page.26}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.574 \chapter
-              [Conclusão]{Conclusão} [22
+              [Conclusão]{Conclusão} [26
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.23}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.590 
-       [23]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.24}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.590 
-       [24
+] [27] [28
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.25}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.590 
-       [25]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.26}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.610 
-       [26] [27
+] [29] [30] [31
 
 
-] [28] [29
+] [32]
+[33
 
-] [30
+] [34
 
-] [31] [32
+] [35] [36
 
-] [33
+] [37
 
-] [34] [35
+] [38] [39
 
-] [36
+] [40
 
 ]
 Underfull \hbox (badness 5504) in paragraph at lines 644--644
 []\T1/lmss/m/n/24.88 Cras non urna sed feu-giat
  []
 
-[37] [38
+[41] [42
 
 ]
 No file abntex2-modelo-trabalho-academico.ind.
 
 AED: lastpage setting LastPage
-[39]
+[43]
 \tf@lof=\write9
 \openout9 = `abntex2-modelo-trabalho-academico.lof'.
 
@@ -2591,10 +2634,10 @@ Package logreq Info: Writing requests to 'abntex2-modelo-trabalho-academico.run
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 663.
  ) 
 Here is how much of TeX's memory you used:
- 35065 strings out of 493314
- 611031 string characters out of 3138867
- 1351419 words of memory out of 3000000
- 37882 multiletter control sequences out of 15000+200000
+ 35164 strings out of 493314
+ 614850 string characters out of 3138840
+ 1354020 words of memory out of 3000000
+ 37946 multiletter control sequences out of 15000+200000
  613722 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,19n,84p,10443b,2169s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2617,10 +2660,10 @@ TeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on abntex2-modelo-trabalho-academico.pdf (67 pages, 1199688 byte
+Output written on abntex2-modelo-trabalho-academico.pdf (71 pages, 1239623 byte
 s).
 PDF statistics:
- 826 PDF objects out of 1000 (max. 8388607)
- 146 named destinations out of 1000 (max. 500000)
- 440 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 928 PDF objects out of 1000 (max. 8388607)
+ 167 named destinations out of 1000 (max. 500000)
+ 490 words of extra memory for PDF output out of 10000 (max. 10000000)
 
