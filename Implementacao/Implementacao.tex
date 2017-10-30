@@ -1,0 +1,63 @@
+\chapter{Implementação}
+	\chapterprecis{Este capítulo contém explicações sobre trechos não triviais dos códigos referentes aos componentes projetados. Além disso contém informações sobre o procedimento de preparação do Raspberry PI para ser integrado ao sistema.}
+	
+	\section{Código do Arduino}
+		O código do Arduino foi elaborado utilizando o diagrama descrito na \autoref{img7}. O código fonte completo está disponibilizado no Github\footnote{\url{https://www.oficinadanet.com.br/post/14791-o-que-github}}, no link \url{https://github.com/felipefonsecabh/ArduinoCode/blob/ArduinoNoNavigation/ArduinoCode.ino}
+		
+		\subsection{Leitura dos Sensores}
+		
+		Para a leitura dos sensores foram utilizadas bibliotecas desenvolvidas e mantidas por terceiros. Essas bibliotecas são de código aberto, ou seja, outros usuários podem contribuir para o desenvolvimento e melhoria do código. Geralmente, os projetos das bibliotecas são disponibilizados no GitHub. É importante verificar a versão das bibliotecas utilizadas, pois uma versão pode funcionar de forma diferente da outra.
+		
+		Para a leitura dos sensores de temperatura foi utilizada a biblioteca Dallas Temperature, mantida por \textcite{miles2016}. A versão utilizada no projeto é a mais atual (versão 3.7.6). A Dallas Temperature possui uma dependência de uma outra biblioteca. Dessa forma, é necessário utilizar também a biblioteca OneWire, atualmente mantida por \textcite{paul2017}. A versão utilizada desta biblioteca também é a mais atual (2.3.3).
+		
+		Para a leitura da vazão de água quente, foi utilizada a biblioteca Ultrasonic criada por \textcite{filipeflop2011}. Aparentemente, essa biblioteca não está sendo mantida por ninguém. Existem outras bibliotecas para o sensor ultrassônico HC-SR404 disponíveis na internet. O funcionamento do sensor é descrito em \textcite{adilson2011}.
+		
+		Para a leitura de vazão de água fria não foi utilizada nenhuma biblioteca. O sensor de vazão consiste em um dispositivo que envia pulsos  ao Arduino. Quanto mais pulsos enviados, maior é a vazão. Para a medição da vazão, é feita uma contagem de pulsos em um intervalo de tempo fixo, e posteriormente esse número é inserido em uma fórmula que retorna o valor da vazão. A contagem de pulsos se dá por interrupção.
+		
+		Como dito na \autoref{sec:met_arduino}, as funções que fazem a leitura dos sensores e convertem os valores para unidade de engenharia foram as mesmas utilizadas por \textcite{luiz2016}. Não faz parte do escopo desse projeto calibrar os sensores novamente.
+		
+		O código correspondente a leitura dos valores analógicos é mostrado na figura a seguir 
+		
+		%\pagebreak
+		
+		\begin{listing}
+				\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{cpp}
+			void Temperaturas() {
+			// call sensors.requestTemperatures() to issue a global temperature 
+			// request to all devices on the bus
+			sensors.requestTemperatures();
+			
+			// print the device information
+			for (byte i = 0; i <= 4; i++){
+			temp[i] = sensors.getTempC(deviceID[i]);
+			}
+			}
+			
+			void VazaoAguaFria(){
+			currentTime = millis();
+			// Every second, calculate litres/hour
+			if (currentTime >= (cloopTime + 1000)){
+			cloopTime = currentTime; // Updates cloopTime
+			// Pulse frequency (Hz) = 7.5Q, Q is flow rate in L/min.
+			vazao_fria = (flow_frequency / 7.5); // (Pulse frequency) / 7.5Q = flowrate in L/min
+			flow_frequency = 0; // Reset Counter
+			}
+			}
+			
+			void VazaoAguaQuente(){
+			float vazao1_sf; //descobrir o porque do nome da variavel
+			microsec = ultrasonic.timing();
+			cmMsec = ultrasonic.convert(microsec, Ultrasonic::CM);
+			nivel = 11.46 - cmMsec;
+			vazao1_sf = (0.0537)* pow((nivel * 10), 1.4727);
+			if (vazao1_sf > 1){
+			vazao_quente = 0.75*vazao_quente + 0.25*vazao1_sf;
+			}
+			}	
+			\end{minted}
+			\caption{Funções de Leitura dos sensores}
+		\end{listing}
+	
+		\subsection{Comunicação I2C}
+	
+		

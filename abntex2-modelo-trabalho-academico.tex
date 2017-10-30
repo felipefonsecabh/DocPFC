@@ -85,6 +85,19 @@
 \counterwithin{table}{chapter}
 %-----
 
+% Código fonte destacado no documento
+%-------
+\usepackage{listings}
+\usepackage[newfloat]{minted}
+\usepackage{mdframed}
+\usepackage{xcolor}
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+
+%questões sobre legendas e listas
+\renewcommand{\lstlistingname}{Código}% Listing -> Algorithm
+\renewcommand{\lstlistlistingname}{Lista de \lstlistingname s}% List of Listings -> List of Algorithms
+%-------
+
 %-----
 % Estilo de tabela
 %-----
@@ -471,6 +484,14 @@ contribuirão para a evolução do \abnTeX.
 \end{simbolos}
 % ---
 
+%-----
+% inserir lista de códigos
+%-----
+\pdfbookmark[0]{\lstlistlistingname}{lot}
+\lstlistoflistings
+\cleardoublepage
+
+
 % ---
 % inserir o sumario
 % ---
@@ -521,6 +542,11 @@ contribuirão para a evolução do \abnTeX.
 % Capitulo de Metodologia
 % ---
 \include{Metodologia/Metodologia}
+
+% ---
+% Capitulo de Implementação
+% ---
+\include{Implementacao/Implementacao}
 
 
 % ----------------------------------------------------------

@@ -3,6 +3,8 @@
 \defcounter {refsection}{0}\relax 
 \select@language {brazil}
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Lista de C\IeC {\'o}digos}{23}{section*.13}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \precistoctext {Este cap\IeC {\'\i }tulo apresenta a motiva\IeC {\c c}\IeC {\~a}o e justificativa para a realiza\IeC {\c c}\IeC {\~a}o deste projeto e o local de desenvolvimento, bem como descreve brevemente a estrutura da monografia}
@@ -49,26 +51,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.2.5}WebServer}{16}{subsubsection.3.4.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Resultados}{19}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}Implementa\IeC {\c c}\IeC {\~a}o}{19}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {5}Conclus\IeC {\~a}o}{21}{chapter.5}
+\precistoctext {Este cap\IeC {\'\i }tulo cont\IeC {\'e}m explica\IeC {\c c}\IeC {\~o}es sobre trechos n\IeC {\~a}o triviais dos c\IeC {\'o}digos referentes aos componentes projetados. Al\IeC {\'e}m disso cont\IeC {\'e}m informa\IeC {\c c}\IeC {\~o}es sobre o procedimento de prepara\IeC {\c c}\IeC {\~a}o do Raspberry PI para ser integrado ao sistema.}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografia}{23}{section*.25}
+\contentsline {section}{\numberline {4.1}C\IeC {\'o}digo do Arduino}{19}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Leitura dos Sensores}{19}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Comunica\IeC {\c c}\IeC {\~a}o I2C}{20}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {5}Resultados}{21}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {6}Conclus\IeC {\~a}o}{23}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografia}{25}{section*.27}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{Ap\^endices}{25}{section*.26}
+\contentsline {part}{Ap\^endices}{27}{section*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Quisque libero justo}{27}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}Quisque libero justo}{29}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {B}Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}{29}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}{31}{appendix.B}
 \defcounter {refsection}{0}\relax 
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{Anexos}{31}{section*.27}
+\contentsline {part}{Anexos}{33}{section*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Morbi ultrices rutrum lorem.}{33}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}Morbi ultrices rutrum lorem.}{35}{appendix.anexochapback.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {B}Cras non urna sed feugiat cum sociis natoque penatibus et magnis disparturient montes nascetur ridiculus mus}{35}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {B}Cras non urna sed feugiat cum sociis natoque penatibus et magnis disparturient montes nascetur ridiculus mus}{37}{appendix.anexochapback.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {C}Fusce facilisis lacinia dui}{37}{appendix.anexochapback.3}
+\contentsline {appendix}{\chapternumberline {C}Fusce facilisis lacinia dui}{39}{appendix.anexochapback.3}

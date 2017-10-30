@@ -102,6 +102,52 @@
       \verb https://www.airpair.com/python/posts/django-flask-pyramid
       \endverb
     \endentry
+    \entry{miles2016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1975d7aa0d94a0b30ebd9458ae18340f}{%
+           family={Burton},
+           familyi={B\bibinitperiod},
+           given={Miles},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1975d7aa0d94a0b30ebd9458ae18340f}
+      \strng{fullhash}{1975d7aa0d94a0b30ebd9458ae18340f}
+      \strng{authornamehash}{1975d7aa0d94a0b30ebd9458ae18340f}
+      \strng{authorfullhash}{1975d7aa0d94a0b30ebd9458ae18340f}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dallas Temperature Library}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.milesburton.com/Dallas_Temperature_Control_Library
+      \endverb
+    \endentry
+    \entry{filipeflop2011}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=efb6284fbf27e50321ba00a4904edde2}{%
+           family={FilipeFlop},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{efb6284fbf27e50321ba00a4904edde2}
+      \strng{fullhash}{efb6284fbf27e50321ba00a4904edde2}
+      \strng{authornamehash}{efb6284fbf27e50321ba00a4904edde2}
+      \strng{authorfullhash}{efb6284fbf27e50321ba00a4904edde2}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ultrasonic Library}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://github.com/filipeflop/Ultrasonic
+      \endverb
+    \endentry
     \entry{alexandre2015}{monography}{}
       \name{author}{3}{}{%
         {{hash=4cc1548452d1ab87e4454858d2f64b8e}{%
@@ -379,6 +425,58 @@
       \field{title}{Remote monitoring system for distributed control of industrial plant process}
       \field{volume}{68}
       \field{year}{2009}
+    \endentry
+    \entry{paul2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7231c37f985147c7f40182f0fff89a91}{%
+           family={Stoffregen},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7231c37f985147c7f40182f0fff89a91}
+      \strng{fullhash}{7231c37f985147c7f40182f0fff89a91}
+      \strng{authornamehash}{7231c37f985147c7f40182f0fff89a91}
+      \strng{authorfullhash}{7231c37f985147c7f40182f0fff89a91}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{OneWire Library}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.pjrc.com/teensy/td_libs_OneWire.html
+      \endverb
+    \endentry
+    \entry{adilson2011}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3b99fca9d660374e5670df7d2a0a45eb}{%
+           family={Thomsen},
+           familyi={T\bibinitperiod},
+           given={Adilson},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b99fca9d660374e5670df7d2a0a45eb}
+      \strng{fullhash}{3b99fca9d660374e5670df7d2a0a45eb}
+      \strng{authornamehash}{3b99fca9d660374e5670df7d2a0a45eb}
+      \strng{authorfullhash}{3b99fca9d660374e5670df7d2a0a45eb}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Como conectar o Sensor Ultrassônico HC-SR04 ao Arduino}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.filipeflop.com/blog/sensor-ultrassonico-hc-sr04-ao-arduino/
+      \endverb
     \endentry
   \endsortlist
 \endrefsection

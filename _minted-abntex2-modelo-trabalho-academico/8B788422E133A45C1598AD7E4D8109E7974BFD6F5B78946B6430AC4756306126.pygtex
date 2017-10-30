@@ -1,0 +1,34 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+			\PYG{k+kt}{void} \PYG{n+nf}{Temperaturas}\PYG{p}{()} \PYG{p}{\PYGZob{}}
+			\PYG{c+c1}{// call sensors.requestTemperatures() to issue a global temperature}
+			\PYG{c+c1}{// request to all devices on the bus}
+			\PYG{n}{sensors}\PYG{p}{.}\PYG{n}{requestTemperatures}\PYG{p}{();}
+
+			\PYG{c+c1}{// print the device information}
+			\PYG{k}{for} \PYG{p}{(}\PYG{n}{byte} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}=} \PYG{l+m+mi}{4}\PYG{p}{;} \PYG{n}{i}\PYG{o}{++}\PYG{p}{)\PYGZob{}}
+			\PYG{n}{temp}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{=} \PYG{n}{sensors}\PYG{p}{.}\PYG{n}{getTempC}\PYG{p}{(}\PYG{n}{deviceID}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]);}
+			\PYG{p}{\PYGZcb{}}
+			\PYG{p}{\PYGZcb{}}
+
+			\PYG{k+kt}{void} \PYG{n+nf}{VazaoAguaFria}\PYG{p}{()\PYGZob{}}
+			\PYG{n}{currentTime} \PYG{o}{=} \PYG{n}{millis}\PYG{p}{();}
+			\PYG{c+c1}{// Every second, calculate litres/hour}
+			\PYG{k}{if} \PYG{p}{(}\PYG{n}{currentTime} \PYG{o}{\PYGZgt{}=} \PYG{p}{(}\PYG{n}{cloopTime} \PYG{o}{+} \PYG{l+m+mi}{1000}\PYG{p}{))\PYGZob{}}
+			\PYG{n}{cloopTime} \PYG{o}{=} \PYG{n}{currentTime}\PYG{p}{;} \PYG{c+c1}{// Updates cloopTime}
+			\PYG{c+c1}{// Pulse frequency (Hz) = 7.5Q, Q is flow rate in L/min.}
+			\PYG{n}{vazao\PYGZus{}fria} \PYG{o}{=} \PYG{p}{(}\PYG{n}{flow\PYGZus{}frequency} \PYG{o}{/} \PYG{l+m+mf}{7.5}\PYG{p}{);} \PYG{c+c1}{// (Pulse frequency) / 7.5Q = flowrate in L/min}
+			\PYG{n}{flow\PYGZus{}frequency} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{c+c1}{// Reset Counter}
+			\PYG{p}{\PYGZcb{}}
+			\PYG{p}{\PYGZcb{}}
+
+			\PYG{k+kt}{void} \PYG{n+nf}{VazaoAguaQuente}\PYG{p}{()\PYGZob{}}
+			\PYG{k+kt}{float} \PYG{n}{vazao1\PYGZus{}sf}\PYG{p}{;} \PYG{c+c1}{//descobrir o porque do nome da variavel}
+			\PYG{n}{microsec} \PYG{o}{=} \PYG{n}{ultrasonic}\PYG{p}{.}\PYG{n}{timing}\PYG{p}{();}
+			\PYG{n}{cmMsec} \PYG{o}{=} \PYG{n}{ultrasonic}\PYG{p}{.}\PYG{n}{convert}\PYG{p}{(}\PYG{n}{microsec}\PYG{p}{,} \PYG{n}{Ultrasonic}\PYG{o}{::}\PYG{n}{CM}\PYG{p}{);}
+			\PYG{n}{nivel} \PYG{o}{=} \PYG{l+m+mf}{11.46} \PYG{o}{\PYGZhy{}} \PYG{n}{cmMsec}\PYG{p}{;}
+			\PYG{n}{vazao1\PYGZus{}sf} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mf}{0.0537}\PYG{p}{)}\PYG{o}{*} \PYG{n}{pow}\PYG{p}{((}\PYG{n}{nivel} \PYG{o}{*} \PYG{l+m+mi}{10}\PYG{p}{),} \PYG{l+m+mf}{1.4727}\PYG{p}{);}
+			\PYG{k}{if} \PYG{p}{(}\PYG{n}{vazao1\PYGZus{}sf} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{1}\PYG{p}{)\PYGZob{}}
+			\PYG{n}{vazao\PYGZus{}quente} \PYG{o}{=} \PYG{l+m+mf}{0.75}\PYG{o}{*}\PYG{n}{vazao\PYGZus{}quente} \PYG{o}{+} \PYG{l+m+mf}{0.25}\PYG{o}{*}\PYG{n}{vazao1\PYGZus{}sf}\PYG{p}{;}
+			\PYG{p}{\PYGZcb{}}
+			\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
