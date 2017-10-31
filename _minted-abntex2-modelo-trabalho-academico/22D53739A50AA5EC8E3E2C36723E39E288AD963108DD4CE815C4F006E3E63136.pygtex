@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+					\PYG{c+c1}{\PYGZsh{}envia dado para o banco de dados (lastdata contém últimos dados válidos)}
+					\PYG{n}{reg} \PYG{o}{=} \PYG{n}{Registers}\PYG{p}{(}\PYG{o}{**}\PYG{n}{lastdata}\PYG{p}{)}
+					\PYG{n}{reg}\PYG{o}{.}\PYG{n}{save}\PYG{p}{()}
+
+					\PYG{c+c1}{\PYGZsh{}envia dado para o banco de dados}
+					\PYG{n}{treg} \PYG{o}{=} \PYG{n}{TrendRegister}\PYG{p}{(}\PYG{o}{**}\PYG{n}{lasttrenddata}\PYG{p}{)}
+					\PYG{n}{treg}\PYG{o}{.}\PYG{n}{save}\PYG{p}{()}
+\end{Verbatim}

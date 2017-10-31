@@ -282,6 +282,33 @@
       \field{pages}{485\bibrangedash 486}
       \range{pages}{2}
     \endentry
+    \entry{mark2013}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f9b161dc8eaf25ea05f8bac50ac9596d}{%
+           family={Lutz},
+           familyi={L\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly}%
+      }
+      \strng{namehash}{f9b161dc8eaf25ea05f8bac50ac9596d}
+      \strng{fullhash}{f9b161dc8eaf25ea05f8bac50ac9596d}
+      \strng{authornamehash}{f9b161dc8eaf25ea05f8bac50ac9596d}
+      \strng{authorfullhash}{f9b161dc8eaf25ea05f8bac50ac9596d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5}
+      \field{isbn}{978-1-449-35573-9}
+      \field{title}{Learning Python}
+      \field{year}{2013}
+      \field{pages}{113\bibrangedash 114}
+      \range{pages}{2}
+    \endentry
     \entry{matt2014}{online}{}
       \name{author}{1}{}{%
         {{hash=7c1f90bd9bdc70cc059640a7a6209389}{%
@@ -473,6 +500,32 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb http://steelkiwi.com/blog/best-python-web-frameworks-to-learn/
+      \endverb
+    \endentry
+    \entry{pythondoc}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a7f5f35426b927411fc9231b56382173}{%
+           family={Python},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7f5f35426b927411fc9231b56382173}
+      \strng{fullhash}{a7f5f35426b927411fc9231b56382173}
+      \strng{authornamehash}{a7f5f35426b927411fc9231b56382173}
+      \strng{authorfullhash}{a7f5f35426b927411fc9231b56382173}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Asyncore - Asynchronous socket handler}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://docs.python.org/3.5/library/asyncore.html
       \endverb
     \endentry
     \entry{babau2009}{article}{}
