@@ -27,7 +27,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {listing}{\numberline {4.10}{\ignorespaces Intervalo de execu\IeC {\c c}\IeC {\~a}o das opera\IeC {\c c}\IeC {\~o}es\relax }}{26}{listing.caption.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {listing}{\numberline {4.11}{\ignorespaces Intervalo de execu\IeC {\c c}\IeC {\~a}o das opera\IeC {\c c}\IeC {\~o}es\relax }}{27}{listing.caption.39}
+\contentsline {listing}{\numberline {4.11}{\ignorespaces Fun\IeC {\c c}\IeC {\~a}o que interpreta comandos vindos do WebServer\relax }}{27}{listing.caption.39}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

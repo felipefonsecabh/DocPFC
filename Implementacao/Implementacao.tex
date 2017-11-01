@@ -20,7 +20,7 @@
 		
 		%\pagebreak
 		
-		\begin{listing}
+		\begin{listing}[!htb]
 			\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{cpp}
 			void Temperaturas() {
 				// call sensors.requestTemperatures() to issue a global temperature 
@@ -80,7 +80,7 @@
 			Para correta interpretação dos comandos enviados pelo mestre, foi necessário mapear ações de acordo com o índice de comando criado, ou seja, definir um protocolo básico de comunicação.
 			A relação entre o índice de comando e a ação correspondente é mostrada na \autoref{tbl5}. A interpretação e execução dos comandos é feita na função onReceive. Se o comando é uma solicitação de dados, o envio é realizado na função onRequest.
 						
-			\begin{listing}
+			\begin{listing}[!htb]
 				\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{cpp}
 				//estrutura de dados para envio i2c
 				typedef struct processData{
@@ -146,7 +146,7 @@
 			
 			Para instalar um ambiente virtual na versão python 3, é necessário utilizar os comandos descritos no \autoref{cod:venv}. Uma vez instalado, é necessário ativar o ambiente virtual. O  \autoref{cod:activate_venv} contém o código para ativá-lo. Após ativado, devem-se instalar os pacotes necessários para o projeto.  Os pacotes e as versões instaladas estão listados na \autoref{tbl6}
 			
-			\begin{listing}
+			\begin{listing}[!htb]
 				\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{bash}
 				#navegar até a pasta onde se deseja instalar o ambiente virtual
 				pi@raspberry $ cd pfc_env
@@ -161,7 +161,7 @@
 			\label{cod:venv}
 			\end{listing}
 		
-			\begin{listing}
+			\begin{listing}[!htb]
 				\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{bash}
 				#ativar o diretório virtual
 				pi@raspberry $ source pfc_env/bin/activate
@@ -190,7 +190,7 @@
 				\end{tabular}
 			\end{table}
 		
-			\begin{listing}
+			\begin{listing}[!htb]
 				\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{bash}
 				#ativar o diretório virtual
 				#o comando é pip install NomePacote== Versão. Exemplo:
@@ -210,7 +210,7 @@
 			\subsection{Thread 1: Leitura de Dados do Arduino e Escrita no Banco}
 				Para implementar a comunicação I2C no Gateway, utiliza-se a biblioteca Smbus. Primeiramente é necessário inicializar a conexão com o Arduino, referenciando o endereço do mesmo. Esse endereço é arbitrário, e deve possuir o mesmo valor no código do Arduino e no Gateway. Foi escolhido o identificador 12 para o endereço do Arduino.
 				
-				\begin{listing}
+				\begin{listing}[!htb]
 					\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{python}
 					#inicialização do i2c
 					bus = SMBus(1)
@@ -224,7 +224,7 @@
 				
 				Portanto, é necessário separar o array de bytes em 7 variáveis float e 2 variáveis do tipo byte. O primeiro byte contém as informações de status digitais, e o segundo byte é apenas um valor para verificação da integridade do pacote. Após a separação em variáveis, os dados foram organizados em um dicionário para facilitar o envio para o banco. \cite{mark2013}.
 				
-				\begin{listing}
+				\begin{listing}[!htb]
 					\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{python}
 					#faz requisicao pelos dados
 					block = bus.read_i2c_block_data(arduinoAddress,6,30)
@@ -239,7 +239,7 @@
 			
 				O banco de dados possui 3 tabelas: uma tabela para armazenar o estado mais recente do sistema chamada Registers, outra tabela para armazenar o histórico das variáveis chamada TrendRegisters, e uma tabela para armazenar variáveis de controle (como o modo de operação do sistema por exemplo, e se o armazenamento histórico deve estar habilitado ou não) chamada OperationMode. Para armazenar dados no banco, primeiramente é necessário estabelecer uma conexão com o banco (ver \autoref{cod:connect_bd}). A inserção do dado consiste em acessar a tabela passando como parâmetro o dicionário criado anteriormente; por fim, deve-se executar o método save para concluir a operação (ver \autoref{cod:insert_data}).
 				
-				\begin{listing}
+				\begin{listing}[!htb]
 					\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{python}
 					#estabelece conexão com o banco de dados
 					if os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'WebSite.settings'):
@@ -256,7 +256,7 @@
 					\label{cod:connect_bd}
 				\end{listing}
 			
-				\begin{listing}
+				\begin{listing}[!htb]
 					\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{python}
 					#envia dado para o banco de dados (lastdata contém últimos dados válidos)
 					reg = Registers(**lastdata)
@@ -272,7 +272,7 @@
 			
 				As operações de leitura de banco de dados e escrita no banco são cíclicas, ou seja, executam a cada intervalo de tempo. O intervalo das operações é definido no início do código fonte. O tempo é determinado em milissegundos.
 				
-				\begin{listing}
+				\begin{listing}[!htb]
 					\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{python}
 					#intervalo de execução das operações
 					start_time = datetime.now()
@@ -289,7 +289,7 @@
 				
 				O WebServer envia comandos de duas formas. A primeira, envia apenas um byte, que é o código de comando a ser executado (ligar bomba, apagar histórico, entre outros); a função process\_commands executa as ações necessárias de acordo com o comando recebido. A segunda forma, envia um pacote JSON, que contém o valor da velocidade da bomba a ser setada. O pacote JSON é processado, e o valor da velocidade é enviado para o Arduino na forma de um array de bytes.
 				
-				\begin{listing}
+				\begin{listing}[!htb]
 					\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{python}
 					def handle_read(self):
 						#recebe dado do cliente
@@ -309,9 +309,10 @@
 							finally:
 							pass
 					\end{minted}
-					\caption{Intervalo de execução das operações}
+					\caption{Função que interpreta comandos vindos do WebServer}
 					\label{cod:handle_read}
 				\end{listing}
 			
 			\section{WebServer}
+				O código fonte completo do WebServer está disponibilizado no Github, no link: \url{https://github.com/felipefonsecabh/PFC}. Ao contrário dos códigos anteriores, o projeto do WebServer é composto de múltiplos arquivos.
 				

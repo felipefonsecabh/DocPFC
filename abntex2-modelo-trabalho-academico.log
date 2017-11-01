@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.9)  31 OCT 2017 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.9)  1 NOV 2017 14:21
 entering extended mode
 **./abntex2-modelo-trabalho-academico.tex
 (abntex2-modelo-trabalho-academico.tex
@@ -2283,7 +2283,7 @@ Overfull \hbox (3.65578pt too wide) detected at line 30
 
 ] (abntex2-modelo-trabalho-academico.toc [25]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 85.
+(Font)              <14.4> on input line 87.
 ) [26]
 \openout2 = `Introducao/Introducao.aux'.
 
@@ -2324,7 +2324,7 @@ l.1 \chapter
 
 
 ]
-<Imagens/img1.png, id=353, 532.99126pt x 301.125pt>
+<Imagens/img1.png, id=355, 532.99126pt x 301.125pt>
 File: Imagens/img1.png Graphic file (type png)
 <use Imagens/img1.png>
 Package pdftex.def Info: Imagens/img1.png  used on input line 14. on input line
@@ -2337,7 +2337,7 @@ been already used, duplicate ignored
                    \relax 
 l.23 			\item
               [5 <./Imagens/img1.png>]
-<Imagens/img2.png, id=368, 461.47406pt x 303.38344pt>
+<Imagens/img2.png, id=370, 461.47406pt x 303.38344pt>
 File: Imagens/img2.png Graphic file (type png)
 <use Imagens/img2.png>
 Package pdftex.def Info: Imagens/img2.png  used on input line 34. on input line
@@ -2354,7 +2354,7 @@ l.540 \include{Revisao/Revisao}
 
 
 (Metodologia/Metodologia.tex
-<Imagens/img3.pdf, id=377, pagebox=cropbox, 358.33875pt x 260.47313pt>
+<Imagens/img3.pdf, id=379, pagebox=cropbox, 358.33875pt x 260.47313pt>
 File: Imagens/img3.pdf Graphic file (type pdf)
 <use Imagens/img3.pdf>
 Package pdftex.def Info: Imagens/img3.pdf  used on input line 12. on input line
@@ -2397,14 +2397,14 @@ been already used, duplicate ignored
                    \relax 
 l.87 
       [9]
-<Imagens/img4.png, id=413, 904.1278pt x 344.03531pt>
+<Imagens/img4.png, id=415, 904.1278pt x 344.03531pt>
 File: Imagens/img4.png Graphic file (type png)
 <use Imagens/img4.png>
 Package pdftex.def Info: Imagens/img4.png  used on input line 92. on input line
  92.
 Package pdftex.def Info: Requested size: 398.33858pt x 151.57024pt on input lin
 e 92.
-<Imagens/img5.pdf, id=418, pagebox=cropbox, 629.35126pt x 260.47313pt>
+<Imagens/img5.pdf, id=420, pagebox=cropbox, 629.35126pt x 260.47313pt>
 File: Imagens/img5.pdf Graphic file (type pdf)
 <use Imagens/img5.pdf>
 Package pdftex.def Info: Imagens/img5.pdf  used on input line 103. on input lin
@@ -2432,7 +2432,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has
                    \relax 
 l.168 
        [11]
-<Imagens/img6.pdf, id=445, pagebox=cropbox, 365.11406pt x 168.63pt>
+<Imagens/img6.pdf, id=447, pagebox=cropbox, 365.11406pt x 168.63pt>
 File: Imagens/img6.pdf Graphic file (type pdf)
 <use Imagens/img6.pdf>
 Package pdftex.def Info: Imagens/img6.pdf  used on input line 206. on input lin
@@ -2450,7 +2450,7 @@ ge.13}) has been already used, duplicate ignored
                    \relax 
 l.223 
        [13 <./Imagens/img6.pdf>]
-<Imagens/img7.pdf, id=461, pagebox=cropbox, 459.21562pt x 682.80093pt>
+<Imagens/img7.pdf, id=463, pagebox=cropbox, 459.21562pt x 682.80093pt>
 File: Imagens/img7.pdf Graphic file (type pdf)
 <use Imagens/img7.pdf>
 Package pdftex.def Info: Imagens/img7.pdf  used on input line 228. on input lin
@@ -2517,7 +2517,7 @@ e.20}) has been already used, duplicate ignored
                    \relax 
 l.68 
       [20]
-<Imagens/img8.pdf, id=523, pagebox=cropbox, 202.50656pt x 86.57344pt>
+<Imagens/img8.pdf, id=525, pagebox=cropbox, 202.50656pt x 86.57344pt>
 File: Imagens/img8.pdf Graphic file (type pdf)
 <use Imagens/img8.pdf>
 Package pdftex.def Info: Imagens/img8.pdf  used on input line 73. on input line
@@ -2534,7 +2534,7 @@ FD6F5B78946B6430AC4756306126.pygtex)pdfTeX warning (ext4): destination with the
                    \relax 
 l.129 
        [21 <./Imagens/img8.pdf>]
-<Imagens/img9.png, id=545, 758.835pt x 494.84875pt>
+<Imagens/img9.png, id=547, 758.835pt x 494.84875pt>
 File: Imagens/img9.png Graphic file (type png)
 <use Imagens/img9.png>
 Package pdftex.def Info: Imagens/img9.png  used on input line 137. on input lin
@@ -2587,8 +2587,8 @@ l.209
  same identifier (name{page.24}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.221 				\end{listing}
-                        [24]
+l.224 
+       [24]
 \openout4 = `abntex2-modelo-trabalho-academico.pyg'.
 
 
@@ -2623,18 +2623,17 @@ l.289
 
 
 (_minted-abntex2-modelo-trabalho-academico/4ED253824FE3ADD33E5910D98CBDEB4C88AD
-963108DD4CE815C4F006E3E63136.pygtex))pdfTeX warning (ext4): destination with th
-e same identifier (name{page.26}) has been already used, duplicate ignored
+963108DD4CE815C4F006E3E63136.pygtex)pdfTeX warning (ext4): destination with the
+ same identifier (name{page.26}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.550 \include{Implementacao/Implementacao}
-                                            [26] [27] [28
+l.318 
+       [26]) [27] [28
 
 
 ] [29] [30
 
-] [31]
-[32
+] [31] [32
 
 ] [33] [34] [35
 
@@ -2643,7 +2642,8 @@ l.550 \include{Implementacao/Implementacao}
 
 ] [38
 
-] [39] [40
+]
+[39] [40
 
 ] [41
 
@@ -2693,7 +2693,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 664.
 Here is how much of TeX's memory you used:
  35329 strings out of 493314
  620645 string characters out of 3138840
- 1359059 words of memory out of 3000000
+ 1358079 words of memory out of 3000000
  38068 multiletter control sequences out of 15000+200000
  614027 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2717,10 +2717,10 @@ TeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on abntex2-modelo-trabalho-academico.pdf (75 pages, 1260904 byte
+Output written on abntex2-modelo-trabalho-academico.pdf (75 pages, 1261695 byte
 s).
 PDF statistics:
- 994 PDF objects out of 1000 (max. 8388607)
+ 996 PDF objects out of 1000 (max. 8388607)
  183 named destinations out of 1000 (max. 500000)
  514 words of extra memory for PDF output out of 10000 (max. 10000000)
 
