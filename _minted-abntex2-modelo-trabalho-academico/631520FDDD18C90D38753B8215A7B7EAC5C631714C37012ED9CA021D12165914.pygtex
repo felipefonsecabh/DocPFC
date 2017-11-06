@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{x}{					\PYGZlt{}1 \PYGZhy{} Inicialização da estrutura padrão de um arquivo html\PYGZgt{}}
+\PYG{x}{					\PYGZlt{}2 \PYGZhy{} Inicialização de arquivos de estilo css comuns a todos os templates\PYGZgt{}}
+\PYG{x}{					\PYGZlt{}3 \PYGZhy{} Espaço para arquivos de estilo adicionais\PYGZgt{}}
+\PYG{x}{					\PYGZlt{}4 \PYGZhy{} Código da Barra de navegação\PYGZgt{}}
+\PYG{x}{					\PYGZlt{}5 \PYGZhy{} Espaço Central para inserção de conteúdo por outros templates\PYGZgt{}}
+\PYG{x}{					\PYGZlt{}6 \PYGZhy{} Código do rodapé\PYGZgt{}}
+\PYG{x}{					\PYGZlt{}7 \PYGZhy{} Inicialização de arquivos javascript comuns a todos os templates\PYGZgt{}}
+\PYG{x}{					\PYGZlt{}8 \PYGZhy{} Espaço para inserção de arquivos javascript adicionais\PYGZgt{}}
+\end{Verbatim}

@@ -126,6 +126,34 @@
       \verb https://www.milesburton.com/Dallas_Temperature_Control_Library
       \endverb
     \endentry
+    \entry{bojan2016}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2e77fe8c97b74a35c9b7b0bbc293e580}{%
+           family={Djuricic},
+           familyi={D\bibinitperiod},
+           given={Bojan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e77fe8c97b74a35c9b7b0bbc293e580}
+      \strng{fullhash}{2e77fe8c97b74a35c9b7b0bbc293e580}
+      \strng{authornamehash}{2e77fe8c97b74a35c9b7b0bbc293e580}
+      \strng{authorfullhash}{2e77fe8c97b74a35c9b7b0bbc293e580}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{JustGage Library}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://github.com/toorshia/justgage
+      \endverb
+    \endentry
     \entry{filipeflop2011}{misc}{}
       \name{author}{1}{}{%
         {{hash=efb6284fbf27e50321ba00a4904edde2}{%
@@ -217,6 +245,72 @@
       \verb https://www.automationworld.com/will-scada-remain-relevant-industry-advances
       \endverb
     \endentry
+    \entry{rohit2017}{online}{}
+      \name{author}{2}{}{%
+        {{hash=e2f49568bd188ea6982af3d5a34e99ff}{%
+           family={Kemp},
+           familyi={K\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a1d717084261a61699f3203c1e67a2e9}{%
+           family={Kalkur},
+           familyi={K\bibinitperiod},
+           given={Rohit},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e4f1fa83a9813efe048ee6556e3a5169}
+      \strng{fullhash}{e4f1fa83a9813efe048ee6556e3a5169}
+      \strng{authornamehash}{e4f1fa83a9813efe048ee6556e3a5169}
+      \strng{authorfullhash}{e4f1fa83a9813efe048ee6556e3a5169}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bootstrap Slider Library}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://github.com/seiyria/bootstrap-slider
+      \endverb
+    \endentry
+    \entry{babau2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fab38f8ea24b867db26e8ccf1b825ecd}{%
+           family={KirubaShankar},
+           familyi={K\bibinitperiod},
+           given={Ramesh\bibnamedelima Babau},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=9ffcc98b6fa58c883027432e2283a8af}{%
+           family={K},
+           familyi={K\bibinitperiod},
+           given={Krishnamurthy},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b5024c648d3f8c1541583e9126a9e026}{%
+           family={J},
+           familyi={J\bibinitperiod},
+           given={Indra},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7639dbf8755de1acf3e65cf8b4d4483a}
+      \strng{fullhash}{7639dbf8755de1acf3e65cf8b4d4483a}
+      \strng{authornamehash}{7639dbf8755de1acf3e65cf8b4d4483a}
+      \strng{authorfullhash}{7639dbf8755de1acf3e65cf8b4d4483a}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Scientific and Industrial Research}
+      \field{month}{10}
+      \field{title}{Remote monitoring system for distributed control of industrial plant process}
+      \field{volume}{68}
+      \field{year}{2009}
+    \endentry
     \entry{kyle2017}{online}{}
       \name{author}{1}{}{%
         {{hash=b7b90bc51294440db1b6e745cac728a5}{%
@@ -281,6 +375,34 @@
       \field{year}{2011}
       \field{pages}{485\bibrangedash 486}
       \range{pages}{2}
+    \endentry
+    \entry{klaus2012}{online}{}
+      \name{author}{1}{}{%
+        {{hash=24846a6dac1d46d751e28eadf06cbf85}{%
+           family={Laube},
+           familyi={L\bibinitperiod},
+           given={Klaus\bibnamedelima Peter},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{24846a6dac1d46d751e28eadf06cbf85}
+      \strng{fullhash}{24846a6dac1d46d751e28eadf06cbf85}
+      \strng{authornamehash}{24846a6dac1d46d751e28eadf06cbf85}
+      \strng{authorfullhash}{24846a6dac1d46d751e28eadf06cbf85}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Entendendo o CGI, FastCGI e WSGI}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://klauslaube.com.br/2012/11/02/entendendo-o-cgi-fastcgi-e-wsgi.html
+      \endverb
     \endentry
     \entry{mark2013}{book}{}
       \name{author}{1}{}{%
@@ -528,38 +650,33 @@
       \verb https://docs.python.org/3.5/library/asyncore.html
       \endverb
     \endentry
-    \entry{babau2009}{article}{}
-      \name{author}{3}{}{%
-        {{hash=e08bd84ecc248c9e659b76e04f704de1}{%
-           family={Ramesh\bibnamedelima Babau},
-           familyi={R\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Kiruba\bibnamedelima Shankar},
-           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=26e5827248f75fbda8082a08edb426cd}{%
-           family={Krishnamurthy},
-           familyi={K\bibinitperiod},
-           given={K},
-           giveni={K\bibinitperiod}}}%
-        {{hash=a366983ccd293c59a6efa73d3a8827eb}{%
-           family={Indra},
-           familyi={I\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod}}}%
+    \entry{damien2017}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d52cd1983348f8c9be38eb2114202a2d}{%
+           family={Sorel},
+           familyi={S\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{7349ca81232da5ab6946661565616bd2}
-      \strng{fullhash}{7349ca81232da5ab6946661565616bd2}
-      \strng{authornamehash}{7349ca81232da5ab6946661565616bd2}
-      \strng{authorfullhash}{7349ca81232da5ab6946661565616bd2}
-      \field{sortinit}{R}
-      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
-      \field{labeldatesource}{year}
+      \strng{namehash}{d52cd1983348f8c9be38eb2114202a2d}
+      \strng{fullhash}{d52cd1983348f8c9be38eb2114202a2d}
+      \strng{authornamehash}{d52cd1983348f8c9be38eb2114202a2d}
+      \strng{authorfullhash}{d52cd1983348f8c9be38eb2114202a2d}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Scientific and Industrial Research}
-      \field{month}{10}
-      \field{title}{Remote monitoring system for distributed control of industrial plant process}
-      \field{volume}{68}
-      \field{year}{2009}
+      \field{title}{BootStrap Confirmation Library}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://bootstrap-confirmation.js.org/
+      \endverb
     \endentry
     \entry{paul2017}{misc}{}
       \name{author}{1}{}{%

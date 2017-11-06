@@ -316,3 +316,122 @@
 			\section{WebServer}
 				O código fonte completo do WebServer está disponibilizado no Github, no link: \url{https://github.com/felipefonsecabh/PFC}. Ao contrário dos códigos anteriores, o projeto do WebServer é composto de múltiplos arquivos.
 				
+				A estrutura de um projeto django segue a estrutura mostrada na \textcolor{red}{FiguraX}. Um projeto é composto de várias aplicações (apps). Uma aplicação pode ser entendida como um módulo do programa, ou seja, um trecho que possui um conjunto de funcionalidades específicas e funciona de forma independente. A utilização de múltiplas apps no projeto é incentivada, pois permite o desenvolvimento de um sistema pouco acoplado.
+				
+				A \textcolor{red}{FiguraX} mostra o conjunto de arquivos que compõem uma aplicação. Destacam-se os arquivos que implementam o modelo MVC. Os arquivos de modelo implementam as estruturas de dados a serem utilizadas na aplicação. Cada estrutura de dados (classe) é mapeada na forma de uma tabela no banco de dados, e cada instância dessa estrutura na aplicação é uma linha na tabela criada. Esse procedimento é um exemplo da utilização do ORM\footnote{\url{https://www.fullstackpython.com/object-relational-mappers-orms.html}} do django.
+				
+				Os arquivos urls e views implementam a parte do processamento de requisições do usuário e processo de apresentação de conteúdo. O arquivo url contém o mapeamento entre os recursos e as funções que devem ser executadas. Quando uma url é chamada, esse mapeamento é consultado e assim é chamada a função especificada.
+				
+				As funções estão no arquivo views, que fazem o processamento propriamente dito. Basicamente, quando uma view é chamada, ela efetua operações com os modelos de dados quando necessário e retorna para o usuário algum arquivo de template.
+				
+				Os templates são basicamente arquivos html que aceitam comandos disponibilizados pelo Framework para que se possa adicionar conteúdo dinâmico ao arquivo, antes de enviá-lo para o usuário. Alguns dos comandos mais utilizados são: exibir variáveis, cujos valores são preenchidos pelas views, ``inserir templates dentro de outros'', o que possibilita reaproveitamento de código, comandos de decisão (if, else), de fluxo (for) entre outros. Os comandos possuem a sintaxe  \{\% comando \%\}, exceto as variáveis, que são definidas por \{\{ variável \}\}. O fluxo de informações entre o usuário e uma aplicação django é exibido na \autoref{img10}
+				
+				\begin{figure}[!htb]	
+					%\centering
+					\captionsetup{justification=centering}
+					\begin{center}
+						\includegraphics[scale=0.7]{img10}  %pode alterar o tamanho
+						\caption[Fluxo de Informações entre Usuário e Aplicação Django]{\label{img10}Fluxo de Informações entre Usuário e Aplicação Django. Adaptado de: \url{https://github.com/fga-gpp-mds/00-Disciplina/wiki/Padr\%C3\%B5es-Arquiteturais---MVC-X-Arquitetura-do-Django}}
+					\end{center}		
+				\end{figure}
+				
+				A criação de um novo projeto django é feita através do comando startproject. O comando exibido no \autoref{cod:start_project} cria um projeto chamado WebSite. O projeto criado contém alguns arquivos pré-configurados como o arquivo wsgi.py, e o settings.py. O primeiro implementa o Web Server Gateway Interface (WSGI), uma especificação que permite que a aplicação desenvolvida possa ser executada em múltiplos servidores web \cite{klaus2012}; o segundo contém configurações gerais de um site, como por exemplo, qual será o banco de dados utilizado, caminho dos arquivos estáticos, etc.
+								
+				\begin{listing}[!htb]
+					\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{bash}
+					# navegue até o diretóio destino da aplicação
+					$ django-admin startproject WebSite
+					\end{minted}
+					\caption{Função que interpreta comandos vindos do WebServer}
+					\label{cod:start_project}
+				\end{listing}
+			
+				O projeto é constituído de 3 aplicações: core, operation e trend. O funcionamento das mesmas será explicado a seguir:
+			
+			\subsection{Aplicação Core}
+				É a aplicação base do sistema. Nesta aplicação são armazenadas todos os arquivos estáticos necessários, como arquivos de imagens, arquivos de estilo (css) e arquivos javascript que são utilizados pelas demais aplicações. Esta aplicação não implementa nenhum modelo de dados, pois sua função é somente servir de sustentação para outras aplicações.
+				
+				O core possui dois templates: base.html e home.html. O template base consiste na estrutura geral da interface, que possui uma barra de navegação, um espaço central para inserção de conteúdo e um rodapé. Este template é utilizado pelos demais, que apenas preenchem os ``espaços'' disponibilizados no template base, para assim construir uma interface completa. A estrutura do arquivo base é mostrada no \autoref{cod:base}
+				
+				\begin{listing}[!htb]
+					\begin{minted}[bgcolor=bg,breaklines=true,tabsize=2, baselinestretch=1,fontsize=\footnotesize]{django}
+					<1 - Inicialização da estrutura padrão de um arquivo html>
+					<2 - Inicialização de arquivos de estilo css comuns a todos os templates>
+					<3 - Espaço para arquivos de estilo adicionais>
+					<4 - Código da Barra de navegação>
+					<5 - Espaço Central para inserção de conteúdo por outros templates>
+					<6 - Código do rodapé>
+					<7 - Inicialização de arquivos javascript comuns a todos os templates>
+					<8 - Espaço para inserção de arquivos javascript adicionais>
+					\end{minted}
+					\caption{Template Base}
+					\label{cod:base}
+				\end{listing}
+				
+				O template home.html implementa a página inicial do sistema, que é composta por duas imagens. O template home reutiliza o template base e preenche o espaço de conteúdo disponível. Não adiciona nenhum arquivo javascript ou css. O arquivo urls possui o mapeamento para apenas uma função no arquivo views, que é a chamada para a página inicial.
+				
+			\subsection{Aplicação Operation}
+				A aplicação operation contém o maior número de funcionalidades do projeto. Nesta aplicação, são apresentadas para o usuário as informações sobre as variáveis que representam o estado do trocador de calor, bem como estão disponíveis os componentes que permitem a intervenção do usuário sobre o sistema. Ou seja, essa interface contém basicamente displays,para exibir informações, e botões para enviar comandos do usuário para o sistema.
+				
+				Foram criados 3 modelos de dados para essa aplicação. Como mencionado na \duvida{seçãox}, cada modelo de dados é mapeado em uma tabela no banco de dados. O modelo Display define uma estrutura de dados para exibição de dados analógicos. Através dessa definição, torna-se fácil alterações na unidade de engenharia texto de descrição, entre outros fatores. O modelo Registers, é definido como o conjunto de informações enviadas pelo Arduino, ou seja, cada linha dessa tabela define o estado do trocador de calor em um dado instante. O modelo OperationMode consiste em armazenar informações auxiliares, como por exemplo se o armazenamento histórico está habilitado ou não. O mapeamento dessas estruturas no banco de dados está resumido na \autoref{tbl7}.
+				
+				\begin{table}[!htb]
+					\centering
+					\caption{Modelos definidos no sistema}
+					\label{tbl7}
+					\def\arraystretch{1.3}
+					\begin{tabular}{l |l | l}
+						\hline
+						\multicolumn{1}{c|}{\textbf{Displays}} & \multicolumn{1}{c |}{\textbf{Registers}} &
+						\multicolumn{1}{c}{\textbf{OperationMode}} \\ \hline
+						
+						name: string & TimeStamp: DateTime & OpMode: bool \\
+						UE: string  & Temp1: float & TrendStarted: bool \\ 
+						description: string & Temp2: float & \\
+						Tag: string  & Temp3: float &      \\
+						Value: float & Temp4: float & \\
+						& HotFlow: float & \\
+						& ColdFlow: float & \\
+						& PumpStatus: bool & \\
+						& HeaterStatus: bool & \\
+						& ArduinoMode: bool & \\
+						& EmergencyMode: bool & \\
+						& PumpSpeed: float & \\
+						\hline
+					\end{tabular}
+				\end{table}
+				
+				Essa aplicação possui 5 funções definidas na view. A função main, que é acionada quando o usuário clica para entrar nessa tela. Enquanto o usuário se mantiver nessa tela, o navegador envia requisições constantes de atualização dos dados. Essa requisição de atualização chama a função refresh, que retorna para o cliente um pacote JSON com os dados mais atuais do sistema. Essa requisição é feita via AJAX, ou seja, não provoca a atualização de toda a página, apenas dos elementos que necessitam ser atualizados, o que otimiza a performance do sistema.
+				
+				Quando o usuário clica em algum botão (desde que esteja habilitado), é chamada a view command, que repassa o comando para o gateway; quando o usuário movimenta o slider é chamada a view analogcommand, que repassa o comando de alteração de velocidade da bomba para o gateway. Por fim, a view export\_csv, envia os dados históricos armazenados no banco para o usuário, quando solicitado.
+				
+				A aplicação possui apenas um template, que reutiliza a biblioteca base e preenche o espaço de conteúdo. Para que o template funcione corretamente, foi necessário utilizar alguns arquivos css e javascript extras. A lista de arquivos e sua respectiva utilidade é descrita na \autoref{tbl8}. Para que cada botão consiga enviar o respectivo comando para a view, criou-se um parâmetro que recebe um índice de comando. Os números atribuídos são os mesmos definidos na \autoref{tbl5}. A diferença é que no arquivo de template a representação do comando está em char, enquanto na tabela consta a representação do comando em decimal. Isso ocorre porque o Arduino interpreta o comando, que foi enviado na forma de string, através da representação decimal. A relação entre um caractere e sua representação numérica pode ser consultada na tabela ASCII\footnote{\url{https://en.wikipedia.org/wiki/ASCII}}.
+				
+				\begin{table}[!htb]
+					\centering
+					\caption{Arquivos extras utilizados pela aplicação}
+					\label{tbl8}
+					\def\arraystretch{1.3}
+					\begin{tabular}{l p{11cm}}
+						\hline
+						\multicolumn{1}{c}{\textbf{Arquivo}} & \multicolumn{1}{c }{\textbf{Função}} \\ \hline
+						bootstrap-slider.css & Biblioteca mantida por \textcite{rohit2017}, \\
+						bootstrap-slider.js & que implementa o objeto slider da aplicação \\ \hline
+						raphael-2.1.4.js & Biblioteca mantida por
+						\textcite{bojan2016}, que implementa \\
+						justgage.js & o objeto gauge (barra de nível circular) da aplicação \\ \hline
+						bootstrap-confirmation.js & Biblioteca mantida por \textcite{damien2017} que implementa a confirmação após clique de botões \\ \hline
+						operation.js & Arquivo que executa a solicitação cíclica de dados para o servidor, bem como interpreta o retorno e atualiza a página para o usuário. Também monitora os eventos dos botões, e quando algum evento ocorre, envia os comandos para o servidor. \\		
+						
+						\hline
+					\end{tabular}
+				\end{table}
+				
+				
+				
+				
+				
+				
+					
+				
+				
