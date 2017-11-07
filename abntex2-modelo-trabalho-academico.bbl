@@ -154,6 +154,34 @@
       \verb https://github.com/toorshia/justgage
       \endverb
     \endentry
+    \entry{roy2000}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=65b04d87933c4f12e4a2fe6f331b0002}{%
+           family={Fielding},
+           familyi={F\bibinitperiod},
+           given={Roy\bibnamedelima Thomas},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of California}%
+      }
+      \list{location}{1}{%
+        {Irvine}%
+      }
+      \strng{namehash}{65b04d87933c4f12e4a2fe6f331b0002}
+      \strng{fullhash}{65b04d87933c4f12e4a2fe6f331b0002}
+      \strng{authornamehash}{65b04d87933c4f12e4a2fe6f331b0002}
+      \strng{authorfullhash}{65b04d87933c4f12e4a2fe6f331b0002}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{Architectural Styles and the Design of Network-based Software Architectures}
+      \field{type}{phdthesis}
+      \field{year}{2000}
+    \endentry
     \entry{filipeflop2011}{misc}{}
       \name{author}{1}{}{%
         {{hash=efb6284fbf27e50321ba00a4904edde2}{%
@@ -243,6 +271,34 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb https://www.automationworld.com/will-scada-remain-relevant-industry-advances
+      \endverb
+    \endentry
+    \entry{david2013}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ef27cd8295a6b30906dc4c2163d3f5c2}{%
+           family={Greenfield},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef27cd8295a6b30906dc4c2163d3f5c2}
+      \strng{fullhash}{ef27cd8295a6b30906dc4c2163d3f5c2}
+      \strng{authornamehash}{ef27cd8295a6b30906dc4c2163d3f5c2}
+      \strng{authorfullhash}{ef27cd8295a6b30906dc4c2163d3f5c2}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How Embedded Systems Are Changing Automation}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.automationworld.com/article/technologies/embedded-control/how-embedded-systems-are-changing-automation
       \endverb
     \endentry
     \entry{rohit2017}{online}{}
@@ -566,6 +622,32 @@
       \field{pages}{85\bibrangedash 94}
       \range{pages}{10}
     \endentry
+    \entry{pablo2011}{masterthesis}{}
+      \name{author}{1}{}{%
+        {{hash=f63a34aa7ccc1bd6d8723b7b93082ebd}{%
+           family={Polônia},
+           familyi={P\bibinitperiod},
+           given={Pablo\bibnamedelima Valério},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Federal de Santa Catarina}%
+      }
+      \list{location}{1}{%
+        {Florianópolis}%
+      }
+      \strng{namehash}{f63a34aa7ccc1bd6d8723b7b93082ebd}
+      \strng{fullhash}{f63a34aa7ccc1bd6d8723b7b93082ebd}
+      \strng{authornamehash}{f63a34aa7ccc1bd6d8723b7b93082ebd}
+      \strng{authorfullhash}{f63a34aa7ccc1bd6d8723b7b93082ebd}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Proposta de Arquitetura Orientada a Recursos para SCADA na Web}
+      \field{year}{2011}
+    \endentry
     \entry{dipto2015}{online}{}
       \name{author}{1}{}{%
         {{hash=4d6c5966d0f9350fccc0569958d2ce7a}{%
@@ -728,6 +810,83 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb https://www.filipeflop.com/blog/sensor-ultrassonico-hc-sr04-ao-arduino/
+      \endverb
+    \endentry
+    \entry{lucena2013}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=219b285c0ec11f42ab3e01217764bbd7}{%
+           family={Valenzuela},
+           familyi={V\bibinitperiod},
+           given={V.\bibnamedelimi E.\bibnamedelimi L.},
+           giveni={V\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=462e3e2a0f87204e327366b09e7ba2d3}{%
+           family={Lucena},
+           familyi={L\bibinitperiod},
+           given={V.\bibnamedelimi F.},
+           giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=f356c7816da7aa5504636b53ff85c804}{%
+           family={Jazdi},
+           familyi={J\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b7e9d8b97e05ab0954868bfe2fd58f7b}{%
+           family={Göhner},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{406e0516eb070adb25415491307b20ce}
+      \strng{fullhash}{b2664696113da0f56f3a2cdabe6ed753}
+      \strng{authornamehash}{406e0516eb070adb25415491307b20ce}
+      \strng{authorfullhash}{b2664696113da0f56f3a2cdabe6ed753}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2013 IEEE 18th Conference on Emerging Technologies Factory Automation (ETFA)}
+      \field{issn}{1946-0740}
+      \field{month}{9}
+      \field{title}{Reusable hardware and software model for remote supervision of industrial Automation Systems using web technologies}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ETFA.2013.6647946
+      \endverb
+      \keyw{Internet;automation;software reusability;Web technologies;industrial automation systems;industrial communication protocol;network service;remote devices;remote supervision;reusable hardware;software model;Automation;Embedded systems;Hardware;Monitoring;Protocols;Servers}
+    \endentry
+    \entry{fabian2017}{online}{}
+      \name{author}{2}{}{%
+        {{hash=f6e53396d9c1f26e482b083a35871a00}{%
+           family={Wanke},
+           familyi={W\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=eb306dccb3d24f23f3bdc232ded5e945}{%
+           family={Humphrey},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b71d5a499e0d4390f847f1da8dc6e974}
+      \strng{fullhash}{b71d5a499e0d4390f847f1da8dc6e974}
+      \strng{authornamehash}{b71d5a499e0d4390f847f1da8dc6e974}
+      \strng{authorfullhash}{b71d5a499e0d4390f847f1da8dc6e974}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Automation Meets Embedded Systems}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.automationworld.com/article/technologies/embedded-control/automation-meets-embedded-systems
       \endverb
     \endentry
   \endsortlist
