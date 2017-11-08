@@ -5,14 +5,7 @@
 	
 		A Arquitetura do sistema atual instalado na planta de trocador de calor está representada na \autoref{img3}. Pelo painel é possível efetuar a leitura das variáveis de processo, cuja leitura é feita pelo Arduino, bem como comandar a bomba e o aquecedor. É importante observar que o controle da potência do aquecedor não passa pelo Arduino, e que o sistema não recebe nenhum feedback sobre a velocidade da bomba, bem como sobre a potência do aquecedor. Apesar de estar previsto no projeto de \textcite{luiz2016}, nenhum controle em malha fechada está operacional.
 		
-		\begin{figure}[!htb]	
-			%\centering
-			\captionsetup{justification=centering}
-			\begin{center}
-				\includegraphics[width=10cm]{img3}  %pode alterar o tamanho
-				\caption[Arquitetura do sistema instalado]{\label{img3}Arquitetura do sistema instalado}
-			\end{center}		
-		\end{figure}
+		
 	
 		O intuito do projeto é implementar um sistema de monitoramento e controle remoto, sem que haja alteração infraestrutura já montada. Em resumo, o objetivo é implementar um sistema que necessite apenas se comunicar com o Arduino para executar as suas tarefas.
 	
