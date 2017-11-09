@@ -7,13 +7,13 @@
 		O LOP possui quatro plantas didáticas: \textbf{explicar aqui brevemente as 4 plantas constituintes do laboratório}
 		
 		%explicar aqui agora sobre a planta de trocador existente
-		O trocador de calor existente no laboratório, cuja imagem pode ser vista na \autoref{img1}, é do tipo tubular. Este sistema, que é fabricado e fornecido pela Universidade de Santa Cecília\footnote{\url{http://cursos.unisanta.br/quimica/laborato/index.html}}, foi adquirido pela UFMG em 2002\footnote{Item 35 do catálogo disponível em: \url{http://cursos.unisanta.br/quimica/laborato/LOU-2016.pdf}}. Originalmente, a planta possui um botão para ligar e desligar bomba e aquecedor simultaneamente, bem como conta com 4 sensores de temperatura, cujos valores são exibidos e display LCDs. A medição de vazão de água quente era inferida através da utilização de uma Calha Parshall\footnote{Funcionamento da Calha Parshall: \url{http://www.dec.ufcg.edu.br/saneamento/PARSHALL.html}}, e a medição de água fria, através da indicação de um rotâmetro\footnote{\url{http://www.sensorsmag.com/components/basics-rotameters}}
+		O trocador de calor existente no laboratório, cuja imagem pode ser vista na \autoref{fig:lab}, é do tipo tubular. Este sistema, que é fabricado e fornecido pela Universidade de Santa Cecília\footnote{\url{http://cursos.unisanta.br/quimica/laborato/index.html}}, foi adquirido pela UFMG em 2002\footnote{Item 35 do catálogo disponível em: \url{http://cursos.unisanta.br/quimica/laborato/LOU-2016.pdf}}. Originalmente, a planta possui um botão para ligar e desligar bomba e aquecedor simultaneamente, bem como conta com 4 sensores de temperatura, cujos valores são exibidos e display LCDs. A medição de vazão de água quente era inferida através da utilização de uma Calha Parshall\footnote{Funcionamento da Calha Parshall: \url{http://www.dec.ufcg.edu.br/saneamento/PARSHALL.html}}, e a medição de água fria, através da indicação de um rotâmetro\footnote{\url{http://www.sensorsmag.com/components/basics-rotameters}}
 		
 		\begin{figure}[!htb]
 			\centering
-			\includegraphics[scale=0.7]{img1}  %pode alterar o tamanho
+			\includegraphics[scale=0.7]{lab}  %pode alterar o tamanho
 			\caption{Trocador de Calor presente no LOP.}
-			\label{img1}
+			\label{fig:lab}
 		\end{figure}
 
 			
@@ -24,26 +24,26 @@
 			\item 
 			Instalação de um Arduino Due \footnote{\url{https://store.arduino.cc/usa/arduino-due}} para fazer a interface com sensores e atuadores, processar os algoritmos de controle, e exibir os dados em um display LCD. O programa criado no Arduino possibilita a operação em modo automático e manual;
 			\item 
-			Construção e instalação de um painel para operar e visualizar os dados da planta. Através desse painel é possível selecionar o modo de funcionamento da planta (manual ou automático). Em modo manual, é possível ligar e desligar bomba e aquecedor, bem como controlar a velocidade da bomba e potência do aquecedor. O display LCD permite exibir várias informações como por exemplo valores das temperaturas e vazões, bem como a sintonia dos controladores. Essas informações não conseguem ser expostas ao mesmo tempo para o usuário, portanto um sistema de navegação foi implementado no Arduino. O esboço do painel elaborado é mostrado na \autoref{img2}.
+			Construção e instalação de um painel para operar e visualizar os dados da planta. Através desse painel é possível selecionar o modo de funcionamento da planta (manual ou automático). Em modo manual, é possível ligar e desligar bomba e aquecedor, bem como controlar a velocidade da bomba e potência do aquecedor. O display LCD permite exibir várias informações como por exemplo valores das temperaturas e vazões, bem como a sintonia dos controladores. Essas informações não conseguem ser expostas ao mesmo tempo para o usuário, portanto um sistema de navegação foi implementado no Arduino. O esboço do painel elaborado é mostrado na \autoref{fig:painel}.
 		\end{itemize}
 			
 			\begin{figure}[!htb]	
 				%\centering
 				\captionsetup{justification=centering}
 				\begin{center}
-					\includegraphics[scale=0.6]{img2}  %pode alterar o tamanho
-					\caption[Painel instalado na planta de trocador de calor]{\label{img2}Painel instalado na planta de trocador de calor. \\Adaptado de \cite{luiz2016}}
+					\includegraphics[scale=0.6]{painel}  %pode alterar o tamanho
+					\caption[Painel instalado na planta de trocador de calor]{\label{fig:painel}Painel instalado na planta de trocador de calor. \\Adaptado de \cite{luiz2016}}
 				\end{center}		
 			\end{figure}
 		
-			A Arquitetura do sistema finalizado é exibida na \autoref{img3}. Destaca-se o fato que não foi possível integrar o controle da potência do aquecedor no Arduino, sendo enviado diretamente do painel. Apesar de previsto no projeto, nenhum algoritmo para controle em malha fechada foi programado.
+			A Arquitetura do sistema finalizado é exibida na \autoref{fig:arq_atual}. Destaca-se o fato que não foi possível integrar o controle da potência do aquecedor no Arduino, sendo enviado diretamente do painel. Apesar de previsto no projeto, nenhum algoritmo para controle em malha fechada foi programado.
 		
 			\begin{figure}[!htb]	
 				%\centering
 				\captionsetup{justification=centering}
 				\begin{center}
-					\includegraphics[scale=0.8]{img3}  %pode alterar o tamanho
-					\caption[Arquitetura do sistema instalado]{\label{img3}Arquitetura do sistema instalado}
+					\includegraphics[scale=0.8]{arq_atual}  %pode alterar o tamanho
+					\caption[Arquitetura do sistema instalado]{\label{fig:arq_atual}Arquitetura do sistema instalado}
 				\end{center}		
 			\end{figure}
 		

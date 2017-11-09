@@ -64,14 +64,14 @@
 			
 			Quando o mestre envia um comando de escrita, atua-se uma interrupção, que executa a função onReceive. Quando o mestre envia uma solicitação de dados, atua-se uma outra interrupção, que executa a função onReceive e posteriormente executa a função onRequest. Em suma, a função onReceive é utilizada para interpretar comandos, como por exemplo ligar ou desligar bomba e aquecedor, e a função onRequest é utilizada para enviar para o mestre dados sobre o processo como por exemplo valores de temperaturas e vazões.
 			
-			As informações referentes ao sistema foram colocados em uma estrutura de dados. São 7 variáveis do tipo float (4 temperaturas, 2 vazões e ainda o valor da velocidade da bomba, e) e 4 informações digitais (estado da bomba e do aquecedor, estado do botão de emergência, estado da chave local/remoto), que foram agrupadas em um byte. A \autoref{img8} mostra a estrutura de um pacote I2C enviado pelo mestre. Basicamente, o I2C trafega dados em um array de bytes. O primeiro byte é um número que indica o índice de um comando. Esse valor é arbitrário e é definido pelo desenvolvedor que implementa o protocolo. O segundo byte indica a quantidade de bytes dos dados transmitidos. Esse valor é útil para verificar a consistência do pacote recebido. O restante do frame consiste nos dados propriamente ditos.
+			As informações referentes ao sistema foram colocados em uma estrutura de dados. São 7 variáveis do tipo float (4 temperaturas, 2 vazões e ainda o valor da velocidade da bomba, e) e 4 informações digitais (estado da bomba e do aquecedor, estado do botão de emergência, estado da chave local/remoto), que foram agrupadas em um byte. A \autoref{fig:i2c_packet} mostra a estrutura de um pacote I2C enviado pelo mestre. Basicamente, o I2C trafega dados em um array de bytes. O primeiro byte é um número que indica o índice de um comando. Esse valor é arbitrário e é definido pelo desenvolvedor que implementa o protocolo. O segundo byte indica a quantidade de bytes dos dados transmitidos. Esse valor é útil para verificar a consistência do pacote recebido. O restante do frame consiste nos dados propriamente ditos.
 			
 			\begin{figure}[!htb]	
 				%\centering
 				\captionsetup{justification=centering}
 				\begin{center}
-					\includegraphics[width=10cm]{img8}  %pode alterar o tamanho
-					\caption[Estrutura de um pacote I2C]{\label{img8}Estrutura de um pacote I2C}
+					\includegraphics[width=10cm]{i2c_packet}  %pode alterar o tamanho
+					\caption[Estrutura de um pacote I2C]{\label{fig:i2c_packet}Estrutura de um pacote I2C}
 				\end{center}		
 			\end{figure}
 			
@@ -324,14 +324,14 @@
 				
 				As funções estão no arquivo views, que fazem o processamento propriamente dito. Basicamente, quando uma view é chamada, ela efetua operações com os modelos de dados quando necessário e retorna para o usuário algum arquivo de template.
 				
-				Os templates são basicamente arquivos html que aceitam comandos disponibilizados pelo Framework para que se possa adicionar conteúdo dinâmico ao arquivo, antes de enviá-lo para o usuário. Alguns dos comandos mais utilizados são: exibir variáveis, cujos valores são preenchidos pelas views, ``inserir templates dentro de outros'', o que possibilita reaproveitamento de código, comandos de decisão (if, else), de fluxo (for) entre outros. Os comandos possuem a sintaxe  \{\% comando \%\}, exceto as variáveis, que são definidas por \{\{ variável \}\}. O fluxo de informações entre o usuário e uma aplicação django é exibido na \autoref{img10}
+				Os templates são basicamente arquivos html que aceitam comandos disponibilizados pelo Framework para que se possa adicionar conteúdo dinâmico ao arquivo, antes de enviá-lo para o usuário. Alguns dos comandos mais utilizados são: exibir variáveis, cujos valores são preenchidos pelas views, ``inserir templates dentro de outros'', o que possibilita reaproveitamento de código, comandos de decisão (if, else), de fluxo (for) entre outros. Os comandos possuem a sintaxe  \{\% comando \%\}, exceto as variáveis, que são definidas por \{\{ variável \}\}. O fluxo de informações entre o usuário e uma aplicação django é exibido na \autoref{fig:fluxo_django}
 				
 				\begin{figure}[!htb]	
 					%\centering
 					\captionsetup{justification=centering}
 					\begin{center}
-						\includegraphics[scale=0.7]{img10}  %pode alterar o tamanho
-						\caption[Fluxo de Informações entre Usuário e Aplicação Django]{\label{img10}Fluxo de Informações entre Usuário e Aplicação Django. Adaptado de: \url{https://github.com/fga-gpp-mds/00-Disciplina/wiki/Padr\%C3\%B5es-Arquiteturais---MVC-X-Arquitetura-do-Django}}
+						\includegraphics[scale=0.7]{fluxo_django}  %pode alterar o tamanho
+						\caption[Fluxo de Informações entre Usuário e Aplicação Django]{\label{fig:fluxo_django}Fluxo de Informações entre Usuário e Aplicação Django. Adaptado de: \url{https://github.com/fga-gpp-mds/00-Disciplina/wiki/Padr\%C3\%B5es-Arquiteturais---MVC-X-Arquitetura-do-Django}}
 					\end{center}		
 				\end{figure}
 				
