@@ -19,6 +19,36 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global/}
+    \entry{bailey2003}{book}{}
+      \name{author}{2}{}{%
+        {{hash=07539ff50924d8011bbdd60c37daff3f}{%
+           family={Bailey},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2e94e97fb489b73c2e60471d2b65cf01}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Edwin},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Newnes}%
+      }
+      \strng{namehash}{d4dc75df92a17867e221f63fdc5a1f46}
+      \strng{fullhash}{d4dc75df92a17867e221f63fdc5a1f46}
+      \strng{authornamehash}{d4dc75df92a17867e221f63fdc5a1f46}
+      \strng{authorfullhash}{d4dc75df92a17867e221f63fdc5a1f46}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{07506 58053}
+      \field{title}{Pratical SCADA for Industry}
+      \field{year}{2003}
+    \endentry
     \entry{baskiyar2005}{article}{}
       \name{author}{2}{}{%
         {{hash=11c2761b9ed94198fc8adc7ecacbeef0}{%
@@ -486,6 +516,42 @@
       \field{year}{2013}
       \field{pages}{113\bibrangedash 114}
       \range{pages}{2}
+    \endentry
+    \entry{yu2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=72a223d847b9030b057627721ec84ebd}{%
+           family={Malinowski},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2fe82b8401cfaf8837dccceeaf06e1ae}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd66a0fad36b39a35c76930a042c504e}
+      \strng{fullhash}{bd66a0fad36b39a35c76930a042c504e}
+      \strng{authornamehash}{bd66a0fad36b39a35c76930a042c504e}
+      \strng{authorfullhash}{bd66a0fad36b39a35c76930a042c504e}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1551-3203}
+      \field{journaltitle}{IEEE Transactions on Industrial Informatics}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Comparison of Embedded System Design for Industrial Applications}
+      \field{volume}{7}
+      \field{year}{2011}
+      \field{pages}{244\bibrangedash 254}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TII.2011.2124466
+      \endverb
+      \keyw{application specific integrated circuits;embedded systems;field programmable gate arrays;microcontrollers;actuator control;application-specific integrated circuits;computationally intensive control system;digital signal processors;embedded system design;field-programmable gate arrays;industrial applications;industrial control;microcontroller system;microprocessors;mobile robot navigation system;wind tunnel;Digital signal processing;Embedded systems;Field programmable gate arrays;Hardware;Microcontrollers;Random access memory;Embedded systems}
     \endentry
     \entry{matt2014}{online}{}
       \name{author}{1}{}{%

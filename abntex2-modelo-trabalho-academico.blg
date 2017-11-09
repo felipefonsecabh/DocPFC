@@ -1,15 +1,15 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [1] Config.pm:357> INFO - Logfile is 'abntex2-modelo-trabalho-academico.blg'
-[69] biber-MSWIN64:303> INFO - === 
-[116] Biber.pm:359> INFO - Reading 'abntex2-modelo-trabalho-academico.bcf'
-[294] Biber.pm:835> INFO - Found 29 citekeys in bib section 0
-[330] Biber.pm:3670> INFO - Processing section 0
-[368] Biber.pm:3840> INFO - Looking for bibtex format file 'abntex2-modelo-references.bib' for section 0
-[373] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[385] bibtex.pm:1292> INFO - Found BibTeX data source 'abntex2-modelo-references.bib'
-[613] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[613] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[613] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'pt-BR'
-[613] Biber.pm:3505> INFO - No sort tailoring available for locale 'pt-BR'
-[675] bbl.pm:608> INFO - Writing 'abntex2-modelo-trabalho-academico.bbl' with encoding 'UTF-8'
-[682] bbl.pm:712> INFO - Output to abntex2-modelo-trabalho-academico.bbl
+[102] biber-MSWIN64:303> INFO - === 
+[145] Biber.pm:359> INFO - Reading 'abntex2-modelo-trabalho-academico.bcf'
+[324] Biber.pm:835> INFO - Found 31 citekeys in bib section 0
+[350] Biber.pm:3670> INFO - Processing section 0
+[380] Biber.pm:3840> INFO - Looking for bibtex format file 'abntex2-modelo-references.bib' for section 0
+[388] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[402] bibtex.pm:1292> INFO - Found BibTeX data source 'abntex2-modelo-references.bib'
+[640] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[641] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[641] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'pt-BR'
+[641] Biber.pm:3505> INFO - No sort tailoring available for locale 'pt-BR'
+[700] bbl.pm:608> INFO - Writing 'abntex2-modelo-trabalho-academico.bbl' with encoding 'UTF-8'
+[709] bbl.pm:712> INFO - Output to abntex2-modelo-trabalho-academico.bbl
