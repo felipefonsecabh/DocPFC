@@ -8,23 +8,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.1}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre vers\IeC {\~o}es do Raspberry PI}}{11}{table.caption.19}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Requisitos Funcionais do Sistema\relax }}{14}{table.caption.20}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.2}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre tecnologias\relax }}{15}{table.caption.21}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.3}{\ignorespaces Atribui\IeC {\c c}\IeC {\~o}es de cada Componente}}{18}{table.caption.24}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre SPI I2C e UART.}}{12}{table.caption.21}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Defini\IeC {\c c}\IeC {\~a}o das interpreta\IeC {\c c}\IeC {\~o}es de comando\relax }}{26}{table.caption.30}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Requisitos Funcionais do Sistema\relax }}{16}{table.caption.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Pacotes necess\IeC {\'a}rios para o projeto\relax }}{28}{table.caption.34}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre tecnologias\relax }}{17}{table.caption.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.3}{\ignorespaces Modelos definidos no sistema\relax }}{34}{table.caption.45}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Atribui\IeC {\c c}\IeC {\~o}es de cada Componente}}{19}{table.caption.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.4}{\ignorespaces Arquivos extras utilizados pela aplica\IeC {\c c}\IeC {\~a}o\relax }}{35}{table.caption.46}
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Defini\IeC {\c c}\IeC {\~a}o das interpreta\IeC {\c c}\IeC {\~o}es de comando\relax }}{28}{table.caption.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Pacotes necess\IeC {\'a}rios para o projeto\relax }}{30}{table.caption.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Modelos definidos no sistema\relax }}{36}{table.caption.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.4}{\ignorespaces Arquivos extras utilizados pela aplica\IeC {\c c}\IeC {\~a}o\relax }}{37}{table.caption.48}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

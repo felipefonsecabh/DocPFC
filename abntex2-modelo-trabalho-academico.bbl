@@ -104,6 +104,34 @@
       \field{pages}{233\bibrangedash 240}
       \range{pages}{8}
     \endentry
+    \entry{kevin2015}{online}{}
+      \name{author}{1}{}{%
+        {{hash=066214553f3fd9a95475f3070876ae89}{%
+           family={Breseman},
+           familyi={B\bibinitperiod},
+           given={K.\bibnamedelimi S.\bibnamedelimi K.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{066214553f3fd9a95475f3070876ae89}
+      \strng{fullhash}{066214553f3fd9a95475f3070876ae89}
+      \strng{authornamehash}{066214553f3fd9a95475f3070876ae89}
+      \strng{authorfullhash}{066214553f3fd9a95475f3070876ae89}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A WEB DEVELOPER'S GUIDE TO COMMUNICATION PROTOCOLS (SPI, I2C, UART, GPIO)}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://tessel.io/blog/108840925797/a-web-developers-guide-to-communication-protocols
+      \endverb
+    \endentry
     \entry{brewpi}{online}{}
       \name{author}{1}{}{%
         {{hash=d28e3044c88981ded4d70041fe9f312a}{%
@@ -854,6 +882,63 @@
       \verb{url}
       \verb https://docs.python.org/3.5/library/asyncore.html
       \endverb
+    \endentry
+    \entry{robocore}{online}{}
+      \name{author}{1}{}{%
+        {{hash=cb2992c54cab336ebee49d4612e2ce21}{%
+           family={Robocore},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{cb2992c54cab336ebee49d4612e2ce21}
+      \strng{fullhash}{cb2992c54cab336ebee49d4612e2ce21}
+      \strng{authornamehash}{cb2992c54cab336ebee49d4612e2ce21}
+      \strng{authorfullhash}{cb2992c54cab336ebee49d4612e2ce21}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Comparação entre Protocolos de Comunicação Serial}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.robocore.net/tutoriais/comparacao-entre-protocolos-de-comunicacao-serial.html
+      \endverb
+      \warn{\item Entry 'robocore' (abntex2-modelo-references.bib): Invalid format '{n.d.}' of date field 'date' - ignoring}
+    \endentry
+    \entry{lucas2016}{monography}{}
+      \name{author}{2}{}{%
+        {{hash=2ebbcc66c6ba6e15fced220a1634ba03}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Lucas\bibnamedelima Alves},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bcbdf1d1c4439a4c65e0099c5d6bad65}{%
+           family={Faria},
+           familyi={F\bibinitperiod},
+           given={Thiago\bibnamedelima Rodrigues},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Instituto Federal de Educação, Ciência e Tecnologia Fluminense}%
+      }
+      \list{location}{1}{%
+        {Campos dos Goytacazes}%
+      }
+      \strng{namehash}{527b3c59977531d9d2843a7e3beba0af}
+      \strng{fullhash}{527b3c59977531d9d2843a7e3beba0af}
+      \strng{authornamehash}{527b3c59977531d9d2843a7e3beba0af}
+      \strng{authorfullhash}{527b3c59977531d9d2843a7e3beba0af}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{Projeto de Automação para uma Estação de Tratamento de Múltiplas Fontes Alternativas de Água Utilizando Softwares e Hardwares Livres}
+      \field{year}{2016}
     \endentry
     \entry{damien2017}{online}{}
       \name{author}{1}{}{%

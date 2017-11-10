@@ -78,14 +78,6 @@
 	\section{Arquitetura do Sistema}
 		A arquitetura pensada para o sistema foi inspirada no projeto BrewPi. Esse sistema foi concebido para controlar a temperatura de um recipiente com líquido, bem como para permitir o monitoramento via qualquer dispositivo que possua um navegador Web. A Arquitetura deste sistema é mostrada na \autoref{fig:arq_brewpi}. Basicamente, o Arduino, é encarregado de executar a malha de controle e enviar as informações para um RaspberryPi, que implementa um WebServer. Os usuários que desejam visualizar e/ou modificar as informações, devem abrir um navegador e se conectar ao WebServer para obter os dados.
 		
-		\begin{figure}[!htb]	
-			%\centering
-			\captionsetup{justification=centering}
-			\begin{center}
-				\includegraphics[width=14cm]{arq_brewpi}  %pode alterar o tamanho
-				\caption[Arquitetura do sistema BrewPi]{\label{fig:arq_brewpi}Arquitetura do sistema BrewPi. Fonte: \url{https://www.brewpi.com/} }
-			\end{center}		
-		\end{figure}
 	
 		Para o trocador de calor, a proposta é semelhante. A adição de um RaspberryPi no sistema atual é simples de ser realizada e está em conformidade com a condição de não modificar as instalações atuais. Dessa forma, a arquitetura proposta simplificada para o sistema com o Raspberry é exibida na \autoref{fig:arq_proposta}. A Arquitetura detalhada do sistema, como por exemplo, os softwares a serem desenvolvidos em cada dispositivo, bem como a forma de interação entre eles serão tópicos abordados posteriormente.
 		

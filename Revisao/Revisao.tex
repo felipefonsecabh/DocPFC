@@ -163,4 +163,62 @@
 			\end{tabularx}
 		\end{table}
 	
-		\duvida{falar o que são GPIOs. Depois falar dos protocolos de comunicação}
+		O Raspberry possui um conjunto de pinos, que são úteis para realizar comunicação com outros dispositivos através de protocolos como UART, SPI e I2C, bem como enviar e receber informações digitais (nível lógico 0 ou 1) de dispositivos diversos. A \autoref{fig:gpio} mostra os componentes da placa Raspberry Pi 3, bem como uma breve explicação das funcionalidades dos 40 pinos. Observa-se que os pinos que são capazes de realizar comunicação são específicos. Outra informação importante é que os pinos lógicos suportam níveis de tensão até 3.3v, o que difere da tecnologia TTL tradicional, que suporta 5V. Ou seja, caso os pinos sejam submetidos a tensões de 5V, corre-se o risco de danificar a placa.
+		
+		\begin{figure}[!htb]	
+			%\centering
+			\captionsetup{justification=centering}
+			\setlength{\belowcaptionskip}{-5pt}
+			\begin{center}
+				\includegraphics[width=15cm]{rpi_gpio}  %pode alterar o tamanho
+				\caption[Composição de um Raspberry PI 3]{\label{fig:gpio}Composição de um Raspberry PI 3}
+			\end{center}		
+		\end{figure}
+	
+		\subsubsection{Protocolos de Comunicação}
+			Um protocolo de comunicação consiste em um conjunto de regras e convenções criadas para possibilitar a comunicação entre dispositivos. Alguns exemplos de regras existentes em um protocolo: como um dispositivo identifica o outro, quando pode enviar e receber a informação, quanto tempo limite de espera por uma mensagem, entre outros \cite{lucas2016}.
+			
+			Existem alguns protocolos para estabelecer a comunicação entre Raspberry e Arduino. Basicamente, os protocolos são implementados por bibliotecas, que podem ser utilizadas por Raspberry e Arduino. Como é possível criar softwares em várias linguagens no Raspberry, as bibliotecas a serem utilizadas para esse dispositivo dependem da linguagem de programação utilizada.
+			
+			Como mostrado na \autoref{fig:gpio}, o Raspberry possui terminais para comunicação SPI, I2C, e UART. Estes protocolos também são suportados pelo Arduino. \textcite{robocore,kevin2015} apresentam um comparativo entre esses protocolos, cujas caracterísitcas estão descritas na \autoref{tbl:comparativo_protocolos}
+			
+		\begin{table}[!htb]
+			\centering
+			\captionsetup{justification=centering}
+			\caption[Comparação entre SPI I2C e UART.]{Comparação entre SPI I2C e UART. Adaptado de \textcite{robocore}}
+			\label{tbl:comparativo_protocolos}
+			\def\arraystretch{1.5}
+			\begin{tabular}{c c c c c c c}
+				Protocolo & Taxa & Sentido & Método & Nº Fios & Tensão & Max \\ 
+				& (bps)& Transmissão & & & & dispositivos \\ \hline
+				UART & 1200 a 115200 & Full-Duplex & Assíncrono & 2 & 0 a 5V & 1 \\
+				SPI & 0 a 10mb & Full-Duplex & Síncrono & 3+N & 0 a 5V & não há \\
+				I2C & 100k ou 400k & Half-Duplex & Síncrono & 2 & 0 a 5V & 127 ou 1024 \\
+				\hline
+			\end{tabular}
+		\end{table}
+	
+		O protocolo SPI possui  a vantagem de o mais rápido entre eles e também ser Full-Duplex. As desvantagens consistem em: aumento do número de fios à medida que o número de dispositivos na rede cresce; alguns dispositivos pode não suportar velocidades muito altas, o que pode causar incompatibilidade na comunicação; é mais suscetível a ruídos.
+		
+		O protocolo UART possui como vantagem a simplicidade das mensagens envolvidas na comunicação, bem como a sua disponibilidade em diversos dispositivos. Muitas vezes utilizam-se USB e RS-232 para trafegar dados em UART. Como desvantagem destaca-se: limitação em termos de velocidade; ser assíncrono, ou seja é necessário que a taxa de transmissão e recepção seja a mesma para ambos os dispositivos.
+		
+		O I2C se situa em uma região intermediária entre UART e SPI. É um protocolo síncrono, utiliza-se de apenas 2 fios, e possui uma taxa de transmissão um pouco maior que o UART. Como desvantagem, destaca-se a necessidade de interpretar os pacotes de dados via software, o que pode diminuir a performance de processamento.
+		
+		\subsubsection{Exemplos de Projetos que utilizaram Plataformas de Prototipagem}
+			Encontra-se na literatura, projetos que utilizam placas de prototipagem mencionadas acima, para implementar um sistema de automação de pequenas instalações.
+			
+			\textcite{lucas2016} implementou a automação de uma planta experimental de um sistema de reaproveitamento de água. O modelo experimental foi construído, instalaram-se sensores e atuadores que se conectam a Arduino. O Arduino se comunica com um Raspberry PI, que possui um sofware SCADA instalado, o Mango automation. Ou seja, essa arquitetura é próxima a de um sistema SCADA tradicional, mostrada na \autoref{fig:pc_plc}. O Arduino faz o papel de uma estação remota, e o Raspberry, de uma estação mestre.
+			
+			Existe um projeto open-source de um sistema de controle de temperaturas para cervejarias chamado BrewPi \cite{brewpi}. O sistema consiste em um Raspberry PI que comunica com um Arduino, que é encapsulado a uma caixa que possui um display LCD para visualização de informações em modo local. O Arduino implementa algoritmos de controle em malha fechada, bem como possui funcionalidades para ler informações do processo, bem como acionar aquecedor e refrigerador. O Raspberry implementa um WebServer, que disponibiliza os dados do processo para os usuários. Para monitorar o processo, basta um dispositivo que possua um navegador Web. Fazendo um comparativo com a arquitetura SCADA tradicional, o WebServer seria o software SCADA que é executado nas estações mestres, e as estações de operação podem ser representadas por qualquer dispositivo com um navegador Web. Essa arquitetura concede portabilidade à operação, característica desejável a qualquer projeto. A arquitetura do sistema Brewpi é exibida na \autoref{fig:arq_brewpi}. Este projeto é um dos exemplos do crescimento da utilização de sistemas Web para monitoramento e controle de processos.
+			
+			\begin{figure}[!htb]	
+				%\centering
+				\captionsetup{justification=centering}
+				\begin{center}
+					\includegraphics[width=14cm]{arq_brewpi}  %pode alterar o tamanho
+					\caption[Arquitetura do sistema BrewPi]{\label{fig:arq_brewpi}Arquitetura do sistema BrewPi. Fonte: \url{https://www.brewpi.com/} }
+				\end{center}		
+			\end{figure}
+		
+	\section{Aplicações Web}
+	

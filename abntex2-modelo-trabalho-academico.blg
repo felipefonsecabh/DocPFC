@@ -1,15 +1,17 @@
-[1] Config.pm:354> INFO - This is Biber 2.7
-[1] Config.pm:357> INFO - Logfile is 'abntex2-modelo-trabalho-academico.blg'
-[87] biber-MSWIN64:303> INFO - === 
-[136] Biber.pm:359> INFO - Reading 'abntex2-modelo-trabalho-academico.bcf'
-[355] Biber.pm:835> INFO - Found 33 citekeys in bib section 0
-[404] Biber.pm:3670> INFO - Processing section 0
-[449] Biber.pm:3840> INFO - Looking for bibtex format file 'abntex2-modelo-references.bib' for section 0
-[458] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[478] bibtex.pm:1292> INFO - Found BibTeX data source 'abntex2-modelo-references.bib'
-[784] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[784] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[784] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'pt-BR'
-[784] Biber.pm:3505> INFO - No sort tailoring available for locale 'pt-BR'
-[849] bbl.pm:608> INFO - Writing 'abntex2-modelo-trabalho-academico.bbl' with encoding 'UTF-8'
-[858] bbl.pm:712> INFO - Output to abntex2-modelo-trabalho-academico.bbl
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is 'abntex2-modelo-trabalho-academico.blg'
+[92] biber-MSWIN64:303> INFO - === 
+[365] Biber.pm:359> INFO - Reading 'abntex2-modelo-trabalho-academico.bcf'
+[506] Biber.pm:835> INFO - Found 36 citekeys in bib section 0
+[537] Biber.pm:3670> INFO - Processing section 0
+[690] Biber.pm:3840> INFO - Looking for bibtex format file 'abntex2-modelo-references.bib' for section 0
+[752] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[797] bibtex.pm:1292> INFO - Found BibTeX data source 'abntex2-modelo-references.bib'
+[1176] Utils.pm:164> WARN - Entry 'robocore' (abntex2-modelo-references.bib): Invalid format '{n.d.}' of date field 'date' - ignoring
+[1289] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1289] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1289] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'pt-BR'
+[1289] Biber.pm:3505> INFO - No sort tailoring available for locale 'pt-BR'
+[1331] bbl.pm:608> INFO - Writing 'abntex2-modelo-trabalho-academico.bbl' with encoding 'UTF-8'
+[1337] bbl.pm:712> INFO - Output to abntex2-modelo-trabalho-academico.bbl
+[1342] Biber.pm:109> INFO - WARNINGS: 1

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.3)  10 NOV 2017 01:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.9)  10 NOV 2017 17:16
 entering extended mode
 **./abntex2-modelo-trabalho-academico.tex
 (abntex2-modelo-trabalho-academico.tex
 LaTeX2e <2017-04-15>
-Babel <3.13> and hyphenation patterns for 76 language(s) loaded.
+Babel <3.14> and hyphenation patterns for 76 language(s) loaded.
 (abntex2.cls
 Document Class: abntex2 2013/06/01 v1.7 abnTeX2
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -471,10 +471,10 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count149
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/09/18 3.13 The Babel package
+Package: babel 2017/10/04 3.14 The Babel package
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2017/09/18 3.13 Babel switching mechanism
+File: switch.def 2017/10/04 3.14 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
@@ -487,10 +487,10 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/09/18 3.13 Babel common definitions
+File: babel.def 2017/10/04 3.14 Babel common definitions
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2017/09/18 3.13 Babel switching mechanism
+File: switch.def 2017/10/04 3.14 Babel switching mechanism
 )
 \babel@savecnt=\count150
 \U@D=\dimen151
@@ -2122,17 +2122,23 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'abntex2-modelo-trabalho-academico.bbl' found.
 
-(abntex2-modelo-trabalho-academico.bbl)
+(abntex2-modelo-trabalho-academico.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'robocore':
+(biblatex)                - Entry 'robocore' (abntex2-modelo-references.bib): I
+nvalid format '{n.d.}' of date field 'date' - ignoring.
+
+)
 Package biblatex Info: Reference section=0 on input line 230.
 Package biblatex Info: Reference segment=0 on input line 230.
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 243.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-{C:/Users/felip/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 252.
@@ -2293,20 +2299,16 @@ Overfull \hbox (3.65578pt too wide) detected at line 34
 
 ] (abntex2-modelo-trabalho-academico.toc [25]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 101.
-)
-Underfull \vbox (badness 1014) has occurred while \output is active []
-
- [26]
-[27] [28
+(Font)              <14.4> on input line 107.
+ [26]) [27] [28
 
 ]
 \openout2 = `Introducao/Introducao.aux'.
 
- (Introducao/Introducao.tex
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 17.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+(Introducao/Introducao.tex
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 17.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
@@ -2339,7 +2341,7 @@ l.1 \chapter
 
 
 ]
-<Imagens/lab.png, id=411, 532.99126pt x 301.125pt>
+<Imagens/lab.png, id=422, 532.99126pt x 301.125pt>
 File: Imagens/lab.png Graphic file (type png)
 <use Imagens/lab.png>
 Package pdftex.def Info: Imagens/lab.png  used on input line 14. on input line 
@@ -2352,14 +2354,14 @@ been already used, duplicate ignored
                    \relax 
 l.22 			\item
               [5 <./Imagens/lab.png>]
-<Imagens/painel.png, id=425, 461.47406pt x 303.38344pt>
+<Imagens/painel.png, id=436, 461.47406pt x 303.38344pt>
 File: Imagens/painel.png Graphic file (type png)
 <use Imagens/painel.png>
 Package pdftex.def Info: Imagens/painel.png  used on input line 34. on input li
 ne 34.
 Package pdftex.def Info: Requested size: 276.88655pt x 182.03146pt on input lin
 e 34.
-<Imagens/arq_atual.pdf, id=429, pagebox=cropbox, 358.33875pt x 325.96782pt>
+<Imagens/arq_atual.pdf, id=440, pagebox=cropbox, 358.33875pt x 325.96782pt>
 File: Imagens/arq_atual.pdf Graphic file (type pdf)
 <use Imagens/arq_atual.pdf>
 Package pdftex.def Info: Imagens/arq_atual.pdf  used on input line 45. on input
@@ -2372,7 +2374,7 @@ been already used, duplicate ignored
                    \relax 
 l.48 			\end{figure}
                      [6 <./Imagens/painel.png>]
-<Imagens/pc_plc.pdf, id=438, pagebox=cropbox, 383.18156pt x 343.2825pt>
+<Imagens/pc_plc.pdf, id=449, pagebox=cropbox, 383.18156pt x 343.2825pt>
 File: Imagens/pc_plc.pdf Graphic file (type pdf)
 <use Imagens/pc_plc.pdf>
 Package pdftex.def Info: Imagens/pc_plc.pdf  used on input line 64. on input li
@@ -2393,7 +2395,7 @@ been already used, duplicate ignored
                    \relax 
 l.81 
       [8 <./Imagens/pc_plc.pdf>]
-<Imagens/lab_view.pdf, id=537, pagebox=cropbox, 543.53062pt x 271.76532pt>
+<Imagens/lab_view.pdf, id=548, pagebox=cropbox, 543.53062pt x 271.76532pt>
 File: Imagens/lab_view.pdf Graphic file (type pdf)
 <use Imagens/lab_view.pdf>
 Package pdftex.def Info: Imagens/lab_view.pdf  used on input line 89. on input 
@@ -2420,36 +2422,70 @@ Underfull \hbox (badness 10000) in alignment at lines 163--163
 [][][][] 
  []
 
-)pdfTeX warning (ext4): destination with the same identifier (name{page.11}) ha
+<Imagens/rpi_gpio.pdf, id=590, pagebox=cropbox, 578.91281pt x 271.76532pt>
+File: Imagens/rpi_gpio.pdf Graphic file (type pdf)
+<use Imagens/rpi_gpio.pdf>
+Package pdftex.def Info: Imagens/rpi_gpio.pdf  used on input line 173. on input
+ line 173.
+Package pdftex.def Info: Requested size: 426.79134pt x 200.3526pt on input line
+ 173.
+
+Underfull \vbox (badness 3029) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.180 
+       [11]
+Overfull \hbox (6.12903pt too wide) in paragraph at lines 191--199
+ [][] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.202 
+       [12 <./Imagens/rpi_gpio.pdf>]
+<Imagens/arq_brewpi.png, id=631, 904.1278pt x 344.03531pt>
+File: Imagens/arq_brewpi.png Graphic file (type png)
+<use Imagens/arq_brewpi.png>
+Package pdftex.def Info: Imagens/arq_brewpi.png  used on input line 218. on inp
+ut line 218.
+Package pdftex.def Info: Requested size: 398.33858pt x 151.57024pt on input lin
+e 218.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.13}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.553 \include{Revisao/Revisao}
-                                [11]
-\openout2 = `Metodologia/Metodologia.aux'.
-
- (Metodologia/Metodologia.texpdfTeX warning (ext4): destination with the same i
-dentifier (name{page.12}) has been already used, duplicate ignored
+                                [13]pdfTeX warning (ext4): destination with the
+ same identifier (name{page.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Metodologia} [12
+l.553 \include{Revisao/Revisao}
+                                [14 <./Imagens/arq_brewpi.png>]
+\openout2 = `Metodologia/Metodologia.aux'.
 
 
+(Metodologia/Metodologia.tex
 
-]
-
-LaTeX Warning: Reference `img3' on page 13 undefined on input line 6.
+LaTeX Warning: Reference `img3' on page 15 undefined on input line 6.
 
 
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.13}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.15}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.44 
-      [13]
+      [15
+
+
+
+]
 Underfull \hbox (badness 1112) in paragraph at lines 71--71
 []|[]\T1/lmr/m/n/12 Complexidade da im-ple-men-ta-Á„o da
  []
@@ -2459,102 +2495,99 @@ Overfull \hbox (1.054pt too wide) in alignment at lines 71--71
 [][][] 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.77 
-      [14]
-<Imagens/arq_brewpi.png, id=612, 904.1278pt x 344.03531pt>
-File: Imagens/arq_brewpi.png Graphic file (type png)
-<use Imagens/arq_brewpi.png>
-Package pdftex.def Info: Imagens/arq_brewpi.png  used on input line 85. on inpu
-t line 85.
-Package pdftex.def Info: Requested size: 398.33858pt x 151.57024pt on input lin
-e 85.
-<Imagens/arq_proposta.pdf, id=617, pagebox=cropbox, 629.35126pt x 319.94531pt>
-File: Imagens/arq_proposta.pdf Graphic file (type pdf)
-<use Imagens/arq_proposta.pdf>
-Package pdftex.def Info: Imagens/arq_proposta.pdf  used on input line 96. on in
-put line 96.
-Package pdftex.def Info: Requested size: 398.33858pt x 202.50394pt on input lin
-e 96.
-pdfTeX warning (ext4): destination with the same identifier (name{page.15}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.102 
-       [15]
-
-LaTeX Warning: Reference `tbl3' on page 16 undefined on input line 106.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.16}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.107 
-       [16 <./Imagens/arq_brewpi.png> <./Imagens/arq_proposta.pdf>]
-
-LaTeX Warning: Reference `img3' on page 17 undefined on input line 113.
-
-<Imagens/arq_componentes.pdf, id=639, pagebox=cropbox, 365.11406pt x 168.63pt>
-File: Imagens/arq_componentes.pdf Graphic file (type pdf)
-<use Imagens/arq_componentes.pdf>
-Package pdftex.def Info: Imagens/arq_componentes.pdf  used on input line 149. o
-n input line 149.
-Package pdftex.def Info: Requested size: 341.43306pt x 157.69911pt on input lin
-e 149.
+l.77 
+      [16]
+<Imagens/arq_proposta.pdf, id=668, pagebox=cropbox, 629.35126pt x 319.94531pt>
+File: Imagens/arq_proposta.pdf Graphic file (type pdf)
+<use Imagens/arq_proposta.pdf>
+Package pdftex.def Info: Imagens/arq_proposta.pdf  used on input line 88. on in
+put line 88.
+Package pdftex.def Info: Requested size: 398.33858pt x 202.50394pt on input lin
+e 88.
 pdfTeX warning (ext4): destination with the same identifier (name{page.17}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.160 
-       [17]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.18}) has been already used, duplicate ignored
+l.94 
+      [17]
+
+LaTeX Warning: Reference `tbl3' on page 18 undefined on input line 98.
+
+
+LaTeX Warning: Reference `img3' on page 18 undefined on input line 105.
+
+
+Underfull \vbox (badness 3482) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.18}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.164 
-       [18 <./Imagens/arq_componentes.pdf>]
-<Imagens/fluxo_arduino.pdf, id=655, pagebox=cropbox, 459.21562pt x 682.80093pt>
-
-File: Imagens/fluxo_arduino.pdf Graphic file (type pdf)
-<use Imagens/fluxo_arduino.pdf>
-Package pdftex.def Info: Imagens/fluxo_arduino.pdf  used on input line 171. on 
-input line 171.
-Package pdftex.def Info: Requested size: 341.43306pt x 507.69232pt on input lin
-e 171.
+l.106 
+       [18 <./Imagens/arq_proposta.pdf>]
+<Imagens/arq_componentes.pdf, id=690, pagebox=cropbox, 365.11406pt x 168.63pt>
+File: Imagens/arq_componentes.pdf Graphic file (type pdf)
+<use Imagens/arq_componentes.pdf>
+Package pdftex.def Info: Imagens/arq_componentes.pdf  used on input line 141. o
+n input line 141.
+Package pdftex.def Info: Requested size: 341.43306pt x 157.69911pt on input lin
+e 141.
 pdfTeX warning (ext4): destination with the same identifier (name{page.19}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.187 
+l.152 
        [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<Imagens/fluxo_arduino.pdf, id=697, pagebox=cropbox, 459.21562pt x 682.80093pt>
+
+File: Imagens/fluxo_arduino.pdf Graphic file (type pdf)
+<use Imagens/fluxo_arduino.pdf>
+Package pdftex.def Info: Imagens/fluxo_arduino.pdf  used on input line 163. on 
+input line 163.
+Package pdftex.def Info: Requested size: 341.43306pt x 507.69232pt on input lin
+e 163.
+
+Underfull \vbox (badness 1005) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.20}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.191 
-       [20 <./Imagens/fluxo_arduino.pdf>]pdfTeX warning (ext4): destination wit
-h the same identifier (name{page.21}) has been already used, duplicate ignored
+l.170 
+       [20 <./Imagens/arq_componentes.pdf>]
+Underfull \vbox (badness 3396) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.21}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.203 
-       [21])pdfTeX warning (ext4): destination with the same identifier (name{p
-age.22}) has been already used, duplicate ignored
+l.172 
+       [21 <./Imagens/fluxo_arduino.pdf>]pdfTeX warning (ext4): destination wit
+h the same identifier (name{page.22}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.185 
+       [22]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.23}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.206 					C
+            onsultas a banco de dados n√£o precisam ser feitas utilizando c√...
+[23])pdfTeX warning (ext4): destination with the same identifier (name{page.24}
+) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.558 \include{Metodologia/Metodologia}
-                                        [22]
+                                        [24]
 \openout2 = `Implementacao/Implementacao.aux'.
 
  (Implementacao/Implementacao.tex
 
-LaTeX Warning: Reference `img7' on page 23 undefined on input line 5.
+LaTeX Warning: Reference `img7' on page 25 undefined on input line 5.
 
 
 Overfull \hbox (39.27519pt too wide) in paragraph at lines 5--6
@@ -2573,22 +2606,22 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 )
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
 t line 58.
-pdfTeX warning (ext4): destination with the same identifier (name{page.23}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.25}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.64 
-      [23
+      [25
 
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.24}) ha
+]pdfTeX warning (ext4): destination with the same identifier (name{page.26}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.68 
-      [24]
-<Imagens/i2c_packet.pdf, id=713, pagebox=cropbox, 202.50656pt x 86.57344pt>
+      [26]
+<Imagens/i2c_packet.pdf, id=765, pagebox=cropbox, 202.50656pt x 86.57344pt>
 File: Imagens/i2c_packet.pdf Graphic file (type pdf)
 <use Imagens/i2c_packet.pdf>
 Package pdftex.def Info: Imagens/i2c_packet.pdf  used on input line 73. on inpu
@@ -2600,12 +2633,12 @@ e 73.
 
 (_minted-abntex2-modelo-trabalho-academico/4D97AF2378830234860AFEA82ECE77F4974B
 FD6F5B78946B6430AC4756306126.pygtex)pdfTeX warning (ext4): destination with the
- same identifier (name{page.25}) has been already used, duplicate ignored
+ same identifier (name{page.27}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.129 
-       [25 <./Imagens/i2c_packet.pdf>]
-<Imagens/img9.png, id=735, 758.835pt x 494.84875pt>
+       [27 <./Imagens/i2c_packet.pdf>]
+<Imagens/img9.png, id=786, 758.835pt x 494.84875pt>
 File: Imagens/img9.png Graphic file (type png)
 <use Imagens/img9.png>
 Package pdftex.def Info: Imagens/img9.png  used on input line 137. on input lin
@@ -2615,12 +2648,12 @@ e 137.
 
 Underfull \vbox (badness 4001) has occurred while \output is active []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.26}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.28}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.144 
-       [26]
+       [28]
 \openout4 = `abntex2-modelo-trabalho-academico.pyg'.
 
 
@@ -2644,22 +2677,12 @@ PyServeri2c / arduinoserver . py$[][]\T1/lmr/m/n/12 . Con-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.27}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.209 
-       [27 <./Imagens/img9.png>]
+ [29 <./Imagens/img9.png>]
 \openout4 = `abntex2-modelo-trabalho-academico.pyg'.
 
 
 (_minted-abntex2-modelo-trabalho-academico/B8E1791DED1B814284C5A9B0A8F74FA488AD
-963108DD4CE815C4F006E3E63136.pygtex)pdfTeX warning (ext4): destination with the
- same identifier (name{page.28}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.224 
-       [28]
+963108DD4CE815C4F006E3E63136.pygtex) [30]
 \openout4 = `abntex2-modelo-trabalho-academico.pyg'.
 
 
@@ -2684,13 +2707,13 @@ File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 (_minted-abntex2-modelo-trabalho-academico/202D07B653582935DA0A543A3F28010A88AD
-963108DD4CE815C4F006E3E63136.pygtex) [29]
+963108DD4CE815C4F006E3E63136.pygtex) [31]
 \openout4 = `abntex2-modelo-trabalho-academico.pyg'.
 
 
 (_minted-abntex2-modelo-trabalho-academico/4ED253824FE3ADD33E5910D98CBDEB4C88AD
-963108DD4CE815C4F006E3E63136.pygtex) [30] [31]
-<Imagens/fluxo_django.pdf, id=790, pagebox=cropbox, 268.00125pt x 258.21469pt>
+963108DD4CE815C4F006E3E63136.pygtex) [32] [33]
+<Imagens/fluxo_django.pdf, id=843, pagebox=cropbox, 268.00125pt x 258.21469pt>
 File: Imagens/fluxo_django.pdf Graphic file (type pdf)
 <use Imagens/fluxo_django.pdf>
 Package pdftex.def Info: Imagens/fluxo_django.pdf  used on input line 333. on i
@@ -2701,56 +2724,55 @@ e 333.
 
 
 (_minted-abntex2-modelo-trabalho-academico/2B526739C0157E4414C6FCBA6B6942819197
-C55C3BD44F3E4E8039D1C03BEDBE.pygtex) [32 <./Imagens/fluxo_django.pdf>]
+C55C3BD44F3E4E8039D1C03BEDBE.pygtex) [34 <./Imagens/fluxo_django.pdf>]
 \openout4 = `abntex2-modelo-trabalho-academico.pyg'.
 
 
 (_minted-abntex2-modelo-trabalho-academico/631520FDDD18C90D38753B8215A7B7EAC5C6
-31714C37012ED9CA021D12165914.pygtex) [33] [34]
+31714C37012ED9CA021D12165914.pygtex) [35] [36]
 Overfull \hbox (11.68784pt too wide) in paragraph at lines 415--428
  [][] 
  []
 
-) [35] [36
+) [37] [38
 
-
-] [37] [38
 
 ] [39] [40
 
-] [41] [42]
+] [41] [42
+
+] [43] [44]
 
 Package biblatex Warning: No driver for entry type 'masterthesis'.
 (biblatex)                Using fallback driver on input line 603.
 
-[43] [44
+[45] [46] [47
 
-] [45
 
-] [46] [47
+] [48] [49
 
-] [48
+] [50
 
-] [49] [50
+] [51] [52
 
-] [51
+] [53
 
-] [52] [53
+] [54] [55
 
-] [54
+] [56
 
 ]
 Underfull \hbox (badness 5504) in paragraph at lines 658--658
 []\T1/lmss/m/n/24.88 Cras non urna sed feu-giat
  []
 
-[55] [56
+[57] [58
 
 ]
 No file abntex2-modelo-trabalho-academico.ind.
 
 AED: lastpage setting LastPage
-[57]
+[59]
 \tf@lof=\write9
 \openout9 = `abntex2-modelo-trabalho-academico.lof'.
 
@@ -2783,13 +2805,13 @@ Package logreq Info: Writing requests to 'abntex2-modelo-trabalho-academico.run
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 677.
  ) 
 Here is how much of TeX's memory you used:
- 35523 strings out of 493314
- 626621 string characters out of 3138867
- 1360794 words of memory out of 3000000
- 38202 multiletter control sequences out of 15000+200000
+ 35570 strings out of 493314
+ 627583 string characters out of 3138840
+ 1361341 words of memory out of 3000000
+ 38238 multiletter control sequences out of 15000+200000
  614027 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,19n,84p,10443b,2900s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,19n,84p,10443b,2897s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/
 enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.en
@@ -2809,10 +2831,10 @@ TeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on abntex2-modelo-trabalho-academico.pdf (87 pages, 1571965 byte
+Output written on abntex2-modelo-trabalho-academico.pdf (89 pages, 1610920 byte
 s).
 PDF statistics:
- 1395 PDF objects out of 1440 (max. 8388607)
- 234 named destinations out of 1000 (max. 500000)
- 585 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1468 PDF objects out of 1728 (max. 8388607)
+ 244 named destinations out of 1000 (max. 500000)
+ 614 words of extra memory for PDF output out of 10000 (max. 10000000)
 
