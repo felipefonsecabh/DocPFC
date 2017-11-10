@@ -29,31 +29,37 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Tecnologia Embarcada}{9}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Metodologia}{11}{chapter.3}
+\contentsline {subsection}{\numberline {2.2.3}Plataformas de Prototipagem}{10}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.3.1}Arduino}{10}{subsubsection.2.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.3.2}Raspberry PI}{10}{subsubsection.2.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {3}Metodologia}{13}{chapter.3}
 \defcounter {refsection}{0}\relax 
 \precistoctext {Este cap\IeC {\'\i }tulo apresenta a arquitetura do sistema implementado. Primeiramente, s\IeC {\~a}o descritos os requisitos funcionais do sistema, que orientam a montagem da estrutura. S\IeC {\~a}o definidos os componentes do sistema e suas interconex\IeC {\~o}es, sendo que esta defini\IeC {\c c}\IeC {\~a}o \IeC {\'e} acompanhada de um breve descritivo do funcionamento.}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Estado Atual}{11}{section.3.1}
+\contentsline {section}{\numberline {3.1}Estado Atual}{13}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Requisitos Funcionais do Sistema}{11}{section.3.2}
+\contentsline {section}{\numberline {3.2}Requisitos Funcionais do Sistema}{13}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Crit\IeC {\'e}rios para Escolha do Sistema}{12}{section.3.3}
+\contentsline {section}{\numberline {3.3}Crit\IeC {\'e}rios para Escolha do Sistema}{14}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Arquitetura do Sistema}{13}{section.3.4}
+\contentsline {section}{\numberline {3.4}Arquitetura do Sistema}{15}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Escolha da Vers\IeC {\~a}o do Raspberry PI}{15}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Escolha da Vers\IeC {\~a}o do Raspberry PI}{17}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Arquitetura Detalhada do Sistema}{15}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Arquitetura Detalhada do Sistema}{17}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.2.1}Funcionamento do Arduino}{17}{subsubsection.3.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2.2}Comunica\IeC {\c c}\IeC {\~a}o Entre Arduino e Gateway}{17}{subsubsection.3.4.2.2}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Comunica\IeC {\c c}\IeC {\~a}o Entre Arduino e Gateway}{19}{subsubsection.3.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2.3}Funcionamento do Gateway}{19}{subsubsection.3.4.2.3}
+\contentsline {subsubsection}{\numberline {3.4.2.3}Funcionamento do Gateway}{21}{subsubsection.3.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2.4}Comunica\IeC {\c c}\IeC {\~a}o entre WebServer e Gateway}{20}{subsubsection.3.4.2.4}
+\contentsline {subsubsection}{\numberline {3.4.2.4}Comunica\IeC {\c c}\IeC {\~a}o entre WebServer e Gateway}{21}{subsubsection.3.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2.5}WebServer}{20}{subsubsection.3.4.2.5}
+\contentsline {subsubsection}{\numberline {3.4.2.5}WebServer}{21}{subsubsection.3.4.2.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {4}Implementa\IeC {\c c}\IeC {\~a}o}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 

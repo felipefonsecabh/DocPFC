@@ -105,57 +105,7 @@
 		\subsection{Escolha da Versão do Raspberry PI}
 			O Raspberry PI possui algumas versões, que se diferem em tamanho, capacidade de memória, processamento e componentes. Um resumo das características das principais versões do Raspberry é exibido na \autoref{tbl3}
 			
-			\begin{table}[!htb]
-				\centering
-				\captionsetup{justification=centering}
-				\caption[Comparação entre versões do Raspberry PI]{Comparação entre versões do Raspberry. \\Adaptado de \url{https://en.wikipedia.org/wiki/Raspberry_Pi}}
-				\label{tbl3}
-				\def\arraystretch{1.5}
-				\begin{tabularx}{\textwidth}{m{2.5 cm}| m{3cm} m{3cm} p{3cm}}
-					  & \multicolumn{1}{c}{\textbf{Raspberry 1}} & %\textbf{Raspberry 1+} & 
-					 \multicolumn{1}{c}{\textbf{Raspberry 2}} & \multicolumn{1}{c}{\textbf{Raspberry 3}} \\ \hline
-					 
-					 Lançamento & \multicolumn{1}{c}{02/2013} & %\multicolumn{1}{c}{07/2014} &
-					 \multicolumn{1}{c}{02/2015} & \multicolumn{1}{c}{02/2016} \\
-					 
-					 Preço & \multicolumn{1}{c}{\$25} & %\multicolumn{1}{c}{\$25} &
-					 \multicolumn{1}{c}{\$35} &
-					 \multicolumn{1}{c}{\$35} \\
-					 
-					 Arquitetura & \multicolumn{1}{c}{ARMv6Z} & %\multicolumn{1}{c}{ARMv6Z} &
-					 \multicolumn{1}{c}{ARMv7-A} &
-					 \multicolumn{1}{c}{ARMv8-A} \\
-					 
-					 CPU & \multicolumn{1}{c}{700Mhz one core} & %\multicolumn{1}{c}{700Mhz one core} &
-					 \multicolumn{1}{c}{900Mhz quad-core 64bit} &
-					 \multicolumn{1}{c}{1.2Ghz quad-core 64bit} \\
-					 
-					 Memória & \multicolumn{1}{c}{256MB} & 
-					 %\multicolumn{1}{c}{512MB} &
-					 \multicolumn{1}{c}{1GB} &
-					 \multicolumn{1}{c}{1GB} \\
-					 
-					 Nº de Portas USB & \multicolumn{1}{c}{1} &
-					 %\multicolumn{1}{c}{4} &
-					 \multicolumn{1}{c}{4} &
-					 \multicolumn{1}{c}{4} \\
-					 
-					 Corrente & \multicolumn{1}{c}{300mA} &
-					 %\multicolumn{1}{p{2cm}}{200mA - 350mA} &
-					 \multicolumn{1}{c}{220mA - 820mA} &
-					 \multicolumn{1}{c}{300mA - 1.34A} \\
-					 
-					 Wifi Integrado & \multicolumn{1}{c}{Não} & %\multicolumn{1}{c}{Não} &
-					 \multicolumn{1}{c}{Não} &
-					 \multicolumn{1}{c}{Sim. 802.11n} \\
-					 
-					 Bluetooth Integrado  & \multicolumn{1}{c}{Não} & %\multicolumn{1}{c}{Não} &
-					 \multicolumn{1}{c}{Não} &
-					 \multicolumn{1}{c}{Sim. v4.1} \\
-					 
-					\hline
-				\end{tabularx}
-			\end{table}
+		
 		
 			A última versão do Raspberry apresenta uma grande vantagem por possuir Wifi nativamente. Isso evita a utilização de adaptadores para utilizar a comunicação Wireless no dispositivo. Além disso, possui maior poder de processamento, conta com um chip mais moderno, e suporta uma capacidade maior de corrente em estado de sobrecarga. Portanto, o Raspberry 3 foi escolhido. Na próxima seção detalhados os sistemas a serem executados dentro do Raspberry e como estes se relacionam entre si e com o Arduino.
 			

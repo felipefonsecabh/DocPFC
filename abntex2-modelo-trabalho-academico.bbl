@@ -19,6 +19,32 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global/}
+    \entry{arduino}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ee5bced252ab77ec8d633c1afda7c5da}{%
+           family={Arduino},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{fullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authornamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorfullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About Arduino}
+      \field{urlday}{9}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.arduino.cc/
+      \endverb
+    \endentry
     \entry{bailey2003}{book}{}
       \name{author}{2}{}{%
         {{hash=07539ff50924d8011bbdd60c37daff3f}{%
@@ -272,6 +298,37 @@
       \field{bookpagination}{sheet}
       \field{title}{Sistema Didático de Automação Baseado em Computador para Seleção de Esferas}
       \field{year}{2015}
+    \endentry
+    \entry{gorni2001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=535652f3700b7e6b0bc93bf31d95e8f7}{%
+           family={Gorni},
+           familyi={G\bibinitperiod},
+           given={Antônio\bibnamedelima Augusto},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{535652f3700b7e6b0bc93bf31d95e8f7}
+      \strng{fullhash}{535652f3700b7e6b0bc93bf31d95e8f7}
+      \strng{authornamehash}{535652f3700b7e6b0bc93bf31d95e8f7}
+      \strng{authorfullhash}{535652f3700b7e6b0bc93bf31d95e8f7}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plástico Industrial}
+      \field{month}{3}
+      \field{title}{Introdução à prototipagem rápida e seus processos}
+      \field{urlday}{9}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{230\bibrangedash 239}
+      \range{pages}{10}
+      \verb{url}
+      \verb http://www.gorni.eng.br/protrap.html
+      \endverb
     \endentry
     \entry{david2017}{misc}{}
       \name{author}{1}{}{%

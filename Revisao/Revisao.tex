@@ -84,11 +84,83 @@
 		\begin{figure}[!htb]	
 			%\centering
 			\captionsetup{justification=centering}
+			\setlength{\belowcaptionskip}{-5pt}
 			\begin{center}
 				\includegraphics[width=15cm]{lab_view}  %pode alterar o tamanho
 				\caption[Exemplo de Sistema com tecnologia embarcada]{\label{fig:lab_view}Exemplo de Sistema com tecnologia embarcada. Adaptado de \textcite{yu2011}}
 			\end{center}		
 		\end{figure}
 	
-		O estudo ainda menciona sobre crescimento na utilização de FPGAs, devido a redução dos custos de produção \duvida{continuar}
+		O estudo ainda menciona sobre crescimento da utilização de FPGAs\footnote{FPGAs e Microcontroladores: \url{https://www.7pcb.com/blog/fpgas-and-microcontrollers/}} em funções ocupadas pelos microcontroladores, devido a redução dos custos de aquisição dos mesmos, bem como pelas melhorias observadas em relação a capacidade de reconfiguração, o que facilita a sua utilização.
+		
+		É possível encontrar também diversos trabalhos na literatura que utilizam plataformas de prototipagem eletrônica para conceber projetos de automação para o setor residencial, para plantas de pequeno porte e para projetos na área educacional como plantas didáticas. A portabilidade é uma característica desejada para aplicações desses setores, que também são caracterizadas por possuírem restrições de custo, o que motiva a utilização de hardwares e softwares livres bem como ferramentas multiplataforma.
+		
+	\subsection{Plataformas de Prototipagem}
+		O termo prototipagem rápida designa um conjunto de tecnologias utilizadas para fabricação de objetos físicos diretamente a partir de fontes de dados gerados por sistemas de projeto auxiliado por computador \cite{gorni2001}. A construção do objeto através da agregação de camadas permitem aos projetistas criar protótipos rapidamente.
+		
+		Este conceito pode ser extrapolado para o desenvolvimento dispositivos eletrônicos. Atualmente no mercado, encontram-se placas baseadas em microcontroladores e microprocessadores que podem se agregar a módulos, construindo assim, um novo produto. Essas placas são reprogramáveis, o que torna o processo de prototipagem rápido e flexível. A seguir serão apresentadas duas das principais placas de prototipagem do mercado.
+		
+	\subsubsection{Arduino}
+		Arduino é uma plataforma eletrônica 	open-source baseado em hardware e sofware flexíveis e fáceis de usar \cite{arduino}. Basicamente a plataforma Arduino consiste em um conjunto de placas
+		que possuem um microcontrolador, terminais de entradas e saídas analógicas, digitais e de dados, e uma porta para programação. Como se trata de um hardware livre, é possível que os usuários produzam as próprias placas.
+		
+		As placas se diferem pela arquitetura do microcontrolador, número de terminais, memória, entre outros. Uma placa pode ter as suas funcionalidades aumentadas através da inserção de Shields, que nada mais são que outras placas fabricadas com propósitos específicos. A placa Arduino UNO\footnote{\url{https://store.arduino.cc/usa/arduino-uno-rev3}} é uma das mais conhecidas, porém existem diversas placas mais poderosas, inclusive que suportam sistema operacional linux, como o Arduino Yun\footnote{\url{https://store.arduino.cc/usa/arduino-yun}}. Como mencionado anteriormente, foi utilizado o Arduino DUE no projeto, que está categorizada como uma das placas mais potentes e com maior número de terminais.
+		
+		Essa plataforma conta com inúmeras bibliotecas desenvolvidas pela comunidade usuária, que podem ser baixadas diretamente da página do Arduino, ou então disponibilizadas em páginas de compartilhamento de código open-source como o GitHub. A página do Arduino também disponibiliza uma IDE (Integrated Development Environment) para programação da placa. Se o usuário deseja programar em um nível mais baixo, como por exemplo acesso aos registradores internos do Arduino, é possível utilizar o Atmel Studio\footnote{\url{https://www.embarcados.com.br/atmel-studio/}}.
 	
+	\subsubsection{Raspberry PI}
+		Um Raspberry PI é um computador de pequena dimensão (comparável com a dimensão de um cartão de crédito). O objetivo inicial da criação era criar um dispositivo de baixo custo para incentivar a prática de programação em níveis anteriores à graduação. Porém devido ao seu pequeno tamanho, baixo custo e razoável poder de processamento foi sendo adotado em muitos projetos eletrônicos. As placas Rasberry aceitam diversos sistemas operacionais, sendo que o sistema operacional oficial é o Raspian\footnote{\url{https://www.raspberrypi.org/downloads/raspbian}}, uma versão da distribuição Debian/Linux\footnote{\url{https://www.debian.org/}}. Ao longo dos anos, foram lançadas algumas versões das placas, que foram aumentando seu poder de processamento e inserindo mais funcionalidades. Um resumo das características das principais versões lançadas pode ser visto na \autoref{tbl:versoes_rpi}. Uma das grandes vantagens da versão 3, que foi a versão adquirida para o projeto é possuir os módulos Bluetooth e Wifi integrados à placa.
+		
+		\begin{table}[!htb]
+			\centering
+			\captionsetup{justification=centering}
+			\caption[Comparação entre versões do Raspberry PI]{Comparação entre versões do Raspberry. \\Adaptado de \url{https://en.wikipedia.org/wiki/Raspberry_Pi}}
+			\label{tbl:versoes_rpi}
+			\def\arraystretch{1.5}
+			\begin{tabularx}{\textwidth}{m{2.5 cm}| m{3cm} m{3cm} p{3cm}}
+				& \multicolumn{1}{c}{\textbf{Raspberry 1}} & %\textbf{Raspberry 1+} & 
+				\multicolumn{1}{c}{\textbf{Raspberry 2}} & \multicolumn{1}{c}{\textbf{Raspberry 3}} \\ \hline
+				
+				Lançamento & \multicolumn{1}{c}{02/2013} & %\multicolumn{1}{c}{07/2014} &
+				\multicolumn{1}{c}{02/2015} & \multicolumn{1}{c}{02/2016} \\
+				
+				Preço & \multicolumn{1}{c}{\$25} & %\multicolumn{1}{c}{\$25} &
+				\multicolumn{1}{c}{\$35} &
+				\multicolumn{1}{c}{\$35} \\
+				
+				Arquitetura & \multicolumn{1}{c}{ARMv6Z} & %\multicolumn{1}{c}{ARMv6Z} &
+				\multicolumn{1}{c}{ARMv7-A} &
+				\multicolumn{1}{c}{ARMv8-A} \\
+				
+				CPU & \multicolumn{1}{c}{700Mhz one core} & %\multicolumn{1}{c}{700Mhz one core} &
+				\multicolumn{1}{c}{900Mhz quad-core 64bit} &
+				\multicolumn{1}{c}{1.2Ghz quad-core 64bit} \\
+				
+				Memória & \multicolumn{1}{c}{256MB} & 
+				%\multicolumn{1}{c}{512MB} &
+				\multicolumn{1}{c}{1GB} &
+				\multicolumn{1}{c}{1GB} \\
+				
+				Nº de Portas USB & \multicolumn{1}{c}{1} &
+				%\multicolumn{1}{c}{4} &
+				\multicolumn{1}{c}{4} &
+				\multicolumn{1}{c}{4} \\
+				
+				Corrente & \multicolumn{1}{c}{300mA} &
+				%\multicolumn{1}{p{2cm}}{200mA - 350mA} &
+				\multicolumn{1}{c}{220mA - 820mA} &
+				\multicolumn{1}{c}{300mA - 1.34A} \\
+				
+				Wifi Integrado & \multicolumn{1}{c}{Não} & %\multicolumn{1}{c}{Não} &
+				\multicolumn{1}{c}{Não} &
+				\multicolumn{1}{c}{Sim. 802.11n} \\
+				
+				Bluetooth Integrado  & \multicolumn{1}{c}{Não} & %\multicolumn{1}{c}{Não} &
+				\multicolumn{1}{c}{Não} &
+				\multicolumn{1}{c}{Sim. v4.1} \\
+				
+				\hline
+			\end{tabularx}
+		\end{table}
+	
+		\duvida{falar o que são GPIOs. Depois falar dos protocolos de comunicação}
