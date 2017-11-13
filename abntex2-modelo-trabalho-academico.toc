@@ -41,82 +41,84 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Aplica\IeC {\c c}\IeC {\~o}es Web}{14}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Metodologia}{15}{chapter.3}
+\contentsline {subsection}{\numberline {2.3.1}Frameworks Web}{16}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {3}Metodologia}{17}{chapter.3}
 \defcounter {refsection}{0}\relax 
 \precistoctext {Este cap\IeC {\'\i }tulo apresenta a arquitetura do sistema implementado. Primeiramente, s\IeC {\~a}o descritos os requisitos funcionais do sistema, que orientam a montagem da estrutura. S\IeC {\~a}o definidos os componentes do sistema e suas interconex\IeC {\~o}es, sendo que esta defini\IeC {\c c}\IeC {\~a}o \IeC {\'e} acompanhada de um breve descritivo do funcionamento.}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Estado Atual}{15}{section.3.1}
+\contentsline {section}{\numberline {3.1}Estado Atual}{17}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Requisitos Funcionais do Sistema}{15}{section.3.2}
+\contentsline {section}{\numberline {3.2}Requisitos Funcionais do Sistema}{17}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Crit\IeC {\'e}rios para Escolha do Sistema}{16}{section.3.3}
+\contentsline {section}{\numberline {3.3}Crit\IeC {\'e}rios para Escolha do Sistema}{18}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Arquitetura do Sistema}{17}{section.3.4}
+\contentsline {section}{\numberline {3.4}Arquitetura do Sistema}{19}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Escolha da Vers\IeC {\~a}o do Raspberry PI}{18}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Escolha da Vers\IeC {\~a}o do Raspberry PI}{20}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Arquitetura Detalhada do Sistema}{19}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Arquitetura Detalhada do Sistema}{21}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2.1}Funcionamento do Arduino}{20}{subsubsection.3.4.2.1}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Funcionamento do Arduino}{22}{subsubsection.3.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2.2}Comunica\IeC {\c c}\IeC {\~a}o Entre Arduino e Gateway}{21}{subsubsection.3.4.2.2}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Comunica\IeC {\c c}\IeC {\~a}o Entre Arduino e Gateway}{23}{subsubsection.3.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2.3}Funcionamento do Gateway}{22}{subsubsection.3.4.2.3}
+\contentsline {subsubsection}{\numberline {3.4.2.3}Funcionamento do Gateway}{24}{subsubsection.3.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2.4}Comunica\IeC {\c c}\IeC {\~a}o entre WebServer e Gateway}{23}{subsubsection.3.4.2.4}
+\contentsline {subsubsection}{\numberline {3.4.2.4}Comunica\IeC {\c c}\IeC {\~a}o entre WebServer e Gateway}{25}{subsubsection.3.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2.5}WebServer}{23}{subsubsection.3.4.2.5}
+\contentsline {subsubsection}{\numberline {3.4.2.5}WebServer}{25}{subsubsection.3.4.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Implementa\IeC {\c c}\IeC {\~a}o}{25}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}Implementa\IeC {\c c}\IeC {\~a}o}{27}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \precistoctext {Este cap\IeC {\'\i }tulo cont\IeC {\'e}m explica\IeC {\c c}\IeC {\~o}es sobre trechos n\IeC {\~a}o triviais dos c\IeC {\'o}digos referentes aos componentes projetados. Al\IeC {\'e}m disso cont\IeC {\'e}m informa\IeC {\c c}\IeC {\~o}es sobre o procedimento de prepara\IeC {\c c}\IeC {\~a}o do Raspberry PI para ser integrado ao sistema.}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}C\IeC {\'o}digo do Arduino}{25}{section.4.1}
+\contentsline {section}{\numberline {4.1}C\IeC {\'o}digo do Arduino}{27}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Leitura dos Sensores}{25}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.1}Leitura dos Sensores}{27}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Comunica\IeC {\c c}\IeC {\~a}o I2C}{26}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}Comunica\IeC {\c c}\IeC {\~a}o I2C}{28}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Prepara\IeC {\c c}\IeC {\~a}o do Raspberry PI}{27}{section.4.2}
+\contentsline {section}{\numberline {4.2}Prepara\IeC {\c c}\IeC {\~a}o do Raspberry PI}{29}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Instala\IeC {\c c}\IeC {\~a}o do sistema operacional}{27}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Instala\IeC {\c c}\IeC {\~a}o do sistema operacional}{29}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Ativa\IeC {\c c}\IeC {\~a}o do protocolo I2C}{28}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Ativa\IeC {\c c}\IeC {\~a}o do protocolo I2C}{30}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Instala\IeC {\c c}\IeC {\~a}o de Pacotes - Python}{29}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Instala\IeC {\c c}\IeC {\~a}o de Pacotes - Python}{31}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}C\IeC {\'o}digo do Gateway}{30}{section.4.3}
+\contentsline {section}{\numberline {4.3}C\IeC {\'o}digo do Gateway}{32}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Thread 1: Leitura de Dados do Arduino e Escrita no Banco}{30}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Thread 1: Leitura de Dados do Arduino e Escrita no Banco}{32}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Thread 2: Recebimento de Comandos do WebServer}{32}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Thread 2: Recebimento de Comandos do WebServer}{34}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}WebServer}{33}{section.4.4}
+\contentsline {section}{\numberline {4.4}WebServer}{35}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Aplica\IeC {\c c}\IeC {\~a}o Core}{35}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Aplica\IeC {\c c}\IeC {\~a}o Core}{37}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Aplica\IeC {\c c}\IeC {\~a}o Operation}{35}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Aplica\IeC {\c c}\IeC {\~a}o Operation}{37}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {5}Resultados}{39}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}Resultados}{41}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {6}Conclus\IeC {\~a}o}{41}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}Conclus\IeC {\~a}o}{43}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografia}{43}{section*.50}
+\contentsline {chapter}{Bibliografia}{45}{section*.54}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{Ap\^endices}{47}{section*.51}
+\contentsline {part}{Ap\^endices}{49}{section*.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Quisque libero justo}{49}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}Quisque libero justo}{51}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {B}Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}{51}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}{53}{appendix.B}
 \defcounter {refsection}{0}\relax 
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{Anexos}{53}{section*.52}
+\contentsline {part}{Anexos}{55}{section*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}Morbi ultrices rutrum lorem.}{55}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}Morbi ultrices rutrum lorem.}{57}{appendix.anexochapback.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {B}Cras non urna sed feugiat cum sociis natoque penatibus et magnis disparturient montes nascetur ridiculus mus}{57}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {B}Cras non urna sed feugiat cum sociis natoque penatibus et magnis disparturient montes nascetur ridiculus mus}{59}{appendix.anexochapback.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {C}Fusce facilisis lacinia dui}{59}{appendix.anexochapback.3}
+\contentsline {appendix}{\chapternumberline {C}Fusce facilisis lacinia dui}{61}{appendix.anexochapback.3}

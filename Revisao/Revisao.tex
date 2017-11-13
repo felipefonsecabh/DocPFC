@@ -221,4 +221,50 @@
 			\end{figure}
 		
 	\section{Aplicações Web}
+		A Web, abreviação do termo \textit{World Wide Web}, que significa em tradução livre ``rede de alcançe mundial'', também conhecida como www, é um sistema distribuído de hipermídia que revolucionou como pessoas organizações e sistemas geram, acessam e compartilham informações \cite{bernes2000}. Foi criada em 1989 por Tim Berners Lee resolver problemas em relação a transmissão e compartilhamento de informações do CERN (Organização Europeia para a pesquisa Nuclear).
+		
+		Porém o sucesso da Web fez com que a sua utilização não ficasse restrita ao meio acadêmico, sendo utilizada para fins pessoais e comerciais. O crescimento exponencial da Web causou um temor entre a comunidade e pesquisadores da internet, sobre a estabilidade da rede diante da crescente demanda. Diante disso, surgia a necessidade de melhorar a Web em termos de escalonabilidade performance e padronização em relação as aplicações. Em 1994 Berners-Lee fundou a W3C, órgão responsável pela padronização de tecnologias Web, instituição mais importante e reconhecida no mundo sobre o assunto \cite{felipe2008}.
+		
+		Ao longo dos anos, a Web sofreu transformações, em relação a aplicabilidade e a forma de transmitir informações. Inicialmente, as páginas Web publicavam apenas conteúdo estático, ou seja textos sem muita interatividade. O crescimento da Internet e o aumento da largura de banda fez com que fossem criados sites cada vez mais dinâmicos e interativos, incluindo a participação do internauta na geração de conteúdo, como por exemplo as redes sociais. Atualmente sistemas complexos que antes eram desenvolvidos apenas como aplicativos Desktop, podem ser criados utilizando somente tecnologias Web. A \autoref{fig:evolution_web} e a \autoref{fig:web_apps} exibem um resumo da evolução da web, suas tecnologias e aplicações.
+		
+		\begin{figure}[!htb]	
+			%\centering
+			\captionsetup{justification=centering}
+			\begin{center}
+				\includegraphics[scale=0.8]{evolution_web}  %pode alterar o tamanho
+				\caption[Evolução da Web.]{\label{fig:evolution_web} Evolução da Web. Adaptado de \url{http://www.personalizemedia.com/virtual-worlds-web-30-and-portable-profiles/}}
+			\end{center}		
+		\end{figure}
 	
+		\begin{figure}[!htb]	
+			%\centering
+			\captionsetup{justification=centering}
+			\begin{center}
+				\includegraphics[width=16cm]{web_apps}  %pode alterar o tamanho
+				\caption[Evolução da Web. Tecnologias e Aplicações]{\label{fig:web_apps} Evolução da Web. Tecnologias e Aplicações. Adaptado de \url{https://www.prokarma.com/blog/2014/10/16/what-exactly-web-30}}
+			\end{center}		
+		\end{figure}
+		
+		Uma aplicação Web tradicional é baseada em estilo cliente-servidor. Basicamente, um servidor oferece serviços e espera por requisições, enviadas por clientes interessados nesses serviços. Ao receberem as requisições, os servidores processam a requisição e enviam uma resposta ao cliente, que é representado por navegadores web. A \autoref{fig:request_response} mostra o fluxo de informações de uma requisição web e a resposta do servidor. As informações trafegam pelo protocolo HTTP\footnote{Especificação HTTP: \url{https://www.ietf.org/rfc/rfc2616.txt}}. Um frame HTTP de requisição possui a estrutura mostrada na \autoref{fig:http_frame}. O método GET é o mais utilizado. Ele possui a função de recuperar algum recurso, que é identificado por sua URL, do servidor Web. Existem outros métodos no protocolo HTTP, como POST, PUT, DELETE, etc \cite{diego2016}. O conteúdo a ser exibido nas páginas é produzido e armazenado em arquivos HTML, que basicamente é um arquivo de texto com marcações. Os navegadores interpretam os arquivos e exibem a página formatada para o usuário.
+		
+		\begin{figure}[!htb]	
+			%\centering
+			\captionsetup{justification=centering}
+			\begin{center}
+				\includegraphics[scale=0.9]{http_frame}  %pode alterar o tamanho
+				\caption[Frame de requisição HTTP]{\label{fig:http_frame} Frame de requisição HTTP}
+			\end{center}		
+		\end{figure}
+	
+		\begin{figure}[!htb]	
+			%\centering
+			\captionsetup{justification=centering}
+			\begin{center}
+				\includegraphics[scale=0.6]{request_response}  %pode alterar o tamanho
+				\caption[Funcionamento do sistema requisição resposta.]{\label{fig:request_response} Funcionamento do sistema requisição resposta. Adaptado de \url{https://www.devmedia.com.br/como-funcionam-as-aplicacoes-web/25888}}
+			\end{center}		
+		\end{figure}
+		
+	\subsection{Frameworks Web}
+		
+		

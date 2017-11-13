@@ -20,21 +20,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Arquitetura do sistema BrewPi}}{14}{figure.caption.22}
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o da Web.}}{15}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o da Web. Tecnologias e Aplica\IeC {\c c}\IeC {\~o}es}}{15}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Frame de requisi\IeC {\c c}\IeC {\~a}o HTTP}}{16}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Funcionamento do sistema requisi\IeC {\c c}\IeC {\~a}o resposta.}}{16}{figure.caption.26}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Nova Arquitetura Proposta para o Sistema}}{18}{figure.caption.25}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Nova Arquitetura Proposta para o Sistema}}{20}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Arquitetura Detalhada}}{20}{figure.caption.27}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Arquitetura Detalhada}}{22}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Estrutura do C\IeC {\'o}digo do Arduino}}{21}{figure.caption.28}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Estrutura do C\IeC {\'o}digo do Arduino}}{23}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Estrutura de um pacote I2C}}{27}{figure.caption.30}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Estrutura de um pacote I2C}}{29}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces I2C habilitado}}{29}{figure.caption.33}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces I2C habilitado}}{31}{figure.caption.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Fluxo de Informa\IeC {\c c}\IeC {\~o}es entre Usu\IeC {\'a}rio e Aplica\IeC {\c c}\IeC {\~a}o Django}}{34}{figure.caption.44}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Fluxo de Informa\IeC {\c c}\IeC {\~o}es entre Usu\IeC {\'a}rio e Aplica\IeC {\c c}\IeC {\~a}o Django}}{36}{figure.caption.48}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

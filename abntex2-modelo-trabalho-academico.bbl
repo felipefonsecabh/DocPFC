@@ -547,6 +547,43 @@
       \field{pages}{485\bibrangedash 486}
       \range{pages}{2}
     \endentry
+    \entry{felipe2008}{monography}{}
+      \name{author}{3}{}{%
+        {{hash=a7e11c2416f9f0a34b98a092e965b186}{%
+           family={Lalli},
+           familyi={L\bibinitperiod},
+           given={AFelipe\bibnamedelima Micaroni},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=cf8b819f8820fd66e70db4a0230ceb47}{%
+           family={Bueno},
+           familyi={B\bibinitperiod},
+           given={Felippe\bibnamedelima Franco},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=d9377a5d3df21e760b6fddfdacb081c6}{%
+           family={Zacharias},
+           familyi={Z\bibinitperiod},
+           given={Guilherme\bibnamedelima Keese},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Faculdade Comunitária de Campinas Unidade III}%
+      }
+      \list{location}{1}{%
+        {Campinas}%
+      }
+      \strng{namehash}{005d347d02f1fb391ec1818e6d729428}
+      \strng{fullhash}{005d347d02f1fb391ec1818e6d729428}
+      \strng{authornamehash}{005d347d02f1fb391ec1818e6d729428}
+      \strng{authorfullhash}{005d347d02f1fb391ec1818e6d729428}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{Evolução da Programação Web}
+      \field{year}{2008}
+    \endentry
     \entry{klaus2012}{online}{}
       \name{author}{1}{}{%
         {{hash=24846a6dac1d46d751e28eadf06cbf85}{%
@@ -575,6 +612,31 @@
       \verb https://klauslaube.com.br/2012/11/02/entendendo-o-cgi-fastcgi-e-wsgi.html
       \endverb
     \endentry
+    \entry{bernes2000}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c5b20b75456a9ed3635fd58e0f6ccf7b}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Tim\bibnamedelima Bernes},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {HarperCollins}%
+      }
+      \strng{namehash}{c5b20b75456a9ed3635fd58e0f6ccf7b}
+      \strng{fullhash}{c5b20b75456a9ed3635fd58e0f6ccf7b}
+      \strng{authornamehash}{c5b20b75456a9ed3635fd58e0f6ccf7b}
+      \strng{authorfullhash}{c5b20b75456a9ed3635fd58e0f6ccf7b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{0-06-251587-X}
+      \field{title}{Weaving the Web: The Original Design of the World Wide Web by its Inventor}
+      \field{year}{2000}
+    \endentry
     \entry{mark2013}{book}{}
       \name{author}{1}{}{%
         {{hash=f9b161dc8eaf25ea05f8bac50ac9596d}{%
@@ -601,6 +663,34 @@
       \field{year}{2013}
       \field{pages}{113\bibrangedash 114}
       \range{pages}{2}
+    \endentry
+    \entry{diego2016}{online}{}
+      \name{author}{1}{}{%
+        {{hash=84eadeaffb3c7aca01db91de74850062}{%
+           family={macedo},
+           familyi={m\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{84eadeaffb3c7aca01db91de74850062}
+      \strng{fullhash}{84eadeaffb3c7aca01db91de74850062}
+      \strng{authornamehash}{84eadeaffb3c7aca01db91de74850062}
+      \strng{authorfullhash}{84eadeaffb3c7aca01db91de74850062}
+      \field{sortinit}{m}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Protocolo HTTP: Estrutura, solicitações, respostas, métodos e códigos de status}
+      \field{urlday}{12}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.diegomacedo.com.br/protocolo-http-estrutura-solicitacoes-respostas-metodos-e-codigos-de-status/
+      \endverb
     \endentry
     \entry{yu2011}{article}{}
       \name{author}{2}{}{%
