@@ -4,7 +4,7 @@
 	\section{Laboratório de Operações e Processos - Contextualização}
 		O Laboratório de Operações e Processos (LOP) é um dos diversos laboratórios para fins de ensino e pesquisa pertencentes ao Departamento de Engenharia Química da UFMG (DEQ). Ainda existem outros laboratórios vinculados ao departamento cuja finalidade é prestar serviços às comunidades interna e externa à UFMG \footnote{\url{http://www.deq.ufmg.br/departamento/infraestrutura}}.
 		
-		O LOP possui quatro plantas didáticas: \textbf{explicar aqui brevemente as 4 plantas constituintes do laboratório}
+		O LOP possui quatro plantas didáticas: um sistema de trocador de calor, uma planta que implementa um processo de sedimentação, uma planta piloto de um hidrociclone e uma planta que implementa um processo de secagem.
 		
 		%explicar aqui agora sobre a planta de trocador existente
 		O trocador de calor existente no laboratório, cuja imagem pode ser vista na \autoref{fig:lab}, é do tipo tubular. Este sistema, que é fabricado e fornecido pela Universidade de Santa Cecília\footnote{\url{http://cursos.unisanta.br/quimica/laborato/index.html}}, foi adquirido pela UFMG em 2002\footnote{Item 35 do catálogo disponível em: \url{http://cursos.unisanta.br/quimica/laborato/LOU-2016.pdf}}. Originalmente, a planta possui um botão para ligar e desligar bomba e aquecedor simultaneamente, bem como conta com 4 sensores de temperatura, cujos valores são exibidos e display LCDs. A medição de vazão de água quente era inferida através da utilização de uma Calha Parshall\footnote{Funcionamento da Calha Parshall: \url{http://www.dec.ufcg.edu.br/saneamento/PARSHALL.html}}, e a medição de água fria, através da indicação de um rotâmetro\footnote{\url{http://www.sensorsmag.com/components/basics-rotameters}}
@@ -245,7 +245,7 @@
 			\end{center}		
 		\end{figure}
 		
-		Uma aplicação Web tradicional é baseada em estilo cliente-servidor. Basicamente, um servidor oferece serviços e espera por requisições, enviadas por clientes interessados nesses serviços. Ao receberem as requisições, os servidores processam a requisição e enviam uma resposta ao cliente, que é representado por navegadores web. A \autoref{fig:request_response} mostra o fluxo de informações de uma requisição web e a resposta do servidor. As informações trafegam pelo protocolo HTTP\footnote{Especificação HTTP: \url{https://www.ietf.org/rfc/rfc2616.txt}}. Um frame HTTP de requisição possui a estrutura mostrada na \autoref{fig:http_frame}. O método GET é o mais utilizado. Ele possui a função de recuperar algum recurso, que é identificado por sua URL, do servidor Web. Existem outros métodos no protocolo HTTP, como POST, PUT, DELETE, etc \cite{diego2016}. O conteúdo a ser exibido nas páginas é produzido e armazenado em arquivos HTML, que basicamente é um arquivo de texto com marcações. Os navegadores interpretam os arquivos e exibem a página formatada para o usuário.
+		Uma aplicação Web tradicional é baseada em estilo cliente-servidor. Basicamente, um servidor oferece serviços e espera por requisições, enviadas por clientes interessados nesses serviços. Ao receberem as requisições, os servidores processam a requisição e enviam uma resposta ao cliente, que é representado por navegadores web. A \autoref{fig:request_response} mostra o fluxo de informações de uma requisição web e a resposta do servidor. As informações trafegam pelo protocolo HTTP\footnote{Especificação HTTP: \url{https://www.ietf.org/rfc/rfc2616.txt}}. Um frame HTTP de requisição possui a estrutura mostrada na \autoref{fig:http_frame}. O método GET é o mais utilizado. Ele possui a função de recuperar algum recurso, que é identificado por sua URL, do servidor Web. Existem outros métodos no protocolo HTTP, como POST, PUT, DELETE, etc \cite{diego2016}. O conteúdo a ser exibido nas páginas é produzido e armazenado em arquivos HTML, que basicamente é um arquivo de texto com marcações. Os navegadores interpretam os arquivos e exibem a página formatada para o usuário. Diante da característica dinâmica das páginas web atuais, outros arquivos se fazem necessários como arquivos JavaScript e arquivos CSS, que são arquivos processados nos navegadores.
 		
 		\begin{figure}[!htb]	
 			%\centering
@@ -266,5 +266,49 @@
 		\end{figure}
 		
 	\subsection{Frameworks Web}
+		Um Framework Web é um framework\footnote{Definição de framework: \url{https://pt.wikipedia.org/wiki/Framework}} de software, designado para facilitar o desenvolvimento de aplicações web. Possui funções para automatizar tarefas comuns em aplicações web, como por exemplo acesso à banco de dados, gerenciamento de sessões de conexões, geração templates para geração de HTML, e mapeamento de rotas. Sendo assim, a utilização de um framework web torna o desenvolvimento de uma aplicação mais rápido e fácil. Existem frameworks Web para as mais diversas linguagens de programação, com características e funcionalidades distintas. A escolha do framework é subjetiva: depende do propósito da aplicação, conhecimento do desenvolvedor, entre outros fatores. A \autoref{fig:popular_frameworks} mostra um ranking dos Frameworks mais populares, baseado na avaliação do framework no Github, e no número de questões do mesmo presentes no StackOverflow.
+		
+		\begin{figure}[!htb]	
+			%\centering
+			\captionsetup{justification=centering}
+			\begin{center}
+				\includegraphics[width=14cm]{popular_frameworks}  %pode alterar o tamanho
+				\caption[Frameworks Web mais populares]{\label{fig:popular_frameworks} Frameworks Web mais populares. Fonte: \url{https://hotframeworks.com/}}
+			\end{center}		
+		\end{figure}
+	
+	\subsubsection{Django}
+		Django é um framework web desenvolvido na linguagem Python. É o framework mais utilizado escrito em Python, e um dos mais utilizados entre todas as linguagens (ver \autoref{fig:popular_frameworks}). Possui como características principais \cite{mozzila}: 
+		\begin{enumerate}
+			\item 
+			Completude: O Django provê todas as funcionalidades básicas de uma aplicação web: compatibilidade com a maioria dos bancos de dados,
+			recursos de proteção e segurança, controle de seções e cache,entre outros.
+			\item 
+			Versatilidade: O framework pode ser utilizado para desenvolver qualquer tipo de website. Consegue ser hospedado em vários servidores Web, bem como consegue trabalhar com qualquer framework para o lado cliente, como por exemplo o jquery\footnote{\url{https://jquery.com/}}.
+			\item 
+			Portabilidade: Como é escrito em Python, uma aplicação desenvolvida em Django pode ser hospedada nos principais sistemas operacionais (Linux, MacOS, Windows). 
+			\item 
+			Manutenibilidade: O framework foi concebido de acordo com princípios que incentivam a criação de códigos reutilizáveis e de fácil manutenção. Por exemplo, o django disponibiliza estruturas para implementar o DRY (Don't Repeat Yourself) filosofia que reduz a necessidade de replicação de código.
+			\item 
+			Escalabilidade: Um projeto desenvolvido em Django é composto de várias aplicações, que funcionam de forma independente entre si dentro do projeto. Essa separação entre partes do projeto permite além de flexibilidade (uma parte pode ser substituída ou modificada sem afetar o restante do código), crescimento escalável.
+			\item
+			Mapeamento Objeto-Relacional (ORM): É uma técnica que permite manipular dados de banco usando paradigma orientado a objetos. Basicamente, um modelo de dados é mapeado como uma tabela no banco de dados. Dessa forma elimina-se a necessidade de escrever códigos SQL para manipulação de bancos.
+			\item 
+			Popularidade: Possui uma extensa documentação e uma grande comunidade (em fóruns) disposta a ajudar.
+		\end{enumerate}
+	
+		Como Django foi feito para possibilitar desenvolvimento rápido, muitas decisões de características do projeto fica a cargo do framework, o que é uma desvantagem. Outro ponto negativo é a geração de muitos arquivos mesmo para pequenos projetos.
+		
+		Um projeto em Django é criado sobre o padrão MVC\footnote{Padrão MVC: \url{https://developer.chrome.com/apps/app_frameworks}}, que em resumo é uma forma de programação que separa a representação da informação, do processamento dos dados em si. Dessa forma é possível possui por exemplo várias representações de uma mesma informação. A estrutura de uma aplicação em Django é exibida na \autoref{fig:django_project}.
+			
+		\begin{figure}[!htb]	
+			%\centering
+			\captionsetup{justification=centering}
+			\begin{center}
+				\includegraphics[width=14cm]{django_project}  %pode alterar o tamanho
+				\caption[Estrutura de um projeto Django]{\label{fig:django_project} Estrutura de um projeto Django}
+			\end{center}		
+		\end{figure}
+		
 		
 		

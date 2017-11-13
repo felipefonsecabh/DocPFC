@@ -210,6 +210,34 @@
       \verb https://www.milesburton.com/Dallas_Temperature_Control_Library
       \endverb
     \endentry
+    \entry{mozzila}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f31785ab9869856eda482bd4fc3401a4}{%
+           family={Developers},
+           familyi={D\bibinitperiod},
+           given={Mozilla},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f31785ab9869856eda482bd4fc3401a4}
+      \strng{fullhash}{f31785ab9869856eda482bd4fc3401a4}
+      \strng{authornamehash}{f31785ab9869856eda482bd4fc3401a4}
+      \strng{authorfullhash}{f31785ab9869856eda482bd4fc3401a4}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About Django}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction
+      \endverb
+    \endentry
     \entry{bojan2016}{online}{}
       \name{author}{1}{}{%
         {{hash=2e77fe8c97b74a35c9b7b0bbc293e580}{%
