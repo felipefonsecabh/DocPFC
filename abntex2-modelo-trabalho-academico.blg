@@ -1,17 +1,17 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
-[1] Config.pm:357> INFO - Logfile is 'abntex2-modelo-trabalho-academico.blg'
-[113] biber-MSWIN64:303> INFO - === 
-[168] Biber.pm:359> INFO - Reading 'abntex2-modelo-trabalho-academico.bcf'
-[373] Biber.pm:835> INFO - Found 38 citekeys in bib section 0
-[402] Biber.pm:3670> INFO - Processing section 0
-[435] Biber.pm:3840> INFO - Looking for bibtex format file 'abntex2-modelo-references.bib' for section 0
-[440] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[451] bibtex.pm:1292> INFO - Found BibTeX data source 'abntex2-modelo-references.bib'
-[554] Utils.pm:164> WARN - Entry 'robocore' (abntex2-modelo-references.bib): Invalid format '{n.d.}' of date field 'date' - ignoring
-[696] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[696] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[696] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'pt-BR'
-[697] Biber.pm:3505> INFO - No sort tailoring available for locale 'pt-BR'
-[764] bbl.pm:608> INFO - Writing 'abntex2-modelo-trabalho-academico.bbl' with encoding 'UTF-8'
-[774] bbl.pm:712> INFO - Output to abntex2-modelo-trabalho-academico.bbl
-[774] Biber.pm:109> INFO - WARNINGS: 1
+[0] Config.pm:357> INFO - Logfile is 'abntex2-modelo-trabalho-academico.blg'
+[50] biber-MSWIN64:303> INFO - === 
+[142] Biber.pm:359> INFO - Reading 'abntex2-modelo-trabalho-academico.bcf'
+[318] Biber.pm:835> INFO - Found 40 citekeys in bib section 0
+[344] Biber.pm:3670> INFO - Processing section 0
+[415] Biber.pm:3840> INFO - Looking for bibtex format file 'abntex2-modelo-references.bib' for section 0
+[437] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[459] bibtex.pm:1292> INFO - Found BibTeX data source 'abntex2-modelo-references.bib'
+[591] Utils.pm:164> WARN - Entry 'robocore' (abntex2-modelo-references.bib): Invalid format '{n.d.}' of date field 'date' - ignoring
+[704] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[704] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[704] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'pt-BR'
+[704] Biber.pm:3505> INFO - No sort tailoring available for locale 'pt-BR'
+[753] bbl.pm:608> INFO - Writing 'abntex2-modelo-trabalho-academico.bbl' with encoding 'UTF-8'
+[760] bbl.pm:712> INFO - Output to abntex2-modelo-trabalho-academico.bbl
+[765] Biber.pm:109> INFO - WARNINGS: 1
