@@ -2,6 +2,7 @@
 	\chapterprecis{Teste, teste}
 	
 	\section{Laboratório de Operações e Processos - Contextualização}
+		\label{sec:trocador}
 		O Laboratório de Operações e Processos (LOP) é um dos diversos laboratórios para fins de ensino e pesquisa pertencentes ao Departamento de Engenharia Química da UFMG (DEQ). Ainda existem outros laboratórios vinculados ao departamento cuja finalidade é prestar serviços às comunidades interna e externa à UFMG \footnote{\url{http://www.deq.ufmg.br/departamento/infraestrutura}}.
 		
 		O LOP possui quatro plantas didáticas: um sistema de trocador de calor, uma planta que implementa um processo de sedimentação, uma planta piloto de um hidrociclone e uma planta que implementa um processo de secagem.
@@ -205,6 +206,7 @@
 		O I2C se situa em uma região intermediária entre UART e SPI. É um protocolo síncrono, utiliza-se de apenas 2 fios, e possui uma taxa de transmissão um pouco maior que o UART. Como desvantagem, destaca-se a necessidade de interpretar os pacotes de dados via software, o que pode diminuir a performance de processamento.
 		
 		\subsubsection{Exemplos de Projetos que utilizaram Plataformas de Prototipagem}
+			\label{sec:exemplos}
 			Encontra-se na literatura, projetos que utilizam placas de prototipagem mencionadas acima, para implementar um sistema de automação de pequenas instalações.
 			
 			\textcite{lucas2016} implementou a automação de uma planta experimental de um sistema de reaproveitamento de água. O modelo experimental foi construído, instalaram-se sensores e atuadores que se conectam a Arduino. O Arduino se comunica com um Raspberry PI, que possui um sofware SCADA instalado, o Mango automation. Ou seja, essa arquitetura é próxima a de um sistema SCADA tradicional, mostrada na \autoref{fig:pc_plc}. O Arduino faz o papel de uma estação remota, e o Raspberry, de uma estação mestre.

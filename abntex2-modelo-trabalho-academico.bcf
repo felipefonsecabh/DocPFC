@@ -2271,25 +2271,18 @@
     <bcf:citekey order="30">felipe2008</bcf:citekey>
     <bcf:citekey order="31">diego2016</bcf:citekey>
     <bcf:citekey order="32">mozzila</bcf:citekey>
-    <bcf:citekey order="33">luiz2016</bcf:citekey>
-    <bcf:citekey order="34">alexandre2015</bcf:citekey>
-    <bcf:citekey order="35">brewpi</bcf:citekey>
-    <bcf:citekey order="36">bogdan2017</bcf:citekey>
-    <bcf:citekey order="37">ryan2015</bcf:citekey>
-    <bcf:citekey order="38">miles2016</bcf:citekey>
-    <bcf:citekey order="39">paul2017</bcf:citekey>
-    <bcf:citekey order="40">filipeflop2011</bcf:citekey>
-    <bcf:citekey order="41">adilson2011</bcf:citekey>
-    <bcf:citekey order="42">luiz2016</bcf:citekey>
-    <bcf:citekey order="43">matt2014</bcf:citekey>
-    <bcf:citekey order="44">kyle2017</bcf:citekey>
-    <bcf:citekey order="45">dipto2015</bcf:citekey>
-    <bcf:citekey order="46">mark2013</bcf:citekey>
-    <bcf:citekey order="47">pythondoc</bcf:citekey>
-    <bcf:citekey order="48">klaus2012</bcf:citekey>
-    <bcf:citekey order="49">rohit2017</bcf:citekey>
-    <bcf:citekey order="50">bojan2016</bcf:citekey>
-    <bcf:citekey order="51">damien2017</bcf:citekey>
+    <bcf:citekey order="33">miles2016</bcf:citekey>
+    <bcf:citekey order="34">paul2017</bcf:citekey>
+    <bcf:citekey order="35">filipeflop2011</bcf:citekey>
+    <bcf:citekey order="36">matt2014</bcf:citekey>
+    <bcf:citekey order="37">kyle2017</bcf:citekey>
+    <bcf:citekey order="38">dipto2015</bcf:citekey>
+    <bcf:citekey order="39">mark2013</bcf:citekey>
+    <bcf:citekey order="40">pythondoc</bcf:citekey>
+    <bcf:citekey order="41">klaus2012</bcf:citekey>
+    <bcf:citekey order="42">rohit2017</bcf:citekey>
+    <bcf:citekey order="43">bojan2016</bcf:citekey>
+    <bcf:citekey order="44">damien2017</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

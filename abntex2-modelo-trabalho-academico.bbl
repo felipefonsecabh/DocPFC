@@ -31,6 +31,7 @@
       \strng{authorfullhash}{ee5bced252ab77ec8d633c1afda7c5da}
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{extrayear}{1}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -43,6 +44,33 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb https://www.arduino.cc/
+      \endverb
+    \endentry
+    \entry{wire2017}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ee5bced252ab77ec8d633c1afda7c5da}{%
+           family={Arduino},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{fullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authornamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorfullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{extrayear}{2}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wire Library}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.arduino.cc/en/Reference/Wire/
       \endverb
     \endentry
     \entry{bailey2003}{book}{}
@@ -156,34 +184,6 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb https://www.brewpi.com/
-      \endverb
-    \endentry
-    \entry{ryan2015}{online}{}
-      \name{author}{1}{}{%
-        {{hash=47a6e44f9405a44d8811454b71b50c77}{%
-           family={Brown},
-           familyi={B\bibinitperiod},
-           given={Ryan},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{47a6e44f9405a44d8811454b71b50c77}
-      \strng{fullhash}{47a6e44f9405a44d8811454b71b50c77}
-      \strng{authornamehash}{47a6e44f9405a44d8811454b71b50c77}
-      \strng{authorfullhash}{47a6e44f9405a44d8811454b71b50c77}
-      \field{sortinit}{B}
-      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Django vs Flask vs Pyramid: Choosing a Python Web Framework}
-      \field{urlday}{27}
-      \field{urlmonth}{10}
-      \field{urlyear}{2017}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{url}
-      \verb https://www.airpair.com/python/posts/django-flask-pyramid
       \endverb
     \endentry
     \entry{miles2016}{misc}{}
@@ -315,45 +315,6 @@
       \verb{url}
       \verb https://github.com/filipeflop/Ultrasonic
       \endverb
-    \endentry
-    \entry{alexandre2015}{monography}{}
-      \name{author}{3}{}{%
-        {{hash=4cc1548452d1ab87e4454858d2f64b8e}{%
-           family={Gonçalves},
-           familyi={G\bibinitperiod},
-           given={Alexandre\bibnamedelima José},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=7589336fb4c593d0fd0457a23980e8e4}{%
-           family={Silva},
-           familyi={S\bibinitperiod},
-           given={Jair\bibnamedelima Rodrigues},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
-           prefix={da},
-           prefixi={d\bibinitperiod}}}%
-        {{hash=705fe3429a8648837bb0217c930c06bd}{%
-           family={Batista},
-           familyi={B\bibinitperiod},
-           given={João\bibnamedelima Carlos},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Universidade Tecnológica Federal do Paraná}%
-      }
-      \list{location}{1}{%
-        {Curitiba}%
-      }
-      \strng{namehash}{1748f7b25ded8b3e8af8f82fac2f1e5b}
-      \strng{fullhash}{1748f7b25ded8b3e8af8f82fac2f1e5b}
-      \strng{authornamehash}{1748f7b25ded8b3e8af8f82fac2f1e5b}
-      \strng{authorfullhash}{1748f7b25ded8b3e8af8f82fac2f1e5b}
-      \field{sortinit}{G}
-      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{bookpagination}{sheet}
-      \field{title}{Sistema Didático de Automação Baseado em Computador para Seleção de Esferas}
-      \field{year}{2015}
     \endentry
     \entry{gorni2001}{article}{}
       \name{author}{1}{}{%
@@ -943,36 +904,6 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb http://www.linuxcircle.com/2015/05/03/how-to-install-smbus-i2c-module-for-python-3/
-      \endverb
-    \endentry
-    \entry{bogdan2017}{online}{}
-      \name{author}{1}{}{%
-        {{hash=bbe9b54d7869428eae49611f75fd5fee}{%
-           family={Primakovski},
-           familyi={P\bibinitperiod},
-           given={Bogdan},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{bbe9b54d7869428eae49611f75fd5fee}
-      \strng{fullhash}{bbe9b54d7869428eae49611f75fd5fee}
-      \strng{authornamehash}{bbe9b54d7869428eae49611f75fd5fee}
-      \strng{authorfullhash}{bbe9b54d7869428eae49611f75fd5fee}
-      \field{sortinit}{P}
-      \field{sortinithash}{24100cef455d7974167575052c29146e}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{27}
-      \field{month}{5}
-      \field{title}{17 Best Python Web Frameworks to Learn in 2017}
-      \field{urlday}{27}
-      \field{urlmonth}{10}
-      \field{urlyear}{2017}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{url}
-      \verb http://steelkiwi.com/blog/best-python-web-frameworks-to-learn/
       \endverb
     \endentry
     \entry{pythondoc}{online}{}
