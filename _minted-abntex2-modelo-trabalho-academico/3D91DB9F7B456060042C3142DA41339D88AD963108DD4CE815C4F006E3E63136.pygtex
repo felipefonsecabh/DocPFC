@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+			\PYG{c+c1}{\PYGZsh{}estabelece conexão com o banco de dados}
+			\PYG{k}{if} \PYG{n}{os}\PYG{o}{.}\PYG{n}{environ}\PYG{o}{.}\PYG{n}{setdefault}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}DJANGO\PYGZus{}SETTINGS\PYGZus{}MODULE\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}WebSite.settings\PYGZsq{}}\PYG{p}{):}
+				\PYG{k+kn}{import} \PYG{n+nn}{django}
+				\PYG{n}{django}\PYG{o}{.}\PYG{n}{setup}\PYG{p}{()}
+				\PYG{k+kn}{from} \PYG{n+nn}{WebSite.operation.models} \PYG{k+kn}{import} \PYG{n}{Registers}\PYG{p}{,} \PYG{n}{OperationMode}
+				\PYG{k+kn}{from} \PYG{n+nn}{WebSite.trend.models} \PYG{k+kn}{import} \PYG{n}{TrendRegister}
+				\PYG{k+kn}{from} \PYG{n+nn}{django.utils} \PYG{k+kn}{import} \PYG{n}{timezone}
+			\PYG{k}{else}\PYG{p}{:}
+				\PYG{k}{raise}
+				\PYG{n}{sys}\PYG{o}{.}\PYG{n}{exit}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+\end{Verbatim}

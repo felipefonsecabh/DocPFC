@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+			\PYG{c+c1}{\PYGZsh{}inicialização do i2c}
+			\PYG{n}{bus} \PYG{o}{=} \PYG{n}{SMBus}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+			\PYG{n}{arduinoAddress} \PYG{o}{=} \PYG{l+m+mi}{12}
+\end{Verbatim}

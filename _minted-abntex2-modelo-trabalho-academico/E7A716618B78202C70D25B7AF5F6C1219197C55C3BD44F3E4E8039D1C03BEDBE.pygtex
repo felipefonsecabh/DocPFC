@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+			\PYG{c+c1}{\PYGZsh{}navegar até a pasta onde se deseja instalar o ambiente virtual}
+			pi@raspberry \PYGZdl{} \PYG{n+nb}{cd} pfc\PYGZus{}env
+
+			\PYG{c+c1}{\PYGZsh{}instalar pacote virtual env}
+			pi@raspberry \PYGZdl{} pip install virtualenv
+
+			\PYG{c+c1}{\PYGZsh{}criar um ambiente virtual chamado env}
+			pi@raspberry \PYGZdl{} virtual env
+\end{Verbatim}

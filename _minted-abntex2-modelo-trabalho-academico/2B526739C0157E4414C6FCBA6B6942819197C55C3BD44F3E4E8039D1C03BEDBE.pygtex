@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-					\PYG{c+c1}{\PYGZsh{} navegue até o diretóio destino da aplicação}
-					\PYGZdl{} django\PYGZhy{}admin startproject WebSite
-\end{Verbatim}

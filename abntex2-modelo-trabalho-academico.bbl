@@ -158,34 +158,6 @@
       \verb https://www.brewpi.com/
       \endverb
     \endentry
-    \entry{ryan2015}{online}{}
-      \name{author}{1}{}{%
-        {{hash=47a6e44f9405a44d8811454b71b50c77}{%
-           family={Brown},
-           familyi={B\bibinitperiod},
-           given={Ryan},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{47a6e44f9405a44d8811454b71b50c77}
-      \strng{fullhash}{47a6e44f9405a44d8811454b71b50c77}
-      \strng{authornamehash}{47a6e44f9405a44d8811454b71b50c77}
-      \strng{authorfullhash}{47a6e44f9405a44d8811454b71b50c77}
-      \field{sortinit}{B}
-      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Django vs Flask vs Pyramid: Choosing a Python Web Framework}
-      \field{urlday}{27}
-      \field{urlmonth}{10}
-      \field{urlyear}{2017}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{url}
-      \verb https://www.airpair.com/python/posts/django-flask-pyramid
-      \endverb
-    \endentry
     \entry{miles2016}{misc}{}
       \name{author}{1}{}{%
         {{hash=1975d7aa0d94a0b30ebd9458ae18340f}{%
@@ -315,45 +287,6 @@
       \verb{url}
       \verb https://github.com/filipeflop/Ultrasonic
       \endverb
-    \endentry
-    \entry{alexandre2015}{monography}{}
-      \name{author}{3}{}{%
-        {{hash=4cc1548452d1ab87e4454858d2f64b8e}{%
-           family={Gonçalves},
-           familyi={G\bibinitperiod},
-           given={Alexandre\bibnamedelima José},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=7589336fb4c593d0fd0457a23980e8e4}{%
-           family={Silva},
-           familyi={S\bibinitperiod},
-           given={Jair\bibnamedelima Rodrigues},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
-           prefix={da},
-           prefixi={d\bibinitperiod}}}%
-        {{hash=705fe3429a8648837bb0217c930c06bd}{%
-           family={Batista},
-           familyi={B\bibinitperiod},
-           given={João\bibnamedelima Carlos},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Universidade Tecnológica Federal do Paraná}%
-      }
-      \list{location}{1}{%
-        {Curitiba}%
-      }
-      \strng{namehash}{1748f7b25ded8b3e8af8f82fac2f1e5b}
-      \strng{fullhash}{1748f7b25ded8b3e8af8f82fac2f1e5b}
-      \strng{authornamehash}{1748f7b25ded8b3e8af8f82fac2f1e5b}
-      \strng{authorfullhash}{1748f7b25ded8b3e8af8f82fac2f1e5b}
-      \field{sortinit}{G}
-      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{bookpagination}{sheet}
-      \field{title}{Sistema Didático de Automação Baseado em Computador para Seleção de Esferas}
-      \field{year}{2015}
     \endentry
     \entry{gorni2001}{article}{}
       \name{author}{1}{}{%
@@ -945,36 +878,6 @@
       \verb http://www.linuxcircle.com/2015/05/03/how-to-install-smbus-i2c-module-for-python-3/
       \endverb
     \endentry
-    \entry{bogdan2017}{online}{}
-      \name{author}{1}{}{%
-        {{hash=bbe9b54d7869428eae49611f75fd5fee}{%
-           family={Primakovski},
-           familyi={P\bibinitperiod},
-           given={Bogdan},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{bbe9b54d7869428eae49611f75fd5fee}
-      \strng{fullhash}{bbe9b54d7869428eae49611f75fd5fee}
-      \strng{authornamehash}{bbe9b54d7869428eae49611f75fd5fee}
-      \strng{authorfullhash}{bbe9b54d7869428eae49611f75fd5fee}
-      \field{sortinit}{P}
-      \field{sortinithash}{24100cef455d7974167575052c29146e}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{27}
-      \field{month}{5}
-      \field{title}{17 Best Python Web Frameworks to Learn in 2017}
-      \field{urlday}{27}
-      \field{urlmonth}{10}
-      \field{urlyear}{2017}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{url}
-      \verb http://steelkiwi.com/blog/best-python-web-frameworks-to-learn/
-      \endverb
-    \endentry
     \entry{pythondoc}{online}{}
       \name{author}{1}{}{%
         {{hash=a7f5f35426b927411fc9231b56382173}{%
@@ -1110,34 +1013,6 @@
       \verb https://www.pjrc.com/teensy/td_libs_OneWire.html
       \endverb
     \endentry
-    \entry{adilson2011}{online}{}
-      \name{author}{1}{}{%
-        {{hash=3b99fca9d660374e5670df7d2a0a45eb}{%
-           family={Thomsen},
-           familyi={T\bibinitperiod},
-           given={Adilson},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{3b99fca9d660374e5670df7d2a0a45eb}
-      \strng{fullhash}{3b99fca9d660374e5670df7d2a0a45eb}
-      \strng{authornamehash}{3b99fca9d660374e5670df7d2a0a45eb}
-      \strng{authorfullhash}{3b99fca9d660374e5670df7d2a0a45eb}
-      \field{sortinit}{T}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Como conectar o Sensor Ultrassônico HC-SR04 ao Arduino}
-      \field{urlday}{28}
-      \field{urlmonth}{10}
-      \field{urlyear}{2017}
-      \field{year}{2011}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{url}
-      \verb https://www.filipeflop.com/blog/sensor-ultrassonico-hc-sr04-ao-arduino/
-      \endverb
-    \endentry
     \entry{lucena2013}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=219b285c0ec11f42ab3e01217764bbd7}{%
@@ -1181,6 +1056,34 @@
       \verb 10.1109/ETFA.2013.6647946
       \endverb
       \keyw{Internet;automation;software reusability;Web technologies;industrial automation systems;industrial communication protocol;network service;remote devices;remote supervision;reusable hardware;software model;Automation;Embedded systems;Hardware;Monitoring;Protocols;Servers}
+    \endentry
+    \entry{walnes2017}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9aa7fccfd7e03ee15bb0ebd1b787bddb}{%
+           family={Walnes},
+           familyi={W\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9aa7fccfd7e03ee15bb0ebd1b787bddb}
+      \strng{fullhash}{9aa7fccfd7e03ee15bb0ebd1b787bddb}
+      \strng{authornamehash}{9aa7fccfd7e03ee15bb0ebd1b787bddb}
+      \strng{authorfullhash}{9aa7fccfd7e03ee15bb0ebd1b787bddb}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Smoothie Chart Library}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://github.com/joewalnes/smoothie/releases
+      \endverb
     \endentry
     \entry{fabian2017}{online}{}
       \name{author}{2}{}{%

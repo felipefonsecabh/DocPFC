@@ -6,7 +6,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Trocador de Calor presente no LOP.\relax }}{5}{figure.caption.14}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Trocador de Calor presente no LOU.\relax }}{5}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Painel instalado na planta de trocador de calor}}{6}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
@@ -34,29 +34,15 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Nova Arquitetura Proposta para o Sistema}}{22}{figure.caption.31}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Nova Arquitetura Proposta para o Sistema}}{19}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Arquitetura Detalhada}}{24}{figure.caption.33}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Arquitetura Detalhada}}{21}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Estrutura do C\IeC {\'o}digo do Arduino}}{25}{figure.caption.34}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Estrutura do C\IeC {\'o}digo do Arduino}}{23}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Estrutura de um pacote I2C}}{25}{figure.caption.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Estrutura de um pacote I2C}}{31}{figure.caption.36}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces I2C habilitado}}{33}{figure.caption.39}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Fluxo de Informa\IeC {\c c}\IeC {\~o}es entre Usu\IeC {\'a}rio e Aplica\IeC {\c c}\IeC {\~a}o Django}}{38}{figure.caption.50}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Fluxo de Informa\IeC {\c c}\IeC {\~o}es entre Usu\IeC {\'a}rio e Aplica\IeC {\c c}\IeC {\~a}o Django}}{32}{figure.caption.50}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

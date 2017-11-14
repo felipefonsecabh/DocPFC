@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+			\PYG{c+c1}{\PYGZsh{}ativar o diretório virtual}
+			\PYG{c+c1}{\PYGZsh{}o comando é pip install NomePacote== Versão. Exemplo:}
+			\PYG{o}{(}env\PYG{o}{)} pi@raspberry \PYGZdl{} pip install \PYG{n+nv}{Django}\PYG{o}{==}\PYG{l+m}{1}.9.6
+\end{Verbatim}

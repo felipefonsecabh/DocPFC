@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+			\PYG{c+c1}{\PYGZsh{}intervalo de execução das operações}
+			\PYG{n}{start\PYGZus{}time} \PYG{o}{=} \PYG{n}{datetime}\PYG{o}{.}\PYG{n}{now}\PYG{p}{()}
+			\PYG{n}{readinterval} \PYG{o}{=} \PYG{l+m+mi}{100}        \PYG{c+c1}{\PYGZsh{}intervalo de leitura do arduino}
+			\PYG{n}{sendDBinterval} \PYG{o}{=} \PYG{l+m+mi}{600}      \PYG{c+c1}{\PYGZsh{}intervalo de gravação na tabela Registers}
+			\PYG{n}{sendTrendDBinterval} \PYG{o}{=} \PYG{l+m+mi}{300} \PYG{c+c1}{\PYGZsh{}intervalo de gravação na tabela TrendRegisters}
+\end{Verbatim}

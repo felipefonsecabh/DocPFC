@@ -1,10 +1,10 @@
 \chapter{Revisão Bibliográfica}
 	\chapterprecis{Teste, teste}
 	
-	\section{Laboratório de Operações e Processos - Contextualização}
-		O Laboratório de Operações e Processos (LOP) é um dos diversos laboratórios para fins de ensino e pesquisa pertencentes ao Departamento de Engenharia Química da UFMG (DEQ). Ainda existem outros laboratórios vinculados ao departamento cuja finalidade é prestar serviços às comunidades interna e externa à UFMG \footnote{\url{http://www.deq.ufmg.br/departamento/infraestrutura}}.
+	\section{Laboratório de Operações Unitárias - Contextualização}
+		O Laboratório de Operações Unitárias (LOU-DQ) é um dos diversos laboratórios para fins de ensino e pesquisa pertencentes ao Departamento de Engenharia Química da UFMG (DEQ). Ainda existem outros laboratórios vinculados ao departamento cuja finalidade é prestar serviços às comunidades interna e externa à UFMG \footnote{\url{http://www.deq.ufmg.br/departamento/infraestrutura}}.
 		
-		O LOP possui quatro plantas didáticas: um sistema de trocador de calor, uma planta que implementa um processo de sedimentação, uma planta piloto de um hidrociclone e uma planta que implementa um processo de secagem.
+		O LOU possui quatro plantas didáticas: um sistema de trocador de calor, uma planta que implementa um processo de sedimentação, uma planta piloto de um hidrociclone e uma planta que implementa um processo de secagem.
 		
 		%explicar aqui agora sobre a planta de trocador existente
 		O trocador de calor existente no laboratório, cuja imagem pode ser vista na \autoref{fig:lab}, é do tipo tubular. Este sistema, que é fabricado e fornecido pela Universidade de Santa Cecília\footnote{\url{http://cursos.unisanta.br/quimica/laborato/index.html}}, foi adquirido pela UFMG em 2002\footnote{Item 35 do catálogo disponível em: \url{http://cursos.unisanta.br/quimica/laborato/LOU-2016.pdf}}. Originalmente, a planta possui um botão para ligar e desligar bomba e aquecedor simultaneamente, bem como conta com 4 sensores de temperatura, cujos valores são exibidos e display LCDs. A medição de vazão de água quente era inferida através da utilização de uma Calha Parshall\footnote{Funcionamento da Calha Parshall: \url{http://www.dec.ufcg.edu.br/saneamento/PARSHALL.html}}, e a medição de água fria, através da indicação de um rotâmetro\footnote{\url{http://www.sensorsmag.com/components/basics-rotameters}}
@@ -12,7 +12,7 @@
 		\begin{figure}[!htb]
 			\centering
 			\includegraphics[scale=0.7]{lab}  %pode alterar o tamanho
-			\caption{Trocador de Calor presente no LOP.}
+			\caption{Trocador de Calor presente no LOU.}
 			\label{fig:lab}
 		\end{figure}
 
@@ -116,8 +116,9 @@
 			\captionsetup{justification=centering}
 			\caption[Comparação entre versões do Raspberry PI]{Comparação entre versões do Raspberry. \\Adaptado de \url{https://en.wikipedia.org/wiki/Raspberry_Pi}}
 			\label{tbl:versoes_rpi}
-			\def\arraystretch{1.5}
-			\begin{tabularx}{\textwidth}{m{2.5 cm}| m{3cm} m{3cm} p{3cm}}
+			\def\arraystretch{1.3}
+			\resizebox{\textwidth}{!}{
+			\begin{tabularx}{\textwidth}{m{3.8 cm}| m{3cm} m{3cm} p{3cm}}
 				& \multicolumn{1}{c}{\textbf{Raspberry 1}} & %\textbf{Raspberry 1+} & 
 				\multicolumn{1}{c}{\textbf{Raspberry 2}} & \multicolumn{1}{c}{\textbf{Raspberry 3}} \\ \hline
 				
@@ -160,7 +161,7 @@
 				\multicolumn{1}{c}{Sim. v4.1} \\
 				
 				\hline
-			\end{tabularx}
+			\end{tabularx}}
 		\end{table}
 	
 		O Raspberry possui um conjunto de pinos, que são úteis para realizar comunicação com outros dispositivos através de protocolos como UART, SPI e I2C, bem como enviar e receber informações digitais (nível lógico 0 ou 1) de dispositivos diversos. A \autoref{fig:gpio} mostra os componentes da placa Raspberry Pi 3, bem como uma breve explicação das funcionalidades dos 40 pinos. Observa-se que os pinos que são capazes de realizar comunicação são específicos. Outra informação importante é que os pinos lógicos suportam níveis de tensão até 3.3v, o que difere da tecnologia TTL tradicional, que suporta 5V. Ou seja, caso os pinos sejam submetidos a tensões de 5V, corre-se o risco de danificar a placa.
@@ -278,6 +279,7 @@
 		\end{figure}
 	
 	\subsubsection{Django}
+		\label{sec:django}
 		Django é um framework web desenvolvido na linguagem Python. É o framework mais utilizado escrito em Python, e um dos mais utilizados entre todas as linguagens (ver \autoref{fig:popular_frameworks}). Possui como características principais \cite{mozzila}: 
 		\begin{enumerate}
 			\item 
