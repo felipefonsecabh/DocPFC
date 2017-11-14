@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.3)  14 NOV 2017 01:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.9)  14 NOV 2017 09:42
 entering extended mode
 **./abntex2-modelo-trabalho-academico.tex
 (abntex2-modelo-trabalho-academico.tex
 LaTeX2e <2017-04-15>
-Babel <3.13> and hyphenation patterns for 76 language(s) loaded.
+Babel <3.14> and hyphenation patterns for 76 language(s) loaded.
 (abntex2.cls
 Document Class: abntex2 2013/06/01 v1.7 abnTeX2
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -471,10 +471,10 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count149
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/09/18 3.13 The Babel package
+Package: babel 2017/10/04 3.14 The Babel package
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2017/09/18 3.13 Babel switching mechanism
+File: switch.def 2017/10/04 3.14 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
@@ -487,10 +487,10 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/09/18 3.13 Babel common definitions
+File: babel.def 2017/10/04 3.14 Babel common definitions
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2017/09/18 3.13 Babel switching mechanism
+File: switch.def 2017/10/04 3.14 Babel switching mechanism
 )
 \babel@savecnt=\count150
 \U@D=\dimen151
@@ -2138,7 +2138,7 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 243.
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-{C:/Users/felip/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 252.
@@ -2653,16 +2653,15 @@ File: Imagens/i2c_packet.pdf Graphic file (type pdf)
 <use Imagens/i2c_packet.pdf>
 Package pdftex.def Info: Imagens/i2c_packet.pdf  used on input line 206. on inp
 ut line 206.
-Package pdftex.def Info: Requested size: 141.7536pt x 60.60098pt on input line 
+Package pdftex.def Info: Requested size: 182.2542pt x 77.91536pt on input line 
 206.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.25}) ha
-s been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.25}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.558 \include{Metodologia/Metodologia}
-                                        [25 <./Imagens/i2c_packet.pdf>]pdfTeX w
-arning (ext4): destination with the same identifier (name{page.26}) has been al
-ready used, duplicate ignored
+l.233 
+       [25 <./Imagens/i2c_packet.pdf>])pdfTeX warning (ext4): destination with 
+the same identifier (name{page.26}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.558 \include{Metodologia/Metodologia}
@@ -2670,7 +2669,7 @@ l.558 \include{Metodologia/Metodologia}
 \openout2 = `Implementacao/Implementacao.aux'.
 
  (Implementacao/Implementacao.tex
-<Imagens/img9.png, id=958, 758.835pt x 494.84875pt>
+<Imagens/img9.png, id=959, 758.835pt x 494.84875pt>
 File: Imagens/img9.png Graphic file (type png)
 <use Imagens/img9.png>
 Package pdftex.def Info: Imagens/img9.png  used on input line 15. on input line
@@ -2749,7 +2748,7 @@ File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (_minted-abntex2-modelo-trabalho-academico/4ED253824FE3ADD33E5910D98CBDEB4C88AD
 963108DD4CE815C4F006E3E63136.pygtex) [31]
-<Imagens/fluxo_django.pdf, id=1009, pagebox=cropbox, 268.00125pt x 258.21469pt>
+<Imagens/fluxo_django.pdf, id=1010, pagebox=cropbox, 268.00125pt x 258.21469pt>
 
 File: Imagens/fluxo_django.pdf Graphic file (type pdf)
 <use Imagens/fluxo_django.pdf>
@@ -2847,10 +2846,10 @@ Package logreq Info: Writing requests to 'abntex2-modelo-trabalho-academico.run
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 677.
  ) 
 Here is how much of TeX's memory you used:
- 35588 strings out of 493314
- 628237 string characters out of 3138867
- 1360061 words of memory out of 3000000
- 38247 multiletter control sequences out of 15000+200000
+ 35592 strings out of 493314
+ 628285 string characters out of 3138840
+ 1360172 words of memory out of 3000000
+ 38250 multiletter control sequences out of 15000+200000
  614027 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,13n,84p,10443b,2907s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2873,10 +2872,10 @@ TeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on abntex2-modelo-trabalho-academico.pdf (85 pages, 1737592 byte
+Output written on abntex2-modelo-trabalho-academico.pdf (85 pages, 1738044 byte
 s).
 PDF statistics:
- 1614 PDF objects out of 1728 (max. 8388607)
- 247 named destinations out of 1000 (max. 500000)
- 588 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1618 PDF objects out of 1728 (max. 8388607)
+ 248 named destinations out of 1000 (max. 500000)
+ 596 words of extra memory for PDF output out of 10000 (max. 10000000)
 
